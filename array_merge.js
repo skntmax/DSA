@@ -14,8 +14,9 @@ let arr2 = [23,89,667,55,32,122,78]
         }
    // sorting the array 
     // linear sorting 
+     
     for (let i=0 ; i<arr3.length ; i++ )
-         { 
+           { 
             for(let j=0 ; j<arr3.length ; j++  ){
                  if(arr3[j]>arr3[j+1]) {
                     //  console.log(arr3); 

@@ -129,7 +129,7 @@ function isEmpty(){
 var twoSum = function(nums, target) {
     let sp=0 
     let ep=nums.length-1
-
+     
    while(sp<ep){
         for(let i=sp;i< ep ; i++ ){
       if(nums[sp] + nums[ep]==target){

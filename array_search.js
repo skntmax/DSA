@@ -55,7 +55,6 @@ let position = undefined
          
         while(sp<=ep){
         let mp=Math.floor((sp+ep)/2)
-
             if(sortedArray[mp]==findElement ) {
                 return mp 
            }else if(findElement>sortedArray[mp]){

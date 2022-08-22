@@ -6,7 +6,7 @@ function reverse(array) {
      let temp
      let sp=0 , ep=array.length-1
      while(sp<=ep){
-        for(let i=sp; i<ep ; i++) {
+        for(let i=sp; i<ep; i++) {
             temp = array[i]
             array[i]= array[ep]
             array[ep]=temp
