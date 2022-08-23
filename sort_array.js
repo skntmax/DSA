@@ -5,7 +5,7 @@
        if( a>b ) return 1
        if(b>a) return -1 
        if(a===b) return 0  
-    } )
+    })  
      
     console.log("sorted array " , sorted_array);
         // console.log( [ ... new Set(arr.sort( ( a,b ) => a-b ))] )
