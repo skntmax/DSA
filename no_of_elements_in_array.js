@@ -5,7 +5,6 @@
   // It may be a  [Key : Val ]- List      or       {Key : Val }- Object 
   // No of Occurrence of Each element in the Array 
   // Map Filter Object Method  Foreach
-
  
   let obj = {
      name:"sknt",
@@ -21,9 +20,9 @@
    }
    
 
-   function getObject(){
-    console.log("name is " , this.name +" belong from ", this.address);
-  }
+//    function getObject(){
+//     console.log("name is " , this.name +" belong from ", this.address);
+//   }
 
 //    rootFun.call(obj)
   

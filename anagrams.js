@@ -1,32 +1,27 @@
-let str = "helsaasdssdsdfdfdfffffffa"
-let str2 = "llohewer"
- 
-
-function maxOccuringCharacter(str){
+let str1 = "helloooo"
+let str2 = "ohlleooo"
 
  
-       let objStr ={} 
-       str.split('').map(ele=>{
-          objStr[ele] =objStr[ele]?objStr[ele]+1:1       
-        })  
-   
-        console.log(objStr) 
-         let max=1
-         let char = '' 
-          for(key in objStr){
-          
-             if(objStr[key]>max){
-                 max = objStr[key]
-                 char = key  
-             }
-             
-          } 
-         
-         
-       return char
+ function anagramChecker( str1 ,str2 ) {
+    
+     let strObj = {}
+     let strArray = []
+     if(str1.length!==str2.length) return false  
 
-}
+     str1.split('').map(ele=>{
+         strObj[ele] = ( strObj[ele]||0 )+1 
+        //  strArray.length = { strObj[ele] : ( strObj[ele]||0)+1 }  
+      })
 
+      for(key of str2){    
+        if( !strObj[key] ) {
+            return false 
+        }
+        strObj[key]--
+        }
+      console.log(strObj); // if every object value has 0 it means string is anagram 
+   return true 
 
-console.log("max occuring character>>> " ,  maxOccuringCharacter(str)) 
+ }
 
+   anagramChecker(str1,str2)
