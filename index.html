@@ -50,6 +50,8 @@
 <body>
  
     <input    id="name" type="text"  onchange="debouncing()"  />
+    <input    id="throatling" type="button"  onClick="throatling()"  value="click me "  />
+    
      <script>
        
       function fasterFunction( callback , time ) {
@@ -72,9 +74,33 @@
            let name =  document.querySelector('#name')
             fasterFunction(fetchData , 1000 ) 
         }
-              
+       
+  
+
+         
+        function waitFucnction(callback, time ) {
+           if(time)  clearTimeout(time)
+               setTimeout(()=>{
+                callback()
+                document.getElementById('throatling').disabled= false 
+               }  ,time  )               
+           }
+
+         
+       function throatling(){
+  
+        document.getElementById('throatling').disabled= true 
+            waitFucnction(function(){
+               console.log("throatling "); 
+          }, 3000 )
+          
+         } 
+
+       
       </script>
   
+      
+       
 </body>
  
 </html>
