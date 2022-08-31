@@ -11,7 +11,7 @@ class linkedList  {
          let newNode = {
           data :data,
          }        
-      }
+        }
  
  
  }

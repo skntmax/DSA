@@ -30,6 +30,7 @@ console.log("sorted arrya " , sortedArray );  // [1, 5, 6, 21, 23, 43, 88, 4332]
 
 let findElement = 6 
 let position = undefined 
+ 
  function linearSearch(sortedArray){ 
      
      for(let i=0;i<sortedArray.length ; i++){
@@ -54,6 +55,7 @@ let position = undefined
         let sp =0;  let ep= sortedArray.length-1
          
         while(sp<=ep){
+           
         let mp=Math.floor((sp+ep)/2)
             if(sortedArray[mp]==findElement ) {
                 return mp 
