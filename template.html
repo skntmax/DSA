@@ -1,500 +1,502 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-    <html>
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <style>
-            html,
-            body {
-                margin: 0 auto !important;
-                padding: 0 !important;
-                height: 100% !important;
-                width: 100% !important;
-                background: #f1f1f1
-            }
-    
-            * {}
-    
-            table,
-            td {}
-    
-            table {
-                border-spacing: 0 !important;
-                border-collapse: collapse !important;
-                table-layout: fixed !important;
-                margin: 0 auto !important
-            }
-    
-            img {}
-    
-            a {
-                text-decoration: none
-            }
-    
-            .m_unstyle-auto-detected-links *,
-            .m_aBn {
-                border-bottom: 0 !important;
-                color: inherit !important;
-                text-decoration: none !important;
-                font-size: inherit !important;
-                font-family: inherit !important;
-                font-weight: inherit !important;
-                line-height: inherit !important
-            }
-    
-            .m_a6S {
-                display: none !important;
-                opacity: 0.01 !important
-            }
-    
-            .m_im {
-                color: inherit !important
-            }
-    
-            img.m_g-img+div {
-                display: none !important
-            }
-    
-            @media only screen and (min-device-width:320px) and (max-device-width:374px) {
-                u~div .m_email-container {
-                    min-width: 320px !important
-                }
-            }
-    
-            @media only screen and (min-device-width:375px) and (max-device-width:413px) {
-                u~div .m_email-container {
-                    min-width: 375px !important
-                }
-            }
-    
-            @media only screen and (min-device-width:414px) {
-                u~div .m_email-container {
-                    min-width: 414px !important
-                }
-            }
-    
-            .m_primary {
-                background: #17bebb
-            }
-    
-            .m_bg_white {
-                background: #ffffff
-            }
-    
-            .m_bg_light {
-                background: #f7fafa
-            }
-    
-            .m_bg_gray_light {
-                background: #fff4f4;
-            }
-    
-            .m_bg_black {
-                background: #000000
-            }
-    
-            .m_bg_dark {
-                background: rgba(0, 0, 0, .8)
-            }
-    
-            .m_email-section {
-                padding: 1.5em 2.5em;
-            }
-    
-            .m_app-section {
-                padding: 0.6em 2.5em;
-            }
-    
-            .m_btn {
-                padding: 6px 15px;
-                display: inline-block
-            }
-    
-            .m_btn.m_btn-primary {
-                border-radius: 2px;
-                background: #e01f26;
-                color: #ffffff;
-                font-size: 18px
-            }
-    
-            .m_btn.m_btn-white {
-                border-radius: 5px;
-                background: #ffffff;
-                color: #000000
-            }
-    
-            .m_btn.m_btn-white-outline {
-                border-radius: 5px;
-                background: transparent;
-                border: 1px solid #fff;
-                color: #fff
-            }
-    
-            .m_btn.m_btn-black-outline {
-                border-radius: 0px;
-                background: transparent;
-                border: 2px solid #000;
-                color: #000;
-                font-weight: 700
-            }
-    
-            .m_btn-custom {
-                color: rgba(0, 0, 0, .3);
-                text-decoration: underline
-            }
-    
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6 {
-                font-family: 'sans-serif', sans-serif;
-                color: #000000;
-                margin-top: 0;
-                font-weight: 400
-            }
-    
-            body {
-                font-family: 'sans-serif', sans-serif;
-                font-weight: 400;
-                font-size: 15px;
-                line-height: 1.4;
-                color: #222222
-            }
-    
-            a {
-                color: blue
-            }
-    
-            table {}
-    
-            .m_logo h1 {
-                margin: 0
-            }
-    
-            .m_logo h1 a {
-                color: #17bebb;
-                font-size: 24px;
-                font-weight: 700;
-                font-family: 'sans-serif', sans-serif
-            }
-    
-            .m_hero {}
-    
-            .m_hero .m_text {
-                color: rgba(0, 0, 0, .3)
-            }
-    
-            .m_hero .m_text h2 {
-                color: #000;
-                font-size: 24px;
-                margin-bottom: 1px;
-                font-weight: 400;
-                line-height: 1
-            }
-    
-            .m_hero .m_text h3 {
-                font-size: 24px;
-                font-weight: 200
-            }
-    
-            .m_hero .m_text h2 span {
-                font-weight: 600;
-                color: #000
-            }
-    
-            .m_hero .m_text p {
-                color: #666666;
-                font-size: 14px;
-                line-height: 1.2;
-            }
-    
-            .m_product-entry {
-                display: block;
-                float: left;
-                padding-top: 20px
-            }
-    
-            .m_product-entry .m_text {
-                width: calc(100% - 125px);
-                padding-left: 20px
-            }
-    
-            .m_product-entry .m_text h3 {
-                margin-bottom: 0;
-                padding-bottom: 0
-            }
-    
-            .m_product-entry .m_text p {
-                margin-top: 0
-            }
-    
-            .m_product-entry img,
-            .m_product-entry .m_text {
-                float: left
-            }
-    
-            ul.m_social {
-                padding: 0
-            }
-    
-            ul.m_social li {
-                display: inline-block;
-                margin-right: 10px
-            }
-    
-            .m_footer {
-                border-top: 1px solid rgba(0, 0, 0, .03);
-                color: #222222
-            }
-    
-            .m_footer .m_heading {
-                color: #000;
-                font-size: 20px
-            }
-    
-            .m_footer ul {
-                margin: 0;
-                padding: 0
-            }
-    
-            .m_footer ul li {
-                list-style: none;
-                margin-bottom: 10px
-            }
-    
-            .m_footer ul li a {
-                color: rgba(0, 0, 0, 1)
-            }
-    
-            @media screen and (max-width:500px) {}
-        </style>
-    </head>
-    
-    <body><u></u>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        <div width="100%" style="margin:0;padding:0!important;background-color:#f1f1f1">
-            <center style="width:100%;background-color:#f1f1f1">
-                <div
-                    style="display:none;font-size:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;font-family:sans-serif">
-                    ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌<wbr> ‌ ‌
-                </div>
-                <div style="max-width:700px;margin:0 auto" class="m_email-container">
-    
-                    <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
-                        style="margin:auto">
-                        <tr>
-                            <td valign="top" class="m_bg_white" style="padding:1em 2.5em 1em 2.5em; background: #fff4f4;">
-                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-                                    <tr>
-                                        <td class="m_logo" style="text-align:left">
-                                            <h1><a href="#m__" rel="noreferrer"><img
-                                                        src="https://rozgar.s3.ap-south-1.amazonaws.com/company/employer/rozgar.png"
-                                                                    style="max-width:155px"></a></h1>
-                                        </td>
-                                        <td style="text-align: right;"><a href=""><img
-                                                    src="https://rozgar.s3.ap-south-1.amazonaws.com/company/logo/user.png"></a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td valign="middle" class="m_hero m_bg_white"
-                                style="padding:1em 0 1em 1em; background: #e7e7e7;">
-                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-                                    <tr>
-                                        <td style="padding:0 1.5em;text-align:center;">
-                                            <div class="m_text">
-                                                <h2 style="color: #353535; font-size: 26px; margin-bottom: 4px;">Status of
-                                                    your job application has been updated
-                                                </h2>
-                                                <!-- <h2 style="padding-bottom: 0px; font-size: 26px; color: #353535; font-size: 20px;">Status of your job application has been updated</h2> -->
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td valign="middle" class="m_hero m_bg_white" style="padding:1em 0 1em 1em">
-                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-                                    <tr>
-                                        <td style="padding:0 1.5em;text-align:left;">
-                                            <div class="m_text">
-                                                <h4
-                                                    style="color: #1515d4;  font-weight: bold; line-height:3;  margin-bottom: 4px;">
-                                                    ${input.JOB_TITLE}</h4>
-                                                <p style="line-height:0;">Value Innovation Pvt Ltd.</p>
-                                                <p><i class="fa-solid fa-location-dot"></i><strong> ${input.LOCATION}</strong>
-                                                </p>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-    
-                        <tr>
-                            <td>
-                                <table class="m_bg_white" role="presentation" border="0" cellpadding="0" cellspacing="0"
-                                    width="100%">
-                                    <tr>
-                                        <td valign="middle"
-                                            style="text-align:left;padding:0em 2.5em 1em; text-align: center;">
-                                            <p><a href="https://rozgar.com/" class="m_btn m_btn-primary" rel="noreferrer">View Status</a>
-                                            </p>
-                                        </td>
-                                    </tr>
-    
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td valign="middle" class="m_hero m_bg_white" style="padding:1em 0 1em 1em">
-                                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-                                    <tr>
-                                        <td style="padding:0 1.5em;text-align:center;">
-                                            <div class="m_text">
-                                                An action on the application doesn't necessarily mean that you will be
-                                                shortlisted/contacted by the recruiter. Wish you good luck in your job
-                                                search
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                    <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
-                        style="margin:auto">
-                        <tr>
-                            <td valign="middle" class="m_bg_gray_light m_footer m_app-section">
-                                <table>
-                                    <tr>
-                                        <td valign="top" width="100%">
-                                            <table role="presentation" cellspacing="0" cellpadding="0" border="0"
-                                                width="100%">
-                                                <tr>
-                                                    <td width="75%" valign="top" align="right">
-                                                        <p style="margin-bottom:10px; text-align: left;font-size: 20px;">Get
-                                                            real-time updates and track application<br />status on Rozgar
-                                                            App</p>
-                                                    </td>
-                                                    <td valign="top">
-                                                        <span>Available on</span> <a href="#"><img
-                                                                src="https://rozgar.s3.ap-south-1.amazonaws.com/company/logo/google-play.png"
-                                                                style="max-width:18px;"></a>&nbsp;<a href="#"><img
-                                                                src="https://rozgar.s3.ap-south-1.amazonaws.com/company/logo/apple.png"
-                                                                style="max-width:18px;"></a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="text-align:left; padding-top:0px;">
-                                                        <p style="margin:0px"><img
-                                                                src="https://rozgar.s3.ap-south-1.amazonaws.com/company/logo/mob-app.png"
-                                                                style="max-width: 100px;"></p>
-                                                    </td>
-                                                    <td style="text-align:right; padding-top:0px;">
-                                                        <p style="margin:0px">
-                                                            <a href="#m__" class="m_btn m_btn-primary" rel="noreferrer">GET
-                                                                APP</a>
-                                                        </p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-    
-                    </table>
-    
-                    <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
-                        style="margin:auto">
-                        <tr>
-                            <td valign="middle" class="m_bg_light m_footer m_email-section">
-                                <table>
-                                    <tr>
-                                        <td valign="top" width="100%">
-                                            <table role="presentation" cellspacing="0" cellpadding="0" border="0"
-                                                width="100%">
-                                                <tr>
-                                                    <td style="text-align:center;">
-                                                        <p style="margin-bottom:0px; font-size: 14px;">If you have any
-                                                            questions regarding your Rozgar account, please contact us at <a
-                                                                href="https://www.google.com/url?q=http:///cdn-cgi/l/email-protection&amp;source=gmail-html&amp;ust=1654953135624000&amp;usg=AOvVaw016UDuvaqVBHJizeNw7HRf"
-                                                                class="m___cf_email__" target="_blank"
-                                                                rel="noreferrer">info@rozgar.com</a><br />Our technical
-                                                            support team will assist you with anything you need.</p>
-                                                        <p style="margin-top:10px;font-size: 14px;">Enjoy yourself, and
-                                                            welcome to Rozgar.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="text-align:center; padding-top:25px;">
-                                                        <p style="margin:0px">Cheers</p>
-                                                        <p style="margin:0px"><b>Rozgar Team</b></p>
-                                                        <p style="margin:0px"><a
-                                                                href="https://www.google.com/url?q=http://www.mounttalent.com&amp;source=gmail-html&amp;ust=1654953135624000&amp;usg=AOvVaw1EV5iyk4i-5WeYoUq4u9jc"
-                                                                target="_blank" rel="noreferrer">www.rozgar.com</a></p>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="m_bg_white" style="padding-left:40px;padding-right:40px; text-align: center;">
-                                <p style="font-size:11px;margin:0px; padding-top:4px;"><a href=""
-                                        style="color:#666666;">Unsubscribe</a> &nbsp;|&nbsp; <a href=""
-                                        style="color:#444444;">Report a problem</a> </p>
-                                <p style="font-size:12px;color:#000;padding-top:14px;margin:0px">Rozgar, Head office: A-51, Sector 16,<br>Noida, U.P. - 201301 Phone:+91-8826028999</p>
-                                <p style="font-size:12px;color:#000;padding-bottom:14px;margin:0px">This e-mail is generated
-                                    from Rozgar Accounts. If you think this is SPAM,<br> please report to <a href="#m__"
-                                        style="color:blue" rel="noreferrer"><span
-                                            class="m___cf_email__">info@rozgar.com</span></a> for immediate action.</p>
-                            </td>
-                        </tr>
-                        <tr class="m_bg_white">
-                            <td style="padding-left:40px;padding-right:40px; text-align: center;">
-                                <p style="font-size:10px;color:#000;padding:14px 0px;margin:0px">You have received this mail
-                                    because your e-mail ID is registered with Rozgar.com. This is a system-generated e-mail
-                                    regarding your Rozgar account preferences, please don't reply to this message. The jobs
-                                    sent in this mail have been posted by the clients of Rozgar.com. And we have enabled
-                                    auto-login for your convenience, you are strongly advised not to forward this email to
-                                    protect your account from unauthorized access. Rozgar has taken all reasonable steps to
-                                    ensure that the information in this mailer is authentic. Users are advised to research
-                                    bonafides of advertisers independently. Please do not pay any money to anyone who
-                                    promises to find you a job.<br>Rozgar shall not have any responsibility in this regard. We
-                                    recommend that you visit our <a href="#">Terms & Conditions</a> and the <a
-                                        href="">Security Advice</a> for more comprehensive information. 
-                                    </p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </center>
-        </div>
-    </body>
-    
-    </html>
+  <html>
+  <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <style>
+          html,
+          body {
+              margin: 0 auto !important;
+              padding: 0 !important;
+              height: 100% !important;
+              width: 100% !important;
+              background: #f1f1f1
+          }
+  
+          * {}
+  
+          table,
+          td {}
+  
+          table {
+              border-spacing: 0 !important;
+              border-collapse: collapse !important;
+              table-layout: fixed !important;
+              margin: 0 auto !important
+          }
+  
+          img {}
+  
+          a {
+              text-decoration: none
+          }
+  
+          .m_unstyle-auto-detected-links *,
+          .m_aBn {
+              border-bottom: 0 !important;
+              color: inherit !important;
+              text-decoration: none !important;
+              font-size: inherit !important;
+              font-family: inherit !important;
+              font-weight: inherit !important;
+              line-height: inherit !important
+          }
+  
+          .m_a6S {
+              display: none !important;
+              opacity: 0.01 !important
+          }
+  
+          .m_im {
+              color: inherit !important
+          }
+  
+          img.m_g-img+div {
+              display: none !important
+          }
+  
+          @media only screen and (min-device-width:320px) and (max-device-width:374px) {
+              u~div .m_email-container {
+                  min-width: 320px !important
+              }
+          }
+  
+          @media only screen and (min-device-width:375px) and (max-device-width:413px) {
+              u~div .m_email-container {
+                  min-width: 375px !important
+              }
+          }
+  
+          @media only screen and (min-device-width:414px) {
+              u~div .m_email-container {
+                  min-width: 414px !important
+              }
+          }
+  
+          .m_primary {
+              background: #17bebb
+          }
+  
+          .m_bg_white {
+              background: #ffffff
+          }
+  
+          .m_bg_light {
+              background: #f7fafa
+          }
+  
+          .m_bg_gray_light {
+              background: #fff4f4;
+          }
+  
+          .m_bg_black {
+              background: #000000
+          }
+  
+          .m_bg_dark {
+              background: rgba(0, 0, 0, .8)
+          }
+  
+          .m_email-section {
+              padding: 1.5em 2.5em;
+          }
+  
+          .m_app-section {
+              padding: 0.6em 2.5em;
+          }
+  
+          .m_btn {
+              padding: 6px 15px;
+              display: inline-block
+          }
+  
+          .m_btn.m_btn-primary {
+              border-radius: 2px;
+              background: #e01f26;
+              color: #ffffff;
+              font-size: 18px
+          }
+  
+          .m_btn.m_btn-white {
+              border-radius: 5px;
+              background: #ffffff;
+              color: #000000
+          }
+  
+          .m_btn.m_btn-white-outline {
+              border-radius: 5px;
+              background: transparent;
+              border: 1px solid #fff;
+              color: #fff
+          }
+  
+          .m_btn.m_btn-black-outline {
+              border-radius: 0px;
+              background: transparent;
+              border: 2px solid #000;
+              color: #000;
+              font-weight: 700
+          }
+  
+          .m_btn-custom {
+              color: rgba(0, 0, 0, .3);
+              text-decoration: underline
+          }
+  
+          h1,
+          h2,
+          h3,
+          h4,
+          h5,
+          h6 {
+              font-family: 'sans-serif', sans-serif;
+              color: #000000;
+              margin-top: 0;
+              font-weight: 400
+          }
+  
+          body {
+              font-family: 'sans-serif', sans-serif;
+              font-weight: 400;
+              font-size: 15px;
+              line-height: 1.4;
+              color: #222222
+          }
+  
+          a {
+              color: blue
+          }
+  
+          table {}
+  
+          .m_logo h1 {
+              margin: 0
+          }
+  
+          .m_logo h1 a {
+              color: #17bebb;
+              font-size: 24px;
+              font-weight: 700;
+              font-family: 'sans-serif', sans-serif
+          }
+  
+          .m_hero {}
+  
+          .m_hero .m_text {
+              color: rgba(0, 0, 0, .3)
+          }
+  
+          .m_hero .m_text h2 {
+              color: #000;
+              font-size: 24px;
+              margin-bottom: 1px;
+              font-weight: 400;
+              line-height: 1
+          }
+  
+          .m_hero .m_text h3 {
+              font-size: 24px;
+              font-weight: 200
+          }
+  
+          .m_hero .m_text h2 span {
+              font-weight: 600;
+              color: #000
+          }
+  
+          .m_hero .m_text p {
+              color: #666666;
+              font-size: 14px;
+              line-height: 1.2;
+          }
+  
+          .m_product-entry {
+              display: block;
+              float: left;
+              padding-top: 20px
+          }
+  
+          .m_product-entry .m_text {
+              width: calc(100% - 125px);
+              padding-left: 20px
+          }
+  
+          .m_product-entry .m_text h3 {
+              margin-bottom: 0;
+              padding-bottom: 0
+          }
+  
+          .m_product-entry .m_text p {
+              margin-top: 0
+          }
+  
+          .m_product-entry img,
+          .m_product-entry .m_text {
+              float: left
+          }
+  
+          ul.m_social {
+              padding: 0
+          }
+  
+          ul.m_social li {
+              display: inline-block;
+              margin-right: 10px
+          }
+  
+          .m_footer {
+              border-top: 1px solid rgba(0, 0, 0, .03);
+              color: #222222
+          }
+  
+          .m_footer .m_heading {
+              color: #000;
+              font-size: 20px
+          }
+  
+          .m_footer ul {
+              margin: 0;
+              padding: 0
+          }
+  
+          .m_footer ul li {
+              list-style: none;
+              margin-bottom: 10px
+          }
+  
+          .m_footer ul li a {
+              color: rgba(0, 0, 0, 1)
+          }
+  
+          @media screen and (max-width:500px) {}
+      </style>
+  </head>
+  
+  <body><u></u>
+  
+  
+
+      <div width="100%" style="margin:0;padding:0!important;background-color:#f1f1f1">
+          <center style="width:100%;background-color:#f1f1f1">
+              <div
+                  style="display:none;font-size:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;font-family:sans-serif">
+                  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌<wbr> ‌ ‌
+              </div>
+              <div style="max-width:700px;margin:0 auto" class="m_email-container">
+  
+                  <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                      style="margin:auto">
+                      <tr>
+                          <td valign="top" class="m_bg_white" style="padding:1em 2.5em 1em 2.5em; background: #fff4f4;">
+                              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                  <tr>
+                                      <td class="m_logo" style="text-align:left">
+                                          <h1><a href="#m__" rel="noreferrer"><img
+                                                      src="https://rozgar.s3.ap-south-1.amazonaws.com/company/employer/rozgar.png"
+                                                                  style="max-width:155px"></a></h1>
+                                      </td>
+                                      <td style="text-align: right;"><a href=""><img
+                                                  src="https://rozgar.s3.ap-south-1.amazonaws.com/company/logo/user.png"></a>
+                                      </td>
+                                  </tr>
+                              </table>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td valign="middle" class="m_hero m_bg_white"
+                              style="padding:1em 0 1em 1em; background: #e7e7e7;">
+                              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                  <tr>
+                                      <td style="padding:0 1.5em;text-align:center;">
+                                          <div class="m_text">
+                                              <h2 style="color: #353535; font-size: 26px; margin-bottom: 4px;">Status of
+                                                  your job application has been updated
+                                              </h2>
+                                              <!-- <h2 style="padding-bottom: 0px; font-size: 26px; color: #353535; font-size: 20px;">Status of your job application has been updated</h2> -->
+                                          </div>
+                                      </td>
+                                  </tr>
+                              </table>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td valign="middle" class="m_hero m_bg_white" style="padding:1em 0 1em 1em">
+                              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                  <tr>
+                                      <td style="padding:0 1.5em;text-align:left; line-height:25px;  text-align:center ; >
+                                          <div class="">
+                                           
+                                          <div> Dear random@gmail.com  ,
+
+                                          Congratulations !!<b> shashikant </b> You have shortlisted 
+                                            for interview round 1  
+                                          of Interview Scheduled a 11 pojuly 2022 
+                                           Please Click on the below meeting Link to start the Interview Session for <Job Title>
+                                            conducted by you. 
+                                             
+                                           <br /> <br /> 
+                                           Meeting Link:  <a href="${candidateEmailModel.MeetingLink}" > ${candidateEmailModel.MeetingLink} </a>
+                                           <br/>
+                                           Password: <b> 98989898 </b>
+                                       
+                                          
+                                          Thank you
+                                          Team Rozgar
+                                           </div> 
+                                               
+                                          </div>
+                                      </td>
+                                  </tr>
+                              </table>
+                          </td>
+                      </tr>
+  
+                      <tr>
+                          <td>
+                              <table class="m_bg_white" role="presentation" border="0" cellpadding="0" cellspacing="0"
+                                  width="100%">
+                                  <tr>
+                                      <td valign="middle"
+                                          style="text-align:left;padding:0em 2.5em 1em; text-align: center;">
+                                          <p><a href="https://rozgar.com/" class="m_btn m_btn-primary" rel="noreferrer">View Status</a>
+                                          </p>
+                                      </td>
+                                  </tr>
+  
+                              </table>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td valign="middle" class="m_hero m_bg_white" style="padding:1em 0 1em 1em">
+                              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                  <tr>
+                                      <td style="padding:0 1.5em;text-align:center;">
+                                          <div class="m_text">
+                                              An action on the application doesn't necessarily mean that you will be
+                                              shortlisted/contacted by the recruiter. Wish you good luck in your job
+                                              search
+                                          </div>
+                                      </td>
+                                  </tr>
+                              </table>
+                          </td>
+                      </tr>
+                  </table>
+                  <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                      style="margin:auto">
+                      <tr>
+                          <td valign="middle" class="m_bg_gray_light m_footer m_app-section">
+                              <table>
+                                  <tr>
+                                      <td valign="top" width="100%">
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0"
+                                              width="100%">
+                                              <tr>
+                                                  <td width="75%" valign="top" align="right">
+                                                      <p style="margin-bottom:10px; text-align: left;font-size: 20px;">Get
+                                                          real-time updates and track application<br />status on Rozgar
+                                                          App</p>
+                                                  </td>
+                                                  <td valign="top">
+                                                      <span>Available on</span> <a href="#"><img
+                                                              src="https://rozgar.s3.ap-south-1.amazonaws.com/company/logo/google-play.png"
+                                                              style="max-width:18px;"></a>&nbsp;<a href="#"><img
+                                                              src="https://rozgar.s3.ap-south-1.amazonaws.com/company/logo/apple.png"
+                                                              style="max-width:18px;"></a>
+                                                  </td>
+                                              </tr>
+                                              <tr>
+                                                  <td style="text-align:left; padding-top:0px;">
+                                                      <p style="margin:0px"><img
+                                                              src="https://rozgar.s3.ap-south-1.amazonaws.com/company/logo/mob-app.png"
+                                                              style="max-width: 100px;"></p>
+                                                  </td>
+                                                  <td style="text-align:right; padding-top:0px;">
+                                                      <p style="margin:0px">
+                                                          <a href="#m__" class="m_btn m_btn-primary" rel="noreferrer">GET
+                                                              APP</a>
+                                                      </p>
+                                                  </td>
+                                              </tr>
+                                          </table>
+                                      </td>
+                                  </tr>
+                              </table>
+                          </td>
+                      </tr>
+  
+                  </table>
+  
+                  <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+                      style="margin:auto">
+                      <tr>
+                          <td valign="middle" class="m_bg_light m_footer m_email-section">
+                              <table>
+                                  <tr>
+                                      <td valign="top" width="100%">
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0"
+                                              width="100%">
+                                              <tr>
+                                                  <td style="text-align:center;">
+                                                      <p style="margin-bottom:0px; font-size: 14px;">If you have any
+                                                          questions regarding your Rozgar account, please contact us at <a
+                                                              href="https://www.google.com/url?q=http:///cdn-cgi/l/email-protection&amp;source=gmail-html&amp;ust=1654953135624000&amp;usg=AOvVaw016UDuvaqVBHJizeNw7HRf"
+                                                              class="m___cf_email__" target="_blank"
+                                                              rel="noreferrer">info@rozgar.com</a><br />Our technical
+                                                          support team will assist you with anything you need.</p>
+                                                      <p style="margin-top:10px;font-size: 14px;">Enjoy yourself, and
+                                                          welcome to Rozgar.</p>
+                                                  </td>
+                                              </tr>
+                                              <tr>
+                                                  <td style="text-align:center; padding-top:25px;">
+                                                      <p style="margin:0px">Cheers</p>
+                                                      <p style="margin:0px"><b>Rozgar Team</b></p>
+                                                      <p style="margin:0px"><a
+                                                              href="https://www.google.com/url?q=http://www.mounttalent.com&amp;source=gmail-html&amp;ust=1654953135624000&amp;usg=AOvVaw1EV5iyk4i-5WeYoUq4u9jc"
+                                                              target="_blank" rel="noreferrer">www.rozgar.com</a></p>
+                                                  </td>
+                                              </tr>
+                                          </table>
+                                      </td>
+                                  </tr>
+                              </table>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td class="m_bg_white" style="padding-left:40px;padding-right:40px; text-align: center;">
+                              <p style="font-size:11px;margin:0px; padding-top:4px;"><a href=""
+                                      style="color:#666666;">Unsubscribe</a> &nbsp;|&nbsp; <a href=""
+                                      style="color:#444444;">Report a problem</a> </p>
+                              <p style="font-size:12px;color:#000;padding-top:14px;margin:0px">Rozgar, Head office: A-51, Sector 16,<br>Noida, U.P. - 201301 Phone:+91-8826028999</p>
+                              <p style="font-size:12px;color:#000;padding-bottom:14px;margin:0px">This e-mail is generated
+                                  from Rozgar Accounts. If you think this is SPAM,<br> please report to <a href="#m__"
+                                      style="color:blue" rel="noreferrer"><span
+                                          class="m___cf_email__">info@rozgar.com</span></a> for immediate action.</p>
+                          </td>
+                      </tr>
+                      <tr class="m_bg_white">
+                          <td style="padding-left:40px;padding-right:40px; text-align: center;">
+                              <p style="font-size:10px;color:#000;padding:14px 0px;margin:0px">You have received this mail
+                                  because your e-mail ID is registered with Rozgar.com. This is a system-generated e-mail
+                                  regarding your Rozgar account preferences, please don't reply to this message. The jobs
+                                  sent in this mail have been posted by the clients of Rozgar.com. And we have enabled
+                                  auto-login for your convenience, you are strongly advised not to forward this email to
+                                  protect your account from unauthorized access. Rozgar has taken all reasonable steps to
+                                  ensure that the information in this mailer is authentic. Users are advised to research
+                                  bonafides of advertisers independently. Please do not pay any money to anyone who
+                                  promises to find you a job.<br>Rozgar shall not have any responsibility in this regard. We
+                                  recommend that you visit our <a href="#">Terms & Conditions</a> and the <a
+                                      href="">Security Advice</a> for more comprehensive information.
+                              </p>
+                          </td>
+                      </tr>
+                  </table>
+              </div>
+          </center>
+      </div>
+  </body>
+  
+  </html>

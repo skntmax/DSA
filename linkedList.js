@@ -1,24 +1,43 @@
-class linkedList  {
-    constructor (data) {
-          this.node = {
-             data : "" ,
-             next:null
-          }  
-    this.head =this.node.next 
-    } 
-
-     insert(data){
-         let newNode = {
-          data :data,
-         }        
-        }
- 
- 
+ class node {
+     constructor (data) {
+         this.data = data 
+         this.next = null;
+     }
  }
 
-let node = new linkedList(4)
-console.log(node);
+class linkedList  {
+    constructor (data) {
+          this.head = {
+             data : data ,
+             next:null
+          }
+     this.size = 0   
+     this.tail =this.head 
 
+    } 
+
+    appendNode(data){ 
+         
+         this.size+=1
+         let newNode = { 
+            date:data ,
+            next:null 
+          }
+             
+          this.tail.next = newNode 
+          this.tail = newNode
+           
+         }
+
+    
+ }
+
+let node1 = new linkedList(100) 
+   node1.appendNode(200) 
+   node1.appendNode(300) 
+   node1.appendNode(400) 
+   console.log(node1);
+    
 //  let arr = new Array(5).fill(false)
 
 
