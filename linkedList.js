@@ -11,7 +11,7 @@ class linkedList  {
              data : data ,
              next:null
           }
-     this.size = 0   
+     this.size = 1  
      this.tail =this.head 
 
     } 
@@ -23,12 +23,12 @@ class linkedList  {
             date:data ,
             next:null 
           }
-             
           this.tail.next = newNode 
           this.tail = newNode
            
          }
 
+            
     
  }
 
