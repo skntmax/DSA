@@ -66,15 +66,13 @@ const balanceParanthesis = (str) => {
         push(str) 
        }else{
           if( str[i]==")"){
-             if(  peak()==str[i] ) {
+             if( peak()==str[i] ) {
                  pop()
              } else {
                   return false               
-             }   
+              }   
             }   
          
-           
-
             if( str[i]=="}"){
          
                 if(  peak()==str[i] ) {
