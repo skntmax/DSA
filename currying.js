@@ -23,7 +23,6 @@ let object = {
               location: " sample location "
           }  
      } 
-
       
 }
 
@@ -34,16 +33,14 @@ function deepCopy (obj , rootObject) {
        let blankObj ={} ; 
      
     for(let key in obj) {
-         if(typeof(obj[key])=='Object') {
+         if( typeof(obj[key])=='Object' ) {
               deepCopy(obj[key])                
      }else{
-             blankObj[key] = obj[key]
-                
+             blankObj[key] = obj[key]  
          }    
-     }
-     return blankObj
+     } 
 
-    
+     return blankObj
 }
 
  
@@ -55,3 +52,48 @@ function deepCopy (obj , rootObject) {
  console.log(newCopy);
   
  
+//    let str ="{{[[  ( ()]]}}"
+//    let str = "((((({{{([])}}})))))"
+   let str = "(("
+     
+ var isValid = function(s) {
+
+    let stack = []
+     if(s.length==1) return false
+      
+     for(let i=0 ;i<s.length ; i++ ) {
+      
+         if(s[i]=="(") {
+             stack.push(s[i])
+           }else if(s[i]=="[") {
+            stack.push(s[i])
+          }
+          else if(s[i]=="{") {
+            stack.push(s[i])
+          }else{
+             
+             if( s[i]=='}' && stack[stack.length-1]=="{" ) {
+                stack.pop()
+             }  
+          else if(s[i]==')' && stack[stack.length-1] =="(" ) {
+                stack.pop()
+         }  
+         else if(s[i]==']' && stack[stack.length-1]=="[" ) {
+          stack.pop()
+        }else{
+            return false 
+          }
+       }
+    }
+    
+    if(stack.length==0) {
+         return true
+    }else {
+     return false    
+    }
+
+     
+};
+
+ 
+ console.log( isValid(str)) 
