@@ -1,5 +1,5 @@
-let str1 = "helloooo"
-let str2 = "ohlleooo"
+let string1  = "hello"
+let string2= "ohlle"
 
  
  function anagramChecker( str1 ,str2 ) {
@@ -13,15 +13,18 @@ let str2 = "ohlleooo"
         //  strArray.length = { strObj[ele] : ( strObj[ele]||0)+1 }  
       })
 
-      for(key of str2){    
-        if( !strObj[key] ) {
-            return false 
-        }
-        strObj[key]--
-        }
-      console.log(strObj); // if every object value has 0 it means string is anagram 
+
+      for( key of str2 ){    
+          if( !strObj[key] ) {
+              return false 
+          }
+           strObj[key]--
+         }
+          
+
+         
    return true 
 
  }
 
-   anagramChecker(str1,str2)
+   console.log(anagramChecker(string1,string2)) 

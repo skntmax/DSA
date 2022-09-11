@@ -97,3 +97,29 @@ function deepCopy (obj , rootObject) {
 
  
  console.log( isValid(str)) 
+
+
+ let str2 = "abcabcbb"
+var lengthOfLongestSubstring = function(s) {
+  
+    if(!s) return  0 
+       let ep=0
+       let sp=0 
+
+       let objStr = new Set()
+       
+           while(ep<s.length) { 
+  
+              if(!objStr.has(ep)){
+                   objStr.add(s[ep])
+                   ep++ 
+              }else{
+                 objStr.delete(s[sp])
+                 sp++     
+               } 
+            }
+       
+         console.log(sp,ep)  
+  };
+
+  lengthOfLongestSubstring(str2)
