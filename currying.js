@@ -120,6 +120,7 @@ var lengthOfLongestSubstring = function(s) {
             }
        
          console.log(sp,ep)  
-  };
+
+       };
 
   lengthOfLongestSubstring(str2)

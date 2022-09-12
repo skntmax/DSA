@@ -32,15 +32,17 @@ const Loan =  class extends account {
             
         }     
             
-}
+} 
+
+ 
 // let ravi = new account("ravi" , 300 )
 // ravi.deposite(700)
 // ravi.withdram(100)
 // console.log(ravi);
  
-//  let sknt = new account("sknt" , 400 )
+//  let sknt = new account("sknt" , 400 ) 
  
- 
- let rahul = new Loan("rahul" , 5000 )
- console.log(rahul)
+
+let rahul = new Loan("rahul" , 5000 )
+console.log(rahul)
 rahul.getLoan()
