@@ -1,0 +1,44 @@
+let arr3 = [23, 11, 44, 2]
+    // [11, 23, 44, 2]
+    // find secod highest maximum number 
+
+
+
+// second maximum number  
+
+for (let i = 0; i < arr3.length; i++) {
+
+    for (let j = i; j < arr3.length; j++) {
+        if (arr3[i] > arr3[j]) {
+            [
+                swap(i, j)
+            ]
+        }
+
+    }
+}
+
+
+function swap(i1, i2) {
+    let temp = arr3[i1]
+    arr3[i1] = arr3[i2]
+    arr3[i2] = temp
+}
+
+console.log("sorted array", arr3);
+
+function reverse(arr) {
+    let newArr = [...arr]
+    let sp = 0
+    let ep = newArr.length - 1
+    while (sp <= ep) {
+        let temp = newArr[sp]
+        newArr[sp] = newArr[ep]
+        newArr[ep] = temp
+        sp++
+        ep--
+    }
+    return newArr
+}
+
+console.log("reversed array ", reverse(arr3))
