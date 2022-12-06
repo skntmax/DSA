@@ -5,9 +5,7 @@
 //  and since we round it down to the nearest integer, 2 is returned.
 
 
- const sqrtChecker = (x)=>{
-     
-     
+const sqrtChecker = (x)=>{        
 const mySqrt = function(n=10) {
        
     if(n==0) {
@@ -16,21 +14,19 @@ const mySqrt = function(n=10) {
        n = n-1
       let val = 2*mySqrt(n)
        
-      return val 
+       return val 
 };
+ 
 
    if(val==mySqrt()) {
      return 2 
    }else{
     return false 
-   }
-
+   }  
     
-
-
  }
   
- 
+   
 
 
 console.log( sqrtChecker(8))

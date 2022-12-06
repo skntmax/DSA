@@ -1,4 +1,4 @@
-function cache(params) {
+function cache() {
      let store =  {}
  
       return function(a,b ) {
@@ -10,20 +10,16 @@ function cache(params) {
                  let sum = a+b 
                 store[a+b] =sum 
                 return store[a+b]
-            }
-             
-         }
-         
+            }  
+         }   
       }
-      
-    
 }
 
 console.time();
 console.log("first time >>"  ,  cache()(1,2) );
 console.timeEnd();
 
-
+ 
 
 console.time();
 console.log("second time",  cache()(1,2) );
