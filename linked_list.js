@@ -1,22 +1,26 @@
-
+  
 class node {
+      
       constructor(val) {
            this.val = val 
            this.next= null 
-      }
-}
+        }
+         
+   }
+
+
  
-
-
 class ll {
       
      constructor() {
-
         this.head = null
         this.tail =this.head  
         this.size = 0      
      }
      
+      
+
+
 
       insertNode(val) {
            let newNode = new node(val)
@@ -31,28 +35,36 @@ class ll {
             }
        }
 
+        
+
        traverse() {
            let temp = this.head
            while(temp!=null) {
                 console.log("val>>" , temp.val);
-               temp = temp.next
-             } 
-       }
+                temp = temp.next
+              } 
+          }
         
+
+
        insertnodeAtbeginning(val) {
           let newNode = new node(val)
 
           if(this.head == null) {
                 this.head= newNode 
-           }else{
+                }else{
+                
                let tHead = this.head
                this.head = newNode
                this.head.next = tHead 
+           
            } 
+          
        }
 
         
        insertAtLast(val) {
+
           let newNode = new node(val)
            if(this.head == null) {
                 this.head= newNode
@@ -60,17 +72,16 @@ class ll {
            }else{
                 let tmpHead = this.head 
                   while(tmpHead.next!=null) {
-                    // console.log("add" , tmpHead);
                     tmpHead= tmpHead.next
                   }
                   console.log(" last value " ,tmpHead);
                   tmpHead.next = newNode
                   tmpHead=this.head 
                   this.tail = newNode
-                this.size++ 
-
-           }
-       }
+                 this.size++ 
+              }
+         
+          }
 
 
      }
