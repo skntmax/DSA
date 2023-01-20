@@ -1,14 +1,15 @@
-let checksquare =(n)=>{
+let squareRoot =(n)=>{
      
-     for(let i=0; i*i <=n ; i++ ) {
-    
-         if((n%i==0) && (Math.floor(n / i) == i) ) {
-             return true 
-         }else 
-              return false 
-     }
-    
+      for(let i=1; i*i<n ;i++ ) {
+         
+        console.log('====================================');
+        console.log(i);
+        console.log('====================================');
+      
+    }
+
+     
 
 }
 
-console.log(checksquare(36));
+squareRoot(10);

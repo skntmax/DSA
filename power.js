@@ -3,7 +3,6 @@ function findPower(value, power ) {
      if(power==0) {
         return 1 
        }      
-        
     while(power!=0) {
     return  value*findPower(value , power-1 ) 
     }
