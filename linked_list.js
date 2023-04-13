@@ -4,10 +4,8 @@ class node {
       constructor(val) {
            this.val = val 
            this.next= null 
-        }
-         
+        }         
    }
-
 
  
 class ll {
@@ -18,8 +16,6 @@ class ll {
         this.size = 0      
      }
      
-      
-
 
 
       insertNode(val) {
