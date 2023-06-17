@@ -2,7 +2,6 @@ let str = '{{{{((([{{{[[[[[[[[[]]]]]]]]]}}}])))}}}}'
 
 function checkValiParenthesis(string ) {
 let arr =[]
-
 for (let i = 0; i < string.length; i++) {
     let char  = string[i]
     if(char=="{" ||  char=="(" || char=="[") {

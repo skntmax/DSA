@@ -2,7 +2,7 @@ class stack {
 
     constructor() {
         this.stack =[]
-        this.MAX=5
+        this.MAX=10
     }
 
     push(value) {
@@ -26,7 +26,6 @@ class stack {
         return this.stack[this.stack.length-1]
     }
 
-
     checkSize(){
         return this.stack.length
     }
@@ -48,13 +47,6 @@ my_stack.push(2)
 my_stack.push(4)
 my_stack.push(5)
 my_stack.push(6)
-my_stack.pop()
-my_stack.pop()
-my_stack.pop()
-my_stack.pop()
-my_stack.pop()
-my_stack.pop()
-
 
 
 console.log(my_stack);
