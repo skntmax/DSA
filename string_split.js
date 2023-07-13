@@ -11,7 +11,7 @@ function split(str){
        if(str[i]==seperator){
             for(let j=sp ; j<=i ; j++){
               tempStr+=str[j]  
-            }   
+             }   
              arr.push(tempStr)
              sp=i         
          }      

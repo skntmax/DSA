@@ -2,7 +2,7 @@ let arr1 = [1,3,76,32,12,33,56,35]
 let arr2 = [23,89,667,55,32,122,78]
   
   // merge the array  
-//   console.log("arrya merge ");
+  //   console.log("arrya merge ");
   
    let arr3 = []
    for (let i=0; i<arr1.length ; i++){
@@ -25,7 +25,10 @@ let arr2 = [23,89,667,55,32,122,78]
                       arr3[j+1] = temp 
                      }
             }       
-        }       
+        }     
+        
+        
+        
 
             console.log("sorted arrya ", arr3);
 

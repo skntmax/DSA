@@ -1,10 +1,10 @@
 
 
-  this.name ="archana"
+  let name ="archana"
 
 let obj ={
     name:"sknt",
-    getObject:function (){
+    getObject: ()=>{
          console.log("name", this.name );
     }
     ,
@@ -24,35 +24,12 @@ let obj ={
            } 
 }
 
+// sknt
+// sknt
 obj.getObject()
 obj.getObject2()
 obj.temp()
 
-//  console.log( !"dds" || !"something" || "sahi hai"  ||  "dlf"  )
-
-
-                //  setTimeout(()=>{
-                //     for( i=0; i<=3 ; i ++){
-                //         console.log(i);       
-                //       }     
-                // },1000)
-                
-                 
-                console.log(typeof "3"+2-"5" ); 
-
-   let state ={
-       name:""
-   }
-
- 
-   let copy = {...state , ['name'] : "inoute vaue "  }
-    
-    // copy.name=" archan " 
-
-     console.log(copy);
-     console.log(state);
- 
-    //   this.setState({ ...copy, []    })
 
 
 
