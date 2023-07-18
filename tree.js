@@ -11,6 +11,7 @@ class tree {
             this.root = null
         }
         
+         
         insertNode(value){
              let new_node = new newNode(value)
              if(this.root==null){
@@ -28,22 +29,18 @@ class tree {
                  return true 
             }
             else{
-                    let status = this.searchToEveryNode(this.root , value )
-                     return this.searchToEveryNode(this.root , value )
-              } 
-          
+                return this.searchToEveryNode(this.root , value )
+              }           
         }
 
            
-          searchToEveryNode( root , value ){
-           
+  searchToEveryNode( root , value ){         
             if(root.val>value)  {
                 if(root.val==value) {
                    return true 
                 }else if(root.left==null){
                      return false    
                 }else{
-                     
                     return this.searchToEveryNode(root.left , value )   
                 }
              }
@@ -56,22 +53,15 @@ class tree {
                }else{
                    return this.searchToEveryNode(root.right , value ) 
                }
-              
-              
+                
              }
               
              else if(root.val==value)  {
                return true 
              }
 
-                 
-            
-
-              
-
+                
           }
-
-
 
 
 
@@ -90,24 +80,27 @@ class tree {
                 }else{
                     this.insertSingleNode(root.right , new_node )
                   }
-                  
-                    
-         }
-
+             }
              
         }
     
         isTreeEmpty(){
             return this.root==null
         }
+
+        
+
         
 }
 
+
 const obj = new tree () 
+
 obj.insertNode(8978)
 obj.insertNode(293)
 obj.insertNode(653)
 obj.insertNode(21762572)
-obj.insertNode(99879)
-
+obj.insertNode(99879) // create 
+ 
 console.log(obj.searchNode(67565));
+console.log(obj); // search 
