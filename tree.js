@@ -103,4 +103,4 @@ obj.insertNode(21762572)
 obj.insertNode(99879) // create 
  
 console.log(obj.searchNode(67565));
-console.log(obj); // search 
+console.log(obj); // search     
