@@ -4,32 +4,26 @@ class node {
          this.next  = null 
         }
 }
-
+ 
 class ll {
-      
-     constructor(){
+   
+     constructor(){ 
          this.head = null 
-         this.tail = this.head 
+         this.tail = this.head  
         }
          
-         
     insertNode(val) {
+         
          let new_node = new node(val )
+          
                if(this.head == null) {
                  this.head = new_node
                  this.tail = new_node 
                }else{
                   this.tail.next = new_node
                   this.tail = new_node 
-               }
-        }
-
-
-      
-         
-        
-
-
+                 }
+          }
      
 }
 

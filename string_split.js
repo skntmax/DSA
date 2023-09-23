@@ -4,6 +4,7 @@ function split(str){
    let sp=0 
    let arr =[]
    let tempStr =''
+    
   return  function(seperator){
      
      for(let i=sp; i<str.lengh ; i++ ){
@@ -16,7 +17,7 @@ function split(str){
              sp=i         
          }      
        } 
-  }
+    }
    
 }
 
