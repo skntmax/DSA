@@ -12,7 +12,7 @@ Array.prototype.findDuplicate = function() {
          if(!s.has(val)) {
             s.add(val)  
          }else{
-            deplicate.push(val)
+            deplicates.push(val)
          }
      }
       
@@ -31,17 +31,15 @@ let arr =[3,6,7,8,9,90,3,4,54,55 , 6 , ]
 
 
 
-
-
-//   function fcf() {
-//       console.log("callback ")
-// }
+  function fcf() {
+      console.log("callback ")
+}
 
  
-// function root(fcf) {
-//      console.log("some asynchronous work here ")
-//       fcf()     
-//  }
+function root(fcf) {
+     console.log("some asynchronous work here ")
+      fcf()     
+ }
 
  
-// root(fcf)
+root(fcf)
