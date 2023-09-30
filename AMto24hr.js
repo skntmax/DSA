@@ -1,9 +1,10 @@
 function AMto24format(time){ 
  
-       let [ hr , minute , second ] = time.split(':')
+        let [ hr , minute , second ] = time.split(':')
         let currentTime  = hr>12?`${hr-12}:${minute} PM` :`${hr}:${minute} AM` 
       return currentTime
-  }
+ 
+    }
 
    function ampmtotwelvehour(time){ 
            var time = time.toString()

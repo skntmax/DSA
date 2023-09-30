@@ -1,5 +1,5 @@
 let arr = [36,33,2,67,23,6,7]
- 
+          
 
 const bubblesort = (array)=>{
      for(let i=0; i<array.length ; i++ ){

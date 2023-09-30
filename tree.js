@@ -5,6 +5,7 @@ class newNode {
          this.right = null 
      }
 }
+
 class tree {
      
         constructor(){

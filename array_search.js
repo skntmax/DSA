@@ -5,7 +5,6 @@
 //linear search 
 // binary search  (only works with sorted array)
 
-
 function sortArray(arr){
 
      for(let i=0 ; i<arr.length; i++){

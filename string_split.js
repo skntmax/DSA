@@ -6,7 +6,7 @@ function split(str){
    let tempStr =''
     
   return  function(seperator){
-     
+    
      for(let i=sp; i<str.lengh ; i++ ){
         
        if(str[i]==seperator){

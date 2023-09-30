@@ -5,6 +5,7 @@ let prms1 = new Promise((resolve, reject )=>{
      },2000)
 })
 
+
 let prms2 = new Promise((resolve, reject )=>{
 
     setTimeout(()=>{

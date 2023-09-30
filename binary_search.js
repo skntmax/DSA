@@ -51,17 +51,43 @@ function binary_search(arr , target ){
 }
 
 
-console.log(finDuplicateValue(arr))
+
+
+
+function binary_search_recursive(arr , target , start , end    ){
+      debugger  
+       let mp = Math.floor((start+end)/2)
+        while(start<end) {
+             if(arr[mp]==target) {
+               return mp
+             }
+             else if(target<arr[mp]){
+                  binary_search_recursive(arr,target, start , mp-1 )
+             }else{
+              binary_search_recursive(arr, target, mp+1 , end )
+               
+             } 
+           
+        }
+
+  
+
+}
+// console.log(finDuplicateValue(arr))
 
 
 
 
 // removing  doplicate value   
-        let unique_arr  = removeDepulicate(arr) 
+        // let unique_arr  = removeDepulicate(arr) 
 // removing  doplicate value   
  
 
-//applying binary search 
-        console.log(binary_search(unique_arr , 8)) 
+//applying binary search , iterative approach  
+        // console.log(binary_search(unique_arr , 8)) 
 //applying binary search 
 
+
+
+
+console.log(binary_search_recursive(arr , 8 , -1 ,arr.length  ))

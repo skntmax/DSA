@@ -10,7 +10,7 @@ function functionName(){
         var name = "idk"
      }   
      temp()
-}
+  }
 
 functionName()
 
