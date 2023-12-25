@@ -1,14 +1,15 @@
-class newNode {
-     
-    constructor(data) {
+class newNode {     
+     constructor(data) {
          this.data = data 
          this.next = null   
      } 
-      
+       
 }
 
 class ll {
     
+     
+
     constructor() {
           this.head = null      
           this.tail = this.head       
@@ -28,12 +29,12 @@ class ll {
 
 
      traverse() {
-
+        
       let temp =this.head
        while(temp!=null) {
-        //    console.log(temp);
-          temp = temp.next
-         }
+            //    console.log(temp);
+            temp = temp.next
+           }
       }
 }
 
@@ -45,4 +46,6 @@ root.addNode(4)
 root.addNode(5)
 root.addNode(6)
 root.traverse()
+ 
+
 console.log(root);

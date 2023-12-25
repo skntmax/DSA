@@ -3,11 +3,9 @@ class graph  {
     constructor(nodes) {
       this.nodes = [...nodes]
       this.stations = { } 
-
       }
 
       addSubstations( s, d ) {
-
             if(Object.keys(this.stations).length==0) {
                 for(let val of this.nodes ) {
                     this.stations[val] = []
@@ -34,21 +32,21 @@ class graph  {
             }
       return this.stations 
     }
+     
  } 
 
   let trainA =new graph ( [ "A" , "B" , "C" , "D" , "E"]  )
+  
   trainA.addSubstations("A" , "B" )
   trainA.addSubstations("A" , "C" )
   trainA.addSubstations("B" , "D" )
   trainA.addSubstations("B" , "E" )
   trainA.addSubstations("C" , "F" )
   trainA.addSubstations("C" , "G" )
+
   trainA.removeStations('A')
 
 //  trainA.removeStati
-
-
-
 
 
   
