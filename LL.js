@@ -15,8 +15,8 @@ class ll {
           this.tail = this.head       
       } 
      
-     addNode(data) {
-         
+      
+     addNode(data) { 
          let new_node = new newNode(data)
           if(this.head==null) {
              this.head = new_node
