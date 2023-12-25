@@ -18,6 +18,7 @@ class LinkedList {
 
      
     insertNode(val){
+         
         let new_node =  new node(val)
          if(this.head==null) {
              // 0 elements 
