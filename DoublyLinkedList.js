@@ -4,7 +4,7 @@ class NewNode{
           this.next = null 
           this.val = val 
           this.prev = null
-    }    
+     }     
 }
  
  class dll{
@@ -51,10 +51,9 @@ class NewNode{
 
         
 
-        
         insertAt(index, val ){
+
         let new_node = new NewNode(val)
-         
           if(index > this.size ){
               return "doubly linked list is not too big , please specify the correct index"
            }
@@ -71,18 +70,51 @@ class NewNode{
                 for(let i=1 ; i<index-1 ; i++) {
                         curr = curr.next 
                     }   
-                    
-                 new_node.prev = curr
+
+
                  new_node.prev = curr
                  new_node.next =  curr.next
-                 curr.next = new_node
-                this.size+=1
+                 curr.next = new_node     
+                 this.size+=1
+                  
+                 
+             }
+         }
 
-          }
+         
+          traverse(){
+            let curr = this.head
+             for(let i=0 ; i<this.size ; i++){
+                 console.log(`val at ${i} in ascending order` ,curr.val)
+                  curr= curr.next
+                }
+         }
 
 
-        }
 
+         getTail(){
+            let curr = this.head
+            
+            while(curr.next){
+                  curr = curr.next
+               }
+
+             return curr
+
+            }
+
+
+
+          
+        //  rtraverse(){
+
+        //     let curr = this.getTail()
+        //      do{
+        //          console.log("val", curr.val )
+        //          curr= curr.prev
+        //      }while(curr.val)
+             
+        //  }
 
     }
 
@@ -104,9 +136,10 @@ ll_obj.appendNode("s11")
 
 
 
+ll_obj.insertAt(5, "in middle") // insert this value at some index 
 
-ll_obj.insertAt(10, "in middle") // isert this value at some index 
 
+// ll_obj.traverse()
 
 
 console.log("dll obj " ,  ll_obj )
