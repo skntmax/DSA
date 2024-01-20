@@ -47,8 +47,7 @@ let position = undefined
  //2.  binary  search 
 
 
-
-
+  
     function binarySearch (sortedArray){
          
         let sp =0;  let ep= sortedArray.length-1
@@ -64,13 +63,11 @@ let position = undefined
             {
                 ep=mp-1   
             }             
-       }
+         }
      }
 
       console.log(binarySearch(sortedArray));
        
-
-      
  //      recursive approach 
 
  

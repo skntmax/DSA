@@ -1,5 +1,6 @@
 class graph  {
 
+   
     constructor(nodes) {
        if(nodes!=undefined &&  Array.isArray(nodes) && nodes.length==0) {
           this.nodes = []
@@ -50,8 +51,6 @@ class graph  {
 
 
      
-  
-
     actualPath (current_key , s, d) {
       let path = []
        
@@ -87,8 +86,9 @@ class graph  {
              
              if( valid_key_source>-1  && valid_key_dst>-1   ) {
                 
-              
+
               for(let key in this.stations ) {
+
                  if(key!=d) {
                        let i=0
                        while(i<this.stations[key].length) {
@@ -109,11 +109,14 @@ class graph  {
      
  } 
 
+
+
   
  let trainA =new graph ( ['A' ,'B' ,"C" ,"D" ,"E" ,"F" ,"G" ,"H"]   )
  
-  
- trainA.addSubstations("A" , "B" )
+
+
+
  trainA.addSubstations("A" , "C" )
  trainA.addSubstations("C" , "A" )
  trainA.addSubstations("C" , "D" )
@@ -129,9 +132,12 @@ class graph  {
  trainA.addSubstations("H" , "D" )
  trainA.addSubstations("G" , "H" )
  trainA.addSubstations("H" , "A" )
+ trainA.addSubstations("D" , "E" )
 
-//  trainA.removeStations('A')
- trainA.getSuggestePath('A' ,"D" )
-   
+//  trainA.removeStations('B')
+ 
+ trainA.getSuggestePath('A' ,"E" )
+  
+ 
   console.log("trainA>>>" , trainA); 
    

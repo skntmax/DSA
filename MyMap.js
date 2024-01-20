@@ -1,3 +1,4 @@
+
 Array.prototype.myMap = function (cb) {
         let result = []
 

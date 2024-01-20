@@ -1,6 +1,6 @@
 
 
-  let name ="archana"
+ name ="archana"
 
 let obj ={
     name:"sknt",
@@ -8,27 +8,27 @@ let obj ={
          console.log("name", this.name );
     }
     ,
-    getObject2:function(){
+    // getObject2:function(){
          
-      const temp = ()=> {
-        console.log("fat arrow>>>", this.name );
-    
-     }  
-     temp() 
-    } ,
-    temp : function(){
-        const tp = ()=>{
-            console.log("something>>>" , this.name);
-            }   
-            tp()
-           } 
+    //   const temp = ()=> {
+    //     console.log("fat arrow>>>"+ this.name );
+    //  } 
+    //  temp() 
+    // } ,
+    // temp : function(){
+    //     const tp = ()=>{
+    //         console.log("something>>>" , this.name);
+    //         }   
+    //         tp()
+    //        } 
+     
 }
 
 // sknt
 // sknt
-obj.getObject()
-obj.getObject2()
-obj.temp()
+obj.getObject()  //name sknt
+// obj.getObject2()  // fat arrow>>>sktn
+// obj.temp()  // something>>>sknt
 
 
 

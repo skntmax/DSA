@@ -55,42 +55,43 @@
         <!-- <script src="currying.js" type="text/javascript"></script>        -->
         <!-- <script src="backtracking.js" type="text/javascript"></script>        -->
         <!-- <script src="string_permutation.js" type="text/javascript"></script>        -->
-        <script src="graph.js" type="text/javascript"></script>       
+        <!-- <script src="graph.js" type="text/javascript"></script>        -->
+        
+        <!-- <script src="table.js" type="text/javascript"></script>        -->
+        <!-- <script src="interview.js" type="text/javascript"></script>        -->
+        <!-- <script src="Debounce.js" type="text/javascript"></script>        -->
+        <script src="DoublyLinkedList.js" type="text/javascript"></script>       
         
 
         
         </head>
          
 <body>
+
+  <script>
+       
+  
+
+    let debouncing  = ( cb, d  )=>{
+       let timer 
+     return (...args )=>{
+       if(timer)  clearTimeout(timer)   
+       timer = setTimeout(()=>{
+         cb(...args)
+       } , d )
+       }   
+    }
+      
+    var MyDeboucing = debouncing(()=>{
+    console.log(' making an api call  ') 
+  } , 2000  ) 
+   
+    </script>
  
    
 
-    <input    id="name" type="text"  onchange="debouncing()"  />
+    <input    id="name" type="text"  onkeypress="MyDeboucing()"    />
   
-   <script>
-       
-      function fasterFunction( callback , time ) {
-        // let timer ; 
-         
-          if(time) clearTimeout(time);
-          setTimeout(()=>{
-            callback()
-         } ,time )
-         
-          
-      }
- var count = 0          
-       function fetchData () {
-       console.log(" data fetched  "+count++);
-       } 
-
-        
-      function debouncing() {
-           let name =  document.querySelector('#name')
-            fasterFunction(fetchData , 1000 ) 
-        }
-              
-      </script>
 
 </body>
  
