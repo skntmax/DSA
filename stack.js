@@ -38,7 +38,7 @@ function push(ele) {
  push(454)
  push(556)
  
-  
+ 
 console.log(pop(),"popped") 
 console.log(pop(),"popped") 
 

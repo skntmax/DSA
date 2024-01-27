@@ -16,13 +16,14 @@ let obj = {
                      return obj[key]
                   }
               } 
-           } 
+           }   
 
            
 
             // let copy = Object.assign(obj,{}) // shallow copy 
-             let copy = JSON.parse(JSON.stringify(obj))  // deep  copy 
-             copy.address.cityName="dk"
+            //  let copy = JSON.parse(JSON.stringify(obj))  // deep  copy 
+           
+            obj.address.cityName="dk"
            //    console.log(deepCopy(obj));
            console.log(obj);
            console.log(copy);
