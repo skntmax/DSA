@@ -87,7 +87,6 @@ class BST {
                 // heading right node
                 return this.search(root.right , val) 
             }
- 
 
          }     
           
@@ -119,29 +118,29 @@ class BST {
                 console.log(root.val)
             }
         }
+
 }
 
 
 
 const t1   = new BST()
 
-t1.addNode(20)
-t1.addNode(12)
-t1.addNode(23)
-t1.addNode(56)
-t1.addNode(123)
-t1.addNode(100)
-t1.addNode(67)
+t1.addNode(8)
+t1.addNode(3)
+t1.addNode(1)
+t1.addNode(6)
+t1.addNode(4)
+t1.addNode(10)
 
 
 // dfs traversal 
     //post order 
-    // t1.preOrder(t1.head)
-    // t1.inOrder(t1.head)
-    // t1.postOrder(t1.head)
+    // t1.inOrder(t1.head) // LNR 1,3,4,6,8,10
+    // t1.preOrder(t1.head)  //NLR  8,3,1,6,4,10 
+    // t1.postOrder(t1.head)  // LRN  1,4,6,3,10,8
 
 //searching 
-// console.log(t1.searchNode(67)) 
+// console.log(t1.searchNode(10))  // searching any node 
 
 
  
