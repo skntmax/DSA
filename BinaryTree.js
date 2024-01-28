@@ -119,6 +119,98 @@ class BST {
             }
         }
 
+        searchPosition(root, val){
+          
+            if(root.val==val){
+               return root   
+            }  
+
+            if(val<root.val && root.left!=null) {
+                 return this.searchPosition(root.left, val )
+            
+                }else if(val>root.val && root.right!=null) {
+                return this.searchPosition(root.right, val )
+             }
+        
+          }
+
+
+        findAncestor(root , val ){
+        
+              if(root.left.val==val){
+                return root 
+              }
+              if(root.right.val==val){
+                return root 
+              }
+              if(val<root.val && root.left!=null  ) {
+                return this.findAncestor(root.left, val )
+              }
+              if(val>root.val && root.right!=null) {
+                return this.findAncestor(root.right, val )
+              }
+            
+        }
+
+        removeNode(val){
+            let root =this.head 
+
+            if(root==null){
+                return true 
+            }
+            if(this.searchNode(val)){
+                // searching the node
+                   let target_node = this.searchPosition(root,val) 
+                  
+                    if(target_node.left==null && target_node.right==null) {
+                        // simply remove the node , finding nearest ancestor and appeding it's pointer to null 
+                           let tmp = root
+                             let prev_node =  this.findAncestor(tmp , val  ) 
+                             if(prev_node.left.val==val){
+                                   prev_node.left= null
+                              }else{
+                                prev_node.right= null
+                              }
+                               
+                    }else if(target_node.right==null && target_node.left!=null){
+                        // if the target node have only one child in left side 
+                        let tmp = root
+                        let prev_node =  this.findAncestor(tmp , val) 
+                        
+                        if(prev_node.right.val==val){
+                               prev_node.right = target_node.left
+                        }else{
+                            prev_node.left = target_node.right
+                        }
+                       
+
+                    }else if(target_node.left==null && target_node.right!=null){
+                       // if the target node have only one child in right side 
+                       let tmp = root
+                       let prev_node =  this.findAncestor(tmp , val) 
+                       
+                       if(prev_node.left.val==val){
+                              prev_node.left = target_node.left
+                       }
+
+                    }else{
+                      // if the target node having two child in right and left 
+
+
+
+                    }
+                
+            }else{
+               // node doesn't exit 
+                return "Node doesn't exist "
+            }
+     
+
+        
+
+             
+        }
+
 }
 
 
@@ -132,16 +224,15 @@ t1.addNode(6)
 t1.addNode(4)
 t1.addNode(10)
 
+console.log(t1.removeNode(4)) 
 
 // dfs traversal 
     //post order 
-    // t1.inOrder(t1.head) // LNR 1,3,4,6,8,10
+    t1.inOrder(t1.head) // LNR 1,6,3,8,10
     // t1.preOrder(t1.head)  //NLR  8,3,1,6,4,10 
     // t1.postOrder(t1.head)  // LRN  1,4,6,3,10,8
 
 //searching 
 // console.log(t1.searchNode(10))  // searching any node 
-
-
  
 console.log(t1)
