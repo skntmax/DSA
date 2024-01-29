@@ -1,8 +1,6 @@
 let arr =[66,43,21,49,44,52,10,2,3]
 
 
-
-
 function mergeSort(array) {
 
     if(array.length<=1) return array
@@ -29,7 +27,6 @@ function merge(left ,right ) {
    }
 
    return [...sortedArr , ...left, ...right]
-
 }
 
 console.log(mergeSort(arr))
