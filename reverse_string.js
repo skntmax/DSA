@@ -9,10 +9,9 @@ function r_string(string){
 }
 
 
+
+
 console.log("reverse string using head recursion >> " , r_string(str))
-
-
-
 
 
 // simple loop 
@@ -23,7 +22,6 @@ function reverse_string_using_loop(string){
      }
 
      return res
-
   }
   
 

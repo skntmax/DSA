@@ -1,9 +1,6 @@
 let array =[66,43,21,49,44,52,10,2,3]
 
 
-
-
-
 function quickSort(arr) {
 
     if(arr.length<=1)  return arr 

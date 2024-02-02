@@ -1,4 +1,6 @@
+
 let arr =[66,43,21,49,44,52,10,2,3]
+
 
 
 function mergeSort(array) {
