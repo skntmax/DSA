@@ -1,12 +1,15 @@
 // single linked list 
 
-class node{
+
+
+
+ class node{
     constructor(val){
          this.val  = val 
          this.next = null
-    }
-     
+    }     
 }
+
 
 class LinkedList { 
     
@@ -45,14 +48,13 @@ class LinkedList {
             
       }
       
-
       getSize(){
          return this.size 
       }
       
        traverseElement() {
          if(this.head==null){
-             return "linked list is empty "
+             return "linked list is empty"
          }else{
               let tmp = this.head
               let res = []
@@ -62,19 +64,60 @@ class LinkedList {
              }
          return res      
          }
-
       }
-  
-     
 
+
+
+
+    containes(val) {
+        if(this.head==null){
+            return "linked list is empty"
+        }else{
+             let tmp = this.head
+ 
+            while(tmp)  {
+                  if(tmp.val==val ){
+                   return true 
+                  } 
+                 tmp = tmp.next 
+            }
+        return false       
+        }
+    }
+
+     
+    lastNode() {
+         
+        if( this.head==null ){
+            return "linked list is empty"
+        }else{
+             let tmp = this.head
+            while(tmp)  {
+                if(tmp.next==null) {
+                 return tmp.val   
+                 }
+                 tmp = tmp.next
+            }
+       
+        }
+    }
+  
+
+    
 }
 
 let l1 = new LinkedList()
   
 l1.insertNode(2)
 l1.insertNode(3)
+l1.insertNode(22)
+l1.insertNode(455)
 
-console.log(l1.traverseElement()) 
-console.log(l1.getSize()) 
+console.log("total elements >> " , l1.traverseElement()) 
+console.log("total size >> " ,  l1.getSize()) 
+console.log("containes >>  " ,  l1.containes(123)) 
+console.log("last node >>  " ,  l1.lastNode()) 
+
+
 
 console.log(l1)
