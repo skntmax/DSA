@@ -19,7 +19,6 @@ function flattenArray(arr, depth = 1) {
       res.push(arr[i]);
     }
   }
-
   return res;
 }
 
