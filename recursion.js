@@ -4,8 +4,13 @@ function random(num) {
   }
 
   random(num - 1);
-  // tail recursion
+  
+   // tail recursion
+   
   console.log("num", num);
 }
+
+
+
 
 random(10);
