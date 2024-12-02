@@ -10,8 +10,6 @@ function  enque(ele){
      }    
 }
 
- 
-
 function display(){
      for(let i=0 ; i <queueList.length ; i++ ){
          console.log(queueList[i]+"\n");

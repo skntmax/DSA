@@ -28,6 +28,7 @@ function pop() {
 }
 
 
+
 function peak(){
     return stack[stack.length-1]
 }
@@ -37,7 +38,6 @@ function show(){
      for(let i=0; i<stack.length ; i++){
          console.log(stack[i]+"\n");
      }
-
 }  
 
 // push(1)

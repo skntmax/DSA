@@ -35,5 +35,6 @@ function split(str){
 }
 
 
+
 console.log(split(str)('k'))
 console.log(str.split(' '));
