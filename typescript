@@ -1,0 +1,1177 @@
+Script started on 2024-05-09 16:19:25+05:30 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="150" LINES="36"]
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ ds[K[Kls
+[?2004larray_join.js   array_search.js          index.html    object.js       proto.js      reverse_array.js  string_split.js  typescript
+array.js        function_composition.js  index.js      one_fn_call.js  queue.js      split.js          this_keyword.js
+array_merge.js  generator_functions.js   myscripts.js  paranthesis.js  recursion.js  stack.js          transpose.js
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ cd[K[Kls -ltr 
+[?2004ltotal 84
+-rw-rw-r-- 1 shashikant shashikant  717 Apr 22 14:54 object.js
+-rw-rw-r-- 1 shashikant shashikant   27 Apr 22 14:54 myscripts.js
+-rw-rw-r-- 1 shashikant shashikant  878 Apr 22 14:54 index.js
+-rw-rw-r-- 1 shashikant shashikant 1361 Apr 22 14:54 index.html
+-rw-rw-r-- 1 shashikant shashikant 2253 Apr 22 14:54 array_search.js
+-rw-rw-r-- 1 shashikant shashikant  965 Apr 22 14:54 array_merge.js
+-rw-rw-r-- 1 shashikant shashikant 2053 Apr 22 14:54 array.js
+-rw-rw-r-- 1 shashikant shashikant 1340 Apr 22 14:54 array_join.js
+-rw-rw-r-- 1 shashikant shashikant 1056 Apr 22 14:54 this_keyword.js
+-rw-rw-r-- 1 shashikant shashikant  435 Apr 22 14:54 string_split.js
+-rw-rw-r-- 1 shashikant shashikant  733 Apr 22 14:54 stack.js
+-rw-rw-r-- 1 shashikant shashikant  920 Apr 22 14:54 split.js
+-rw-rw-r-- 1 shashikant shashikant  727 Apr 22 14:54 reverse_array.js
+-rw-rw-r-- 1 shashikant shashikant  176 Apr 22 14:54 recursion.js
+-rw-rw-r-- 1 shashikant shashikant  636 Apr 22 14:54 queue.js
+-rw-rw-r-- 1 shashikant shashikant  139 Apr 22 14:54 proto.js
+-rw-rw-r-- 1 shashikant shashikant 2365 Apr 23 17:26 paranthesis.js
+-rw-rw-r-- 1 shashikant shashikant 1259 May  2 17:32 generator_functions.js
+-rw-rw-r-- 1 shashikant shashikant  405 May  2 17:48 function_composition.js
+-rw-rw-r-- 1 shashikant shashikant 1076 May  7 15:51 one_fn_call.js
+-rw-rw-r-- 1 shashikant shashikant  538 May  7 16:57 transpose.js
+-rw-rw-r-- 1 shashikant shashikant    0 May  9 16:19 typescript
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ cds[K[K[Kd[Kstop script 
+[?2004lCommand 'stop' not found, but there are 21 similar ones.
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ cd[K[Kls
+[?2004larray_join.js   array_search.js          index.html    object.js       proto.js      reverse_array.js  string_split.js  typescript
+array.js        function_composition.js  index.js      one_fn_call.js  queue.js      split.js          this_keyword.js
+array_merge.js  generator_functions.js   myscripts.js  paranthesis.js  recursion.js  stack.js          transpose.js
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ c[Kcd ..
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ cd[K[Kcd my_prjcts/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop/my_prjcts[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/my_prjcts[00m$ ls
+[?2004l[0m[01;34mbytecode-next-dev[0m  [01;34mcompiler-bytecode[0m  [01;34mdemo_api[0m  docker-compose.yml  [01;34mmy-db[0m  [01;34mskntmax.dev.api[0m  [01;34mtest[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/my_prjcts[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/my_prjcts[00m$ cd[K[Kcode skntmax.dev.api/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop/my_prjcts[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/my_prjcts[00m$ ls
+[?2004l[0m[01;34mbytecode-next-dev[0m  [01;34mcompiler-bytecode[0m  [01;34mdemo_api[0m  docker-compose.yml  [01;34mmy-db[0m  [01;34mskntmax.dev.api[0m  [01;34mtest[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/my_prjcts[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/my_prjcts[00m$ cd[K[Kcode sd [K[K[Kcompiler-bytecode/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop/my_prjcts[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/my_prjcts[00m$ lcd[K[K[Kls
+[?2004l[0m[01;34mbytecode-next-dev[0m  [01;34mcompiler-bytecode[0m  [01;34mdemo_api[0m  docker-compose.yml  [01;34mmy-db[0m  [01;34mskntmax.dev.api[0m  [01;34mtest[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/my_prjcts[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/my_prjcts[00m$ cd[K[Kcd ..
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ ls
+[?2004l[0m[01;34mdemo_app[0m  [01;34mDSA[0m  [01;34mmongo-back[0m  [01;34mMongoVolumes[0m  [01;34mmy_prjcts[0m  [01;34mposp[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ cd[K[Kcd [K[K[Kcd [K com[Kcompil[K[Kls
+[?2004l[0m[01;34mdemo_app[0m  [01;34mDSA[0m  [01;34mmongo-back[0m  [01;34mMongoVolumes[0m  [01;34mmy_prjcts[0m  [01;34mposp[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ cd[K[Kcd posp/[K[Kls
+[?2004l[0m[01;34mdemo_app[0m  [01;34mDSA[0m  [01;34mmongo-back[0m  [01;34mMongoVolumes[0m  [01;34mmy_prjcts[0m  [01;34mposp[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ c[Kcd D[K[Km [K[K lw[K[Kls[K[Kls
+[?2004l[0m[01;34mdemo_app[0m  [01;34mDSA[0m  [01;34mmongo-back[0m  [01;34mMongoVolumes[0m  [01;34mmy_prjcts[0m  [01;34mposp[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ cd[K[Kcd my_prjcts/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop/my_prjcts[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/my_prjcts[00m$ ls
+[?2004l[0m[01;34mbytecode-next-dev[0m  [01;34mcompiler-bytecode[0m  [01;34mdemo_api[0m  docker-compose.yml  [01;34mmy-db[0m  [01;34mskntmax.dev.api[0m  [01;34mtest[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/my_prjcts[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/my_prjcts[00m$ code demo_api/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop/my_prjcts[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/my_prjcts[00m$ ls
+[?2004l[0m[01;34mbytecode-next-dev[0m  [01;34mcompiler-bytecode[0m  [01;34mdemo_api[0m  docker-compose.yml  [01;34mmy-db[0m  [01;34mskntmax.dev.api[0m  [01;34mtest[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/my_prjcts[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/my_prjcts[00m$ cd[K[Kls
+[?2004l[0m[01;34mbytecode-next-dev[0m  [01;34mcompiler-bytecode[0m  [01;34mdemo_api[0m  docker-compose.yml  [01;34mmy-db[0m  [01;34mskntmax.dev.api[0m  [01;34mtest[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/my_prjcts[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/my_prjcts[00m$ cd[K[Knode [K]0;shashikant@PWLAP2174: ~/Desktop/my_prjcts[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/my_prjcts[00m$ node cd[K[K[K[Knode compiler-bytecode/
+[?2004lnode:internal/modules/cjs/loader:1080
+  throw err;
+  ^
+
+Error: Cannot find module '/home/shashikant/Desktop/my_prjcts/compiler-bytecode'
+[90m    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:922:27)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)[39m
+[90m    at node:internal/main/run_main_module:23:47[39m {
+  code: [32m'MODULE_NOT_FOUND'[39m,
+  requireStack: []
+}
+
+Node.js v18.17.0
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/my_prjcts[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/my_prjcts[00m$ coden [K[K compiler-bytecode/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop/my_prjcts[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/my_prjcts[00m$ cd[K[Kls
+[?2004l[0m[01;34mbytecode-next-dev[0m  [01;34mcompiler-bytecode[0m  [01;34mdemo_api[0m  docker-compose.yml  [01;34mmy-db[0m  [01;34mskntmax.dev.api[0m  [01;34mtest[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/my_prjcts[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/my_prjcts[00m$ cd[K[Kcd ..
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ cd[K[Kcode SA[K[KDSA/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ cd[K[Kcd posp/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop/posp[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/posp[00m$ ls
+[?2004l[0m[01;34mpbp_admin[0m  [01;34mposp_api_node[0m  [01;34mposp_api_node-old[0m  [01;34mposp_redux[0m  [01;34mposp_webapp[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/posp[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/posp[00m$ cd [K[K[Kcode posp_webapp/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop/posp[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/posp[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop/posp[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/posp[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop/posp[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/posp[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop/posp[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/posp[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop/posp[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/posp[00m$ cd /home/shashikant/DOw[K[Kownloads/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Downloads[01;32mshashikant@PWLAP2174[00m:[01;34m~/Downloads[00m$ ls
+[?2004l [0m[01;31manydesk_6.3.2-1_amd64.deb[0m               [01;35m'profile pic.jpeg'[0m
+[01;31m'archive (1).zip'[0m                         [01;35mqrcode_developer.apple.com.png[0m
+ [01;31mcode_1.88.1-1712771838_amd64.deb[0m        'Relieving Cum Experience Letter - SHASHI KANT (1).pdf'
+ [01;31mdbeaver-ce_24.0.2_amd64.deb[0m              Resume_Rohit.pdf
+ download.html                            [01;31mscreamingfrogseospider_18.2_all.deb[0m
+ [01;31mgoogle-chrome-stable_current_amd64.deb[0m   sell-now
+ login.jsx                               'shashi kant 8 may 2024 .pdf'
+ [01;31mmongodb-compass_1.42.5_amd64.deb[0m        'Unconfirmed 293637.crdownload'
+ [01;31mmssql-cli_1.0.0-1_all.deb[0m               [01;35m'WhatsApp Image 2024-04-22 at 11.43.30 AM.jpeg'[0m
+'my appointment letter .pdf'             [01;35m'WhatsApp Image 2024-04-28 at 1.00.05 PM.jpeg'[0m
+ [01;31mmysqlsampledatabase.zip[0m                 [01;35m'WhatsApp Image 2024-04-28 at 12.59.39 PM.jpeg'[0m
+ Phoenix.postman_collection.json
+[?2004h]0;shashikant@PWLAP2174: ~/Downloads[01;32mshashikant@PWLAP2174[00m:[01;34m~/Downloads[00m$ cd[K[Kunzip[K[K[K[Kunzip -r xti[K[KTicketing_5.0_UI.zip [C[C[C
+[?2004lUnZip 6.00 of 20 April 2009, by Debian. Original by Info-ZIP.
+
+Usage: unzip [-Z] [-opts[modifiers]] file[.zip] [list] [-x xlist] [-d exdir]
+  Default action is to extract files in list, except those in xlist, to exdir;
+  file[.zip] may be a wildcard.  -Z => ZipInfo mode ("unzip -Z" for usage).
+
+  -p  extract files to pipe, no messages     -l  list files (short format)
+  -f  freshen existing files, create none    -t  test compressed archive data
+  -u  update files, create if necessary      -z  display archive comment only
+  -v  list verbosely/show version info       -T  timestamp archive to latest
+  -x  exclude files that follow (in xlist)   -d  extract files into exdir
+modifiers:
+  -n  never overwrite existing files         -q  quiet mode (-qq => quieter)
+  -o  overwrite files WITHOUT prompting      -a  auto-convert any text files
+  -j  junk paths (do not make directories)   -aa treat ALL files as text
+  -U  use escapes for all non-ASCII Unicode  -UU ignore any Unicode fields
+  -C  match filenames case-insensitively     -L  make (some) names lowercase
+  -X  restore UID/GID info                   -V  retain VMS version numbers
+  -K  keep setuid/setgid/tacky permissions   -M  pipe through "more" pager
+  -O CHARSET  specify a character encoding for DOS, Windows and OS/2 archives
+  -I CHARSET  specify a character encoding for UNIX and other archives
+
+See "unzip -hh" or unzip.txt for more help.  Examples:
+  unzip data1 -x joe   => extract all files except joe from zipfile data1.zip
+  unzip -p foo | more  => send contents of foo.zip via pipe into program more
+  unzip -fo foo ReadMe => quietly replace existing ReadMe if archive file newer
+[?2004h]0;shashikant@PWLAP2174: ~/Downloads[01;32mshashikant@PWLAP2174[00m:[01;34m~/Downloads[00m$ unzip -r xTicketing_5.0_UI.zip [1@s[C[1@u[1@d[1@o[1@ 
+[?2004l[sudo] password for shashikant: 
+UnZip 6.00 of 20 April 2009, by Debian. Original by Info-ZIP.
+
+Usage: unzip [-Z] [-opts[modifiers]] file[.zip] [list] [-x xlist] [-d exdir]
+  Default action is to extract files in list, except those in xlist, to exdir;
+  file[.zip] may be a wildcard.  -Z => ZipInfo mode ("unzip -Z" for usage).
+
+  -p  extract files to pipe, no messages     -l  list files (short format)
+  -f  freshen existing files, create none    -t  test compressed archive data
+  -u  update files, create if necessary      -z  display archive comment only
+  -v  list verbosely/show version info       -T  timestamp archive to latest
+  -x  exclude files that follow (in xlist)   -d  extract files into exdir
+modifiers:
+  -n  never overwrite existing files         -q  quiet mode (-qq => quieter)
+  -o  overwrite files WITHOUT prompting      -a  auto-convert any text files
+  -j  junk paths (do not make directories)   -aa treat ALL files as text
+  -U  use escapes for all non-ASCII Unicode  -UU ignore any Unicode fields
+  -C  match filenames case-insensitively     -L  make (some) names lowercase
+  -X  restore UID/GID info                   -V  retain VMS version numbers
+  -K  keep setuid/setgid/tacky permissions   -M  pipe through "more" pager
+  -O CHARSET  specify a character encoding for DOS, Windows and OS/2 archives
+  -I CHARSET  specify a character encoding for UNIX and other archives
+
+See "unzip -hh" or unzip.txt for more help.  Examples:
+  unzip data1 -x joe   => extract all files except joe from zipfile data1.zip
+  unzip -p foo | more  => send contents of foo.zip via pipe into program more
+  unzip -fo foo ReadMe => quietly replace existing ReadMe if archive file newer
+[?2004h]0;shashikant@PWLAP2174: ~/Downloads[01;32mshashikant@PWLAP2174[00m:[01;34m~/Downloads[00m$ sudo unzip -r xTicketing_5.0_UI.zip [C[1P[1P
+[?2004lArchive:  xTicketing_5.0_UI.zip
+   creating: xTicketing_5.0_UI/
+  inflating: xTicketing_5.0_UI/.env.development  
+   creating: xTicketing_5.0_UI/.git/
+ extracting: xTicketing_5.0_UI/.git/COMMIT_EDITMSG  
+  inflating: xTicketing_5.0_UI/.git/config  
+  inflating: xTicketing_5.0_UI/.git/description  
+ extracting: xTicketing_5.0_UI/.git/HEAD  
+   creating: xTicketing_5.0_UI/.git/hooks/
+  inflating: xTicketing_5.0_UI/.git/hooks/applypatch-msg.sample  
+  inflating: xTicketing_5.0_UI/.git/hooks/commit-msg.sample  
+  inflating: xTicketing_5.0_UI/.git/hooks/fsmonitor-watchman.sample  
+  inflating: xTicketing_5.0_UI/.git/hooks/post-update.sample  
+  inflating: xTicketing_5.0_UI/.git/hooks/pre-applypatch.sample  
+  inflating: xTicketing_5.0_UI/.git/hooks/pre-commit.sample  
+  inflating: xTicketing_5.0_UI/.git/hooks/pre-merge-commit.sample  
+  inflating: xTicketing_5.0_UI/.git/hooks/pre-push.sample  
+  inflating: xTicketing_5.0_UI/.git/hooks/pre-rebase.sample  
+  inflating: xTicketing_5.0_UI/.git/hooks/pre-receive.sample  
+  inflating: xTicketing_5.0_UI/.git/hooks/prepare-commit-msg.sample  
+  inflating: xTicketing_5.0_UI/.git/hooks/push-to-checkout.sample  
+  inflating: xTicketing_5.0_UI/.git/hooks/sendemail-validate.sample  
+  inflating: xTicketing_5.0_UI/.git/hooks/update.sample  
+  inflating: xTicketing_5.0_UI/.git/index  
+   creating: xTicketing_5.0_UI/.git/info/
+  inflating: xTicketing_5.0_UI/.git/info/exclude  
+   creating: xTicketing_5.0_UI/.git/logs/
+  inflating: xTicketing_5.0_UI/.git/logs/HEAD  
+   creating: xTicketing_5.0_UI/.git/logs/refs/
+   creating: xTicketing_5.0_UI/.git/logs/refs/heads/
+  inflating: xTicketing_5.0_UI/.git/logs/refs/heads/dev  
+  inflating: xTicketing_5.0_UI/.git/logs/refs/heads/rakhi_dev  
+  inflating: xTicketing_5.0_UI/.git/logs/refs/heads/xTicketing_5.0  
+   creating: xTicketing_5.0_UI/.git/logs/refs/remotes/
+   creating: xTicketing_5.0_UI/.git/logs/refs/remotes/origin/
+  inflating: xTicketing_5.0_UI/.git/logs/refs/remotes/origin/dev  
+  inflating: xTicketing_5.0_UI/.git/logs/refs/remotes/origin/HEAD  
+  inflating: xTicketing_5.0_UI/.git/logs/refs/remotes/origin/xTicketing_5.0  
+   creating: xTicketing_5.0_UI/.git/objects/
+   creating: xTicketing_5.0_UI/.git/objects/00/
+ extracting: xTicketing_5.0_UI/.git/objects/00/b2093c8c615c0b53ac56c90b54629111aff86f  
+   creating: xTicketing_5.0_UI/.git/objects/01/
+ extracting: xTicketing_5.0_UI/.git/objects/01/41b130b1e793877ed41c10db28efdf2bf58ca3  
+   creating: xTicketing_5.0_UI/.git/objects/06/
+ extracting: xTicketing_5.0_UI/.git/objects/06/488e6d5c93aef124cc38fb2d3924674a258dc2  
+   creating: xTicketing_5.0_UI/.git/objects/07/
+ extracting: xTicketing_5.0_UI/.git/objects/07/234b71bbb2c90228dea3f5b8cd85eec69e5a1e  
+ extracting: xTicketing_5.0_UI/.git/objects/07/b6180c24a49caa8acba221d6ab283ee95ebb1d  
+   creating: xTicketing_5.0_UI/.git/objects/0a/
+ extracting: xTicketing_5.0_UI/.git/objects/0a/5cc14c2ef8ebcce04de569b1e06fa65aa40371  
+   creating: xTicketing_5.0_UI/.git/objects/0b/
+ extracting: xTicketing_5.0_UI/.git/objects/0b/09be4833e70bf62ac31e93e33c147cb8c16e31  
+   creating: xTicketing_5.0_UI/.git/objects/0c/
+ extracting: xTicketing_5.0_UI/.git/objects/0c/3d8267ab57ae452af0d5f9903431e547122cbd  
+   creating: xTicketing_5.0_UI/.git/objects/0d/
+ extracting: xTicketing_5.0_UI/.git/objects/0d/1fa135f4ef1a561d6d6f629b5209d4c359a310  
+ extracting: xTicketing_5.0_UI/.git/objects/0d/619538c9f3bc0cdf90b402f0fc5a0b49724c0e  
+ extracting: xTicketing_5.0_UI/.git/objects/0d/f659596cefe2bb544c4e43d68967a42acb0b52  
+   creating: xTicketing_5.0_UI/.git/objects/0e/
+ extracting: xTicketing_5.0_UI/.git/objects/0e/0971a237b235985134c10ec03e3dee4009b7c7  
+   creating: xTicketing_5.0_UI/.git/objects/0f/
+ extracting: xTicketing_5.0_UI/.git/objects/0f/c85affce79f3cf46d5cf4c4b0b7807c62f6e5e  
+   creating: xTicketing_5.0_UI/.git/objects/10/
+ extracting: xTicketing_5.0_UI/.git/objects/10/5927f4f92163adbdfee4d20f5bf5d3f2652a4f  
+   creating: xTicketing_5.0_UI/.git/objects/11/
+ extracting: xTicketing_5.0_UI/.git/objects/11/8632449828a9053c05e487402ca349d6b1a101  
+   creating: xTicketing_5.0_UI/.git/objects/12/
+ extracting: xTicketing_5.0_UI/.git/objects/12/35d430217b9a7e7496275cc93fd237a4ff81aa  
+   creating: xTicketing_5.0_UI/.git/objects/15/
+ extracting: xTicketing_5.0_UI/.git/objects/15/49bcf2d77425bacdc60e82572b2b46e9a50e0e  
+ extracting: xTicketing_5.0_UI/.git/objects/15/cdfa27f6a5de99062da435b359e928e33ed9db  
+   creating: xTicketing_5.0_UI/.git/objects/16/
+ extracting: xTicketing_5.0_UI/.git/objects/16/5593bbc320aee1d670cc8bf727dd107c61c486  
+   creating: xTicketing_5.0_UI/.git/objects/17/
+ extracting: xTicketing_5.0_UI/.git/objects/17/c9fce05ba435908572783aa82c575a7909b7ea  
+ extracting: xTicketing_5.0_UI/.git/objects/17/f848e775b30d09fff6682b0cdc0f72edde5006  
+ extracting: xTicketing_5.0_UI/.git/objects/17/fe389594a95a910a61acf8735b6198f6be3a76  
+   creating: xTicketing_5.0_UI/.git/objects/18/
+ extracting: xTicketing_5.0_UI/.git/objects/18/4e1868e698a30ffff14b5a3e4a676152b33a6e  
+ extracting: xTicketing_5.0_UI/.git/objects/18/7a78e1d55beb7b338f44b232aaafab6496372d  
+   creating: xTicketing_5.0_UI/.git/objects/19/
+ extracting: xTicketing_5.0_UI/.git/objects/19/3a97d4ec59b25e1380759e6cb674450688f195  
+ extracting: xTicketing_5.0_UI/.git/objects/19/7f7051b6c52bedbcb8f0cad1e36c4c27408abe  
+   creating: xTicketing_5.0_UI/.git/objects/1c/
+ extracting: xTicketing_5.0_UI/.git/objects/1c/0236f68c9bb85b3a42caff25f17f557eae2222  
+   creating: xTicketing_5.0_UI/.git/objects/1d/
+ extracting: xTicketing_5.0_UI/.git/objects/1d/0081586acccccfca7626ab5245d9da330b5538  
+   creating: xTicketing_5.0_UI/.git/objects/1e/
+ extracting: xTicketing_5.0_UI/.git/objects/1e/1502eb745c495ecbd63cbb82cf63119ad7357f  
+ extracting: xTicketing_5.0_UI/.git/objects/1e/a4298c9010fb5e7afdf175a4582d135b5312c3  
+   creating: xTicketing_5.0_UI/.git/objects/1f/
+ extracting: xTicketing_5.0_UI/.git/objects/1f/5b3a34a8e362280ada8aa232649aae7f09b973  
+   creating: xTicketing_5.0_UI/.git/objects/20/
+ extracting: xTicketing_5.0_UI/.git/objects/20/42fbfcd33a2acc590f11389cb3a2d6d169e812  
+   creating: xTicketing_5.0_UI/.git/objects/22/
+ extracting: xTicketing_5.0_UI/.git/objects/22/8fc4bcc5b975bee2d8b3845c34647a2f73948a  
+   creating: xTicketing_5.0_UI/.git/objects/23/
+ extracting: xTicketing_5.0_UI/.git/objects/23/2a5c565620c72717efc791fc85b4656be4948a  
+ extracting: xTicketing_5.0_UI/.git/objects/23/572dde3f8786f5bd103a069c8b93a9b426d079  
+ extracting: xTicketing_5.0_UI/.git/objects/23/723531099a7ef03bda5f853da7d53559339381  
+ extracting: xTicketing_5.0_UI/.git/objects/23/f76a535e81e977bbb915c97ef1f8e4e1793e60  
+   creating: xTicketing_5.0_UI/.git/objects/25/
+ extracting: xTicketing_5.0_UI/.git/objects/25/1124f10a8c0b35c99692878f37cca01c44fddf  
+   creating: xTicketing_5.0_UI/.git/objects/27/
+ extracting: xTicketing_5.0_UI/.git/objects/27/87f75b3ce2ca99f76531d42f4496610828ccdd  
+ extracting: xTicketing_5.0_UI/.git/objects/27/b3f421c329f6bc4fe5d12e9d85aadfc5990233  
+ extracting: xTicketing_5.0_UI/.git/objects/27/cb2cecf07fbae6d24916c0faa20a2b2f10535e  
+   creating: xTicketing_5.0_UI/.git/objects/28/
+ extracting: xTicketing_5.0_UI/.git/objects/28/ee4bf6df74ae6264ce6a4d14bc12ea5188f85a  
+   creating: xTicketing_5.0_UI/.git/objects/29/
+ extracting: xTicketing_5.0_UI/.git/objects/29/70c0623cc5c73c55ce31df069eeadb8b3fea02  
+   creating: xTicketing_5.0_UI/.git/objects/2a/
+ extracting: xTicketing_5.0_UI/.git/objects/2a/8c9f9a6b25840bca7b4adac8526635fff3aadb  
+ extracting: xTicketing_5.0_UI/.git/objects/2a/be85fa8a64d87ae5b82ab5b5331805e3223373  
+   creating: xTicketing_5.0_UI/.git/objects/2c/
+ extracting: xTicketing_5.0_UI/.git/objects/2c/04ff666d5703e5340f3ce9c722adeac4420327  
+   creating: xTicketing_5.0_UI/.git/objects/2d/
+ extracting: xTicketing_5.0_UI/.git/objects/2d/0a0f4a0ef37a54784917d2a8288daba4a2209a  
+   creating: xTicketing_5.0_UI/.git/objects/2e/
+ extracting: xTicketing_5.0_UI/.git/objects/2e/4b9e31e8a41dedf494f59bcc83778f63362fc5  
+ extracting: xTicketing_5.0_UI/.git/objects/2e/74f13a5d9884e2c6820152b66a178c07aa1191  
+   creating: xTicketing_5.0_UI/.git/objects/2f/
+ extracting: xTicketing_5.0_UI/.git/objects/2f/3167d8c40be362c0a69be11282ccfa7a7e03de  
+   creating: xTicketing_5.0_UI/.git/objects/30/
+ extracting: xTicketing_5.0_UI/.git/objects/30/5c81d542ed98f935aca20066855af60c4886f0  
+   creating: xTicketing_5.0_UI/.git/objects/32/
+ extracting: xTicketing_5.0_UI/.git/objects/32/6e5af9bd48073345a0f7f80389239c80e0c2e1  
+   creating: xTicketing_5.0_UI/.git/objects/33/
+ extracting: xTicketing_5.0_UI/.git/objects/33/e4767cb62e8815f117485ff5d9677e30cf5f7c  
+   creating: xTicketing_5.0_UI/.git/objects/34/
+ extracting: xTicketing_5.0_UI/.git/objects/34/023bd89cb77b059533eb2b043f1b2b2d06670c  
+ extracting: xTicketing_5.0_UI/.git/objects/34/61f124f3b7610fdb352dc48e96a3a1faf846ec  
+   creating: xTicketing_5.0_UI/.git/objects/35/
+ extracting: xTicketing_5.0_UI/.git/objects/35/50cb8037e7707a7ca474e466bc9da2d13a32f4  
+   creating: xTicketing_5.0_UI/.git/objects/36/
+ extracting: xTicketing_5.0_UI/.git/objects/36/120d24d76a999997071c96a446d6777a832f32  
+   creating: xTicketing_5.0_UI/.git/objects/37/
+ extracting: xTicketing_5.0_UI/.git/objects/37/68c0874f039d602f1bb4450f334a7e811fb52d  
+ extracting: xTicketing_5.0_UI/.git/objects/37/fc9c2f1f0288e0cb8df04ec580c1dbf001134d  
+   creating: xTicketing_5.0_UI/.git/objects/38/
+ extracting: xTicketing_5.0_UI/.git/objects/38/2abdd1cc08be11dfe39564f8ec92be31274d04  
+   creating: xTicketing_5.0_UI/.git/objects/3a/
+ extracting: xTicketing_5.0_UI/.git/objects/3a/35a7e51e82be0d512fd2e890b8b811018f574a  
+   creating: xTicketing_5.0_UI/.git/objects/3c/
+ extracting: xTicketing_5.0_UI/.git/objects/3c/647b3bc2cd263e4f0dac6193962358f708ed91  
+   creating: xTicketing_5.0_UI/.git/objects/3d/
+ extracting: xTicketing_5.0_UI/.git/objects/3d/0eadecb0ffd1c984c00b02f4a9eeb5d5329a06  
+ extracting: xTicketing_5.0_UI/.git/objects/3d/acd6695add85f8c771111335d5e620dff88a4f  
+   creating: xTicketing_5.0_UI/.git/objects/3e/
+ extracting: xTicketing_5.0_UI/.git/objects/3e/001386bf3bfc3996cdae404633e76757f72b77  
+   creating: xTicketing_5.0_UI/.git/objects/3f/
+ extracting: xTicketing_5.0_UI/.git/objects/3f/fc86d6ee31867661cc17a159c092ba8da7d8bd  
+   creating: xTicketing_5.0_UI/.git/objects/40/
+ extracting: xTicketing_5.0_UI/.git/objects/40/25da9ab1e6e3a92ee8584bb651c2def350d2bf  
+  inflating: xTicketing_5.0_UI/.git/objects/40/2dd3fe754075002141e1a3f46de351be6f224e  
+ extracting: xTicketing_5.0_UI/.git/objects/40/b838ef3369408bb1986718614847914eab5c06  
+   creating: xTicketing_5.0_UI/.git/objects/41/
+ extracting: xTicketing_5.0_UI/.git/objects/41/bb5d1d475fb95eb3f9b625a79017feba752ec0  
+   creating: xTicketing_5.0_UI/.git/objects/42/
+ extracting: xTicketing_5.0_UI/.git/objects/42/fa429f5800f7a1d122cb3352268f122d6c59af  
+   creating: xTicketing_5.0_UI/.git/objects/43/
+ extracting: xTicketing_5.0_UI/.git/objects/43/95be3d2e82242617781e5f1cbad82d503bc8df  
+ extracting: xTicketing_5.0_UI/.git/objects/43/ca14ccb7c8b5a09549befbbfad40f5850ec66e  
+ extracting: xTicketing_5.0_UI/.git/objects/43/d555181a44abe664148d480c03773cde3cdfe0  
+   creating: xTicketing_5.0_UI/.git/objects/45/
+ extracting: xTicketing_5.0_UI/.git/objects/45/07f616a4663c3e1afdc272c4e96deeed365577  
+ extracting: xTicketing_5.0_UI/.git/objects/45/346cf446bbc66c3157fd1f80511f67d027255a  
+ extracting: xTicketing_5.0_UI/.git/objects/45/82f5d7313c03a875f073d7c3f83bbc2dfccd5f  
+   creating: xTicketing_5.0_UI/.git/objects/47/
+ extracting: xTicketing_5.0_UI/.git/objects/47/038ee6f11adfd6a628fa201ab176baad7eb341  
+ extracting: xTicketing_5.0_UI/.git/objects/47/32a26abb0d90a89abac1a01ce84ec70473ad4b  
+   creating: xTicketing_5.0_UI/.git/objects/48/
+ extracting: xTicketing_5.0_UI/.git/objects/48/40092d2d41370d257182cf65c959d2c8a5c527  
+ extracting: xTicketing_5.0_UI/.git/objects/48/d6dc135eafaaa6e15d040330ec30391a00508f  
+   creating: xTicketing_5.0_UI/.git/objects/49/
+ extracting: xTicketing_5.0_UI/.git/objects/49/ef7fe6392ecce3d9319b0417c0bbf068d081f2  
+ extracting: xTicketing_5.0_UI/.git/objects/49/fd57f69bbd24db40af420c84bb59ee7616b3f7  
+   creating: xTicketing_5.0_UI/.git/objects/4b/
+ extracting: xTicketing_5.0_UI/.git/objects/4b/e72a480ad45e74625095caaa16b03f0db3c5c9  
+   creating: xTicketing_5.0_UI/.git/objects/4c/
+ extracting: xTicketing_5.0_UI/.git/objects/4c/02eb684d56e3e93f01bfc207e1732a7c306ba7  
+ extracting: xTicketing_5.0_UI/.git/objects/4c/418034f1f0d37ca8be0c77960c68bb8dfe67ad  
+   creating: xTicketing_5.0_UI/.git/objects/4e/
+ extracting: xTicketing_5.0_UI/.git/objects/4e/67f5217d794a9d479eb2fac5540464bdc28fbf  
+ extracting: xTicketing_5.0_UI/.git/objects/4e/74dd9fab7bcee694884db3f4b6755ebf14bb39  
+   creating: xTicketing_5.0_UI/.git/objects/4f/
+ extracting: xTicketing_5.0_UI/.git/objects/4f/eb08e8776ca487e50713f21c13a308aab2a81f  
+   creating: xTicketing_5.0_UI/.git/objects/50/
+ extracting: xTicketing_5.0_UI/.git/objects/50/90f564b4b61e2d7bc63ecddc7d6b24defa4d96  
+   creating: xTicketing_5.0_UI/.git/objects/51/
+ extracting: xTicketing_5.0_UI/.git/objects/51/c9945b6090a68d5ac6012e17bc171277f82732  
+   creating: xTicketing_5.0_UI/.git/objects/52/
+ extracting: xTicketing_5.0_UI/.git/objects/52/d7033f3e8ffa2bb5b16864278758a027e8a0ea  
+   creating: xTicketing_5.0_UI/.git/objects/55/
+ extracting: xTicketing_5.0_UI/.git/objects/55/0786a479509c1a02ce5cdc009d248e7ac6828e  
+   creating: xTicketing_5.0_UI/.git/objects/56/
+ extracting: xTicketing_5.0_UI/.git/objects/56/096b97a784d3b3501af35cc146c07091c4785d  
+ extracting: xTicketing_5.0_UI/.git/objects/56/617e7fa2e61b9e6042f5caa4d6140cb28acdd0  
+   creating: xTicketing_5.0_UI/.git/objects/57/
+ extracting: xTicketing_5.0_UI/.git/objects/57/3b82ffbd16f9d1300cca462863a73482583b17  
+   creating: xTicketing_5.0_UI/.git/objects/58/
+ extracting: xTicketing_5.0_UI/.git/objects/58/c724300a1f15025dbb694ced79eb647abba145  
+   creating: xTicketing_5.0_UI/.git/objects/59/
+ extracting: xTicketing_5.0_UI/.git/objects/59/0beecad7ae2c60baea4c0ada04eb747505c5e0  
+   creating: xTicketing_5.0_UI/.git/objects/5a/
+ extracting: xTicketing_5.0_UI/.git/objects/5a/a47e1f7bd176a8e3d671e8e12b51ce574894dc  
+   creating: xTicketing_5.0_UI/.git/objects/5c/
+ extracting: xTicketing_5.0_UI/.git/objects/5c/de445a5f207febd1e354c895467498e3c91f1c  
+   creating: xTicketing_5.0_UI/.git/objects/5f/
+ extracting: xTicketing_5.0_UI/.git/objects/5f/f0aecc60b595910e130a4d96f1942697a44bae  
+   creating: xTicketing_5.0_UI/.git/objects/62/
+ extracting: xTicketing_5.0_UI/.git/objects/62/07675df8f6b391659eef3f0d5ac24fe58e153e  
+ extracting: xTicketing_5.0_UI/.git/objects/62/b047c63824d60901d219d8f008747af5266b14  
+ extracting: xTicketing_5.0_UI/.git/objects/62/ee06e3ee6860280681ec76e72cc9b68743a726  
+   creating: xTicketing_5.0_UI/.git/objects/63/
+ extracting: xTicketing_5.0_UI/.git/objects/63/3c7bfeffc12065339a83c60a45a64ff52e2e71  
+ extracting: xTicketing_5.0_UI/.git/objects/63/d047b6989df144732463015ed2f6be5b54bb79  
+   creating: xTicketing_5.0_UI/.git/objects/64/
+ extracting: xTicketing_5.0_UI/.git/objects/64/4e9c96999eff69a46fcf023004fa797cdf2298  
+ extracting: xTicketing_5.0_UI/.git/objects/64/c9232cca8807f7d80b2f8a25ec8ce88b149c75  
+   creating: xTicketing_5.0_UI/.git/objects/65/
+ extracting: xTicketing_5.0_UI/.git/objects/65/13a5bb61e743b331fdbd890266369d4465e902  
+ extracting: xTicketing_5.0_UI/.git/objects/65/7a74ad9925968ffcca426d66229257f331c4c4  
+   creating: xTicketing_5.0_UI/.git/objects/67/
+  inflating: xTicketing_5.0_UI/.git/objects/67/d3183f279f355df6d6f79de2f0d86ad18ffd02  
+   creating: xTicketing_5.0_UI/.git/objects/68/
+ extracting: xTicketing_5.0_UI/.git/objects/68/7b62f3d63e93f46574327d4be1de25c76d9431  
+ extracting: xTicketing_5.0_UI/.git/objects/68/b52206fec66d7889fdb66879072c63f812a6b9  
+   creating: xTicketing_5.0_UI/.git/objects/69/
+ extracting: xTicketing_5.0_UI/.git/objects/69/223eccf8b9fcf9d237b272e378793eca1d95dc  
+ extracting: xTicketing_5.0_UI/.git/objects/69/42c26e539ff130208c73b8804aaa381e46d2fa  
+   creating: xTicketing_5.0_UI/.git/objects/6b/
+ extracting: xTicketing_5.0_UI/.git/objects/6b/1a4aa9be7f73a2c5a86c2d4f6c70b2b3d26350  
+ extracting: xTicketing_5.0_UI/.git/objects/6b/4860d5efd94099c513acd52144cbf2c0555d93  
+ extracting: xTicketing_5.0_UI/.git/objects/6b/566811735772448d20315deea7ccfc8940bdda  
+ extracting: xTicketing_5.0_UI/.git/objects/6b/811c7ecdab44911c8f428eea6a603b714ec89b  
+   creating: xTicketing_5.0_UI/.git/objects/6d/
+ extracting: xTicketing_5.0_UI/.git/objects/6d/33dad52fb8bb96c20577a57ed62063b064849d  
+   creating: xTicketing_5.0_UI/.git/objects/6e/
+ extracting: xTicketing_5.0_UI/.git/objects/6e/efc06a130e3cd79ed691033d4bd6191ea241a1  
+   creating: xTicketing_5.0_UI/.git/objects/6f/
+ extracting: xTicketing_5.0_UI/.git/objects/6f/718f690eb0c54f5d7229780bca3342ffaf21b2  
+   creating: xTicketing_5.0_UI/.git/objects/70/
+ extracting: xTicketing_5.0_UI/.git/objects/70/55f790a299de8e0d9351157513bcc84ab4f004  
+ extracting: xTicketing_5.0_UI/.git/objects/70/9761cd1575c0acca6b3b533e4224f9c5ae6799  
+   creating: xTicketing_5.0_UI/.git/objects/71/
+ extracting: xTicketing_5.0_UI/.git/objects/71/9623a324722d97b5fc24f6d4974ab27820e7ef  
+   creating: xTicketing_5.0_UI/.git/objects/74/
+ extracting: xTicketing_5.0_UI/.git/objects/74/3c307d2114cec12bbf649879c4b6c6f1be5654  
+   creating: xTicketing_5.0_UI/.git/objects/75/
+ extracting: xTicketing_5.0_UI/.git/objects/75/96fc889f250351f559ac718ce479c9d378bf38  
+ extracting: xTicketing_5.0_UI/.git/objects/75/ac68eb2a6f64ebdc73cd82d6e3856f90da64e3  
+ extracting: xTicketing_5.0_UI/.git/objects/75/b229d340b542bf2a5b18554f2e9c6d4705daa2  
+   creating: xTicketing_5.0_UI/.git/objects/76/
+ extracting: xTicketing_5.0_UI/.git/objects/76/4ec830aa077c5c61599507e0687e89c0b33dc5  
+   creating: xTicketing_5.0_UI/.git/objects/77/
+ extracting: xTicketing_5.0_UI/.git/objects/77/4642c08316c8f67833804cdad2ae305e0739cc  
+   creating: xTicketing_5.0_UI/.git/objects/78/
+ extracting: xTicketing_5.0_UI/.git/objects/78/18df5dadb72f904f86bb2347ca29ae6c2025be  
+   creating: xTicketing_5.0_UI/.git/objects/79/
+ extracting: xTicketing_5.0_UI/.git/objects/79/8e05b98528610c829d2e37ce0c297f4bdea830  
+   creating: xTicketing_5.0_UI/.git/objects/7a/
+ extracting: xTicketing_5.0_UI/.git/objects/7a/8837ec400246ed9d113c5de9bb37da497bcfba  
+   creating: xTicketing_5.0_UI/.git/objects/7d/
+ extracting: xTicketing_5.0_UI/.git/objects/7d/aa1ee09d1ffaac7f09817cfefc96791f79516f  
+   creating: xTicketing_5.0_UI/.git/objects/7e/
+ extracting: xTicketing_5.0_UI/.git/objects/7e/580098dfe3cb602e57ed46959ad1f2c357311d  
+ extracting: xTicketing_5.0_UI/.git/objects/7e/756dae519454236192b848cc7b211e9f9965d9  
+ extracting: xTicketing_5.0_UI/.git/objects/7e/77ba431e1b3ea73afc65614e4a3cb81669a4ab  
+ extracting: xTicketing_5.0_UI/.git/objects/7e/9dbcbfe5cd18591797a0091646f73cd16eaa4b  
+   creating: xTicketing_5.0_UI/.git/objects/7f/
+ extracting: xTicketing_5.0_UI/.git/objects/7f/4dacea3969e84ca6da206b40eb9e67710aac15  
+ extracting: xTicketing_5.0_UI/.git/objects/7f/9ffaa3788e5d6148926ad4d52886f845a98de3  
+ extracting: xTicketing_5.0_UI/.git/objects/7f/cd4a89d80fefeb7d038ef3d5dbed318cd61375  
+   creating: xTicketing_5.0_UI/.git/objects/81/
+ extracting: xTicketing_5.0_UI/.git/objects/81/13a988490d71db1cc226a50a9f3bdc11067071  
+ extracting: xTicketing_5.0_UI/.git/objects/81/c358f5c553ea227b30fa28936a3d5c95320cce  
+   creating: xTicketing_5.0_UI/.git/objects/82/
+ extracting: xTicketing_5.0_UI/.git/objects/82/845cc2067aefff28b5061d71e00d04e0fde373  
+ extracting: xTicketing_5.0_UI/.git/objects/82/ad38e9492b5f755fce7121b465cc134cbe6af0  
+   creating: xTicketing_5.0_UI/.git/objects/83/
+ extracting: xTicketing_5.0_UI/.git/objects/83/e354d32ea4b6df1ce5a37328e3ce76e25c35f5  
+   creating: xTicketing_5.0_UI/.git/objects/85/
+ extracting: xTicketing_5.0_UI/.git/objects/85/8c82d843963f9d269f49896eadeeb51bf4900b  
+   creating: xTicketing_5.0_UI/.git/objects/86/
+ extracting: xTicketing_5.0_UI/.git/objects/86/5c5407243af56ad00cc9c00f1d8a380f04504e  
+   creating: xTicketing_5.0_UI/.git/objects/87/
+ extracting: xTicketing_5.0_UI/.git/objects/87/3de32d771ab1f56e5e65b97ff04c8739271c77  
+   creating: xTicketing_5.0_UI/.git/objects/88/
+ extracting: xTicketing_5.0_UI/.git/objects/88/fcc1b6b1f4c627280907cdaf8c883334183f23  
+   creating: xTicketing_5.0_UI/.git/objects/8a/
+ extracting: xTicketing_5.0_UI/.git/objects/8a/998d877caed4d117d39ebbf4ff2c4a5453c569  
+ extracting: xTicketing_5.0_UI/.git/objects/8a/d9c255048c4baab5a49ea4fbbfc13350da9b4d  
+   creating: xTicketing_5.0_UI/.git/objects/8c/
+ extracting: xTicketing_5.0_UI/.git/objects/8c/72ebea1708280d8de9b5eccdacd762979e0fb4  
+   creating: xTicketing_5.0_UI/.git/objects/8d/
+ extracting: xTicketing_5.0_UI/.git/objects/8d/7d328ab70c8aee9edc3c36091d1722b66b37d1  
+   creating: xTicketing_5.0_UI/.git/objects/8e/
+ extracting: xTicketing_5.0_UI/.git/objects/8e/a4adea0dd898867c5ff4e685153fcf199af039  
+ extracting: xTicketing_5.0_UI/.git/objects/8e/fb487a650be3e7e8bd4e7e2dc8c9b87768aee9  
+   creating: xTicketing_5.0_UI/.git/objects/8f/
+ extracting: xTicketing_5.0_UI/.git/objects/8f/3bf6271e292a824de7d7f4e7cddee244b6dbb2  
+ extracting: xTicketing_5.0_UI/.git/objects/8f/b93ee73225a5bef57efed8059f28f820a6eaf0  
+ extracting: xTicketing_5.0_UI/.git/objects/8f/d34a719fc503fc1d6b303edceb7ab115d5c605  
+   creating: xTicketing_5.0_UI/.git/objects/91/
+ extracting: xTicketing_5.0_UI/.git/objects/91/91b5b7d438f4ec33a901c421767322bac775c6  
+   creating: xTicketing_5.0_UI/.git/objects/92/
+ extracting: xTicketing_5.0_UI/.git/objects/92/5add3a627c0935935f7b62e78708826463273d  
+   creating: xTicketing_5.0_UI/.git/objects/93/
+ extracting: xTicketing_5.0_UI/.git/objects/93/2ce92f59a621096f57a5a4d99e55d616b744ef  
+ extracting: xTicketing_5.0_UI/.git/objects/93/56deab4ef7c3d8bae18d2607c5d61047f96c68  
+ extracting: xTicketing_5.0_UI/.git/objects/93/a54e4224a6b53a999813e9f9c613c46fc2151a  
+   creating: xTicketing_5.0_UI/.git/objects/94/
+ extracting: xTicketing_5.0_UI/.git/objects/94/1cd2676546158ddea58b321f013f2f59f364d7  
+ extracting: xTicketing_5.0_UI/.git/objects/94/e5583ac9ae752f4624e522a7e7270d56c5c4db  
+   creating: xTicketing_5.0_UI/.git/objects/95/
+ extracting: xTicketing_5.0_UI/.git/objects/95/bdd96c7e2f9f4adcc374e6591a730ec3f97a1a  
+   creating: xTicketing_5.0_UI/.git/objects/96/
+ extracting: xTicketing_5.0_UI/.git/objects/96/07c2a41da7b6e8548146b81feb4290473dbd44  
+ extracting: xTicketing_5.0_UI/.git/objects/96/1e3800ee0998f6d251ce3a361ccc13ec58863b  
+   creating: xTicketing_5.0_UI/.git/objects/97/
+ extracting: xTicketing_5.0_UI/.git/objects/97/6cc5279aa128804a34ade95fbb795a86a74300  
+ extracting: xTicketing_5.0_UI/.git/objects/97/784190ea8f0f83c3614b79adbc82579d703136  
+ extracting: xTicketing_5.0_UI/.git/objects/97/ec13c7422338acc2096e3b4345864500bc5e1a  
+   creating: xTicketing_5.0_UI/.git/objects/98/
+ extracting: xTicketing_5.0_UI/.git/objects/98/33d06862846188542a9eec60144e7c423f23ae  
+ extracting: xTicketing_5.0_UI/.git/objects/98/6d9b23a2464f1f749a7384e197baf517e182fd  
+   creating: xTicketing_5.0_UI/.git/objects/9b/
+ extracting: xTicketing_5.0_UI/.git/objects/9b/1e7db2c5549c16c154c2d3b6c99cbab357b8fd  
+   creating: xTicketing_5.0_UI/.git/objects/9d/
+ extracting: xTicketing_5.0_UI/.git/objects/9d/f0a7a13cbcec0e7eb2e845e363f0d8adfd11ba  
+   creating: xTicketing_5.0_UI/.git/objects/a0/
+ extracting: xTicketing_5.0_UI/.git/objects/a0/54e5dc687485d71bfbc5ee5878103467c2d2ae  
+ extracting: xTicketing_5.0_UI/.git/objects/a0/5cb29defbd9dfb71781c5b9f68df29ff089ebd  
+   creating: xTicketing_5.0_UI/.git/objects/a1/
+ extracting: xTicketing_5.0_UI/.git/objects/a1/7d242eb8a94a214407cf5752e1f2278c8a6e02  
+   creating: xTicketing_5.0_UI/.git/objects/a2/
+ extracting: xTicketing_5.0_UI/.git/objects/a2/bb712c9daeffee21e69d5dfd137d518c915996  
+   creating: xTicketing_5.0_UI/.git/objects/a3/
+ extracting: xTicketing_5.0_UI/.git/objects/a3/d32ec10ac36b75ecb6efbbe374fec739af00be  
+   creating: xTicketing_5.0_UI/.git/objects/a5/
+  inflating: xTicketing_5.0_UI/.git/objects/a5/6e8a9b5790a57fc751f0f18d227454708bb961  
+ extracting: xTicketing_5.0_UI/.git/objects/a5/6f8ca86ede2eb8a83e27e451c44a5220eb10c3  
+ extracting: xTicketing_5.0_UI/.git/objects/a5/76ba9a2c80f51520b45c238820080b02574b65  
+ extracting: xTicketing_5.0_UI/.git/objects/a5/d08eb83096ef7cf43d1e9ab64a4c202094a3cc  
+   creating: xTicketing_5.0_UI/.git/objects/a6/
+ extracting: xTicketing_5.0_UI/.git/objects/a6/4ac81f7d844d3e60c620c1014d003c5839d91d  
+   creating: xTicketing_5.0_UI/.git/objects/a7/
+ extracting: xTicketing_5.0_UI/.git/objects/a7/4f84eef6d47cc1a5a2522d08d61297df5cf1a1  
+ extracting: xTicketing_5.0_UI/.git/objects/a7/5e3e3fe22b1b5e26cdec5006575b2c76b9a4b6  
+   creating: xTicketing_5.0_UI/.git/objects/a8/
+ extracting: xTicketing_5.0_UI/.git/objects/a8/1b2b29f2abc07ee6b38737fa163ca021690e92  
+ extracting: xTicketing_5.0_UI/.git/objects/a8/b14e5d9e87ab121ff2f2e2e48214301bcb5148  
+ extracting: xTicketing_5.0_UI/.git/objects/a8/ba0a7b69ed0e7681db1d88ff2f70f541b84a48  
+   creating: xTicketing_5.0_UI/.git/objects/a9/
+ extracting: xTicketing_5.0_UI/.git/objects/a9/8059566f364411c06742d2216e38dc5afe08cc  
+   creating: xTicketing_5.0_UI/.git/objects/aa/
+ extracting: xTicketing_5.0_UI/.git/objects/aa/38962f18c05a364ac7e029bca4b1df9c23cb70  
+   creating: xTicketing_5.0_UI/.git/objects/ab/
+ extracting: xTicketing_5.0_UI/.git/objects/ab/030baafb44b969a08bfbb0042b97d4d4828e82  
+ extracting: xTicketing_5.0_UI/.git/objects/ab/5483d9d2e818768926a0836197bb8edac8d319  
+ extracting: xTicketing_5.0_UI/.git/objects/ab/564a7d295cca5cf970762e705ec630933ab594  
+   creating: xTicketing_5.0_UI/.git/objects/ac/
+ extracting: xTicketing_5.0_UI/.git/objects/ac/8f41fe82e68ca61d3588e2b2d6346fdee42181  
+ extracting: xTicketing_5.0_UI/.git/objects/ac/b1435e0f7887fbaee58a470545abc70376f61a  
+ extracting: xTicketing_5.0_UI/.git/objects/ac/c102a3f48d26c20bed942fdc086f7c59656685  
+  inflating: xTicketing_5.0_UI/.git/objects/ac/c26e2feb90b79a2b6fa656cfd0193def823496  
+   creating: xTicketing_5.0_UI/.git/objects/ad/
+ extracting: xTicketing_5.0_UI/.git/objects/ad/90d865a014352180368cb4553d53ca4bdc7097  
+   creating: xTicketing_5.0_UI/.git/objects/ae/
+ extracting: xTicketing_5.0_UI/.git/objects/ae/256514085a8ed35fe5395def9e06eb9b21dc9d  
+   creating: xTicketing_5.0_UI/.git/objects/af/
+ extracting: xTicketing_5.0_UI/.git/objects/af/a0c691b9981a5801ebd4ac2673442bf206d8dd  
+   creating: xTicketing_5.0_UI/.git/objects/b1/
+ extracting: xTicketing_5.0_UI/.git/objects/b1/b35da23bfd7d49895ea55f8506eb956023c8e9  
+ extracting: xTicketing_5.0_UI/.git/objects/b1/c574f3ec560203b0a07c2a057f903f80b0f5ec  
+   creating: xTicketing_5.0_UI/.git/objects/b2/
+ extracting: xTicketing_5.0_UI/.git/objects/b2/706893264c75f7f14da67dbaef040debabf42b  
+ extracting: xTicketing_5.0_UI/.git/objects/b2/dc39cbb74f8d5ef94ab26e745160167d809502  
+ extracting: xTicketing_5.0_UI/.git/objects/b2/e769eb4a2871bbf10cd11a12f08d990809d840  
+   creating: xTicketing_5.0_UI/.git/objects/b3/
+ extracting: xTicketing_5.0_UI/.git/objects/b3/c9ad06f46a994534ded78986eee7cbc5348f13  
+   creating: xTicketing_5.0_UI/.git/objects/b4/
+ extracting: xTicketing_5.0_UI/.git/objects/b4/24008191087de3fb1e5c540c050c959524a546  
+ extracting: xTicketing_5.0_UI/.git/objects/b4/3c49984512e6a2c8c1377cc99f8ffacf1327d2  
+   creating: xTicketing_5.0_UI/.git/objects/b5/
+ extracting: xTicketing_5.0_UI/.git/objects/b5/0e34908a0a0003b369899230c6c08c17558ef8  
+ extracting: xTicketing_5.0_UI/.git/objects/b5/83ad7fa4345b0d7b5a62ce68d5d36af506905e  
+   creating: xTicketing_5.0_UI/.git/objects/b6/
+ extracting: xTicketing_5.0_UI/.git/objects/b6/28546b2c688fa56a93c00cdfcb13701d4b3b7b  
+   creating: xTicketing_5.0_UI/.git/objects/b7/
+ extracting: xTicketing_5.0_UI/.git/objects/b7/d81b7644c74d4d5bb28b8e0050c376dfe97c37  
+ extracting: xTicketing_5.0_UI/.git/objects/b7/de7914f0862398193ecce09e33120c4a931e64  
+   creating: xTicketing_5.0_UI/.git/objects/b8/
+ extracting: xTicketing_5.0_UI/.git/objects/b8/444cf9eee6162f314be04de3a7bedc3bd9e35f  
+   creating: xTicketing_5.0_UI/.git/objects/b9/
+ extracting: xTicketing_5.0_UI/.git/objects/b9/a725df0e979dd7b157a8430e5c040914418b56  
+   creating: xTicketing_5.0_UI/.git/objects/ba/
+ extracting: xTicketing_5.0_UI/.git/objects/ba/472d2a23515504f96a384ea7568ceed29cfa7d  
+   creating: xTicketing_5.0_UI/.git/objects/bb/
+ extracting: xTicketing_5.0_UI/.git/objects/bb/de1b6a59d2d7883d10a97804bb4fc60cd20f5a  
+   creating: xTicketing_5.0_UI/.git/objects/bd/
+ extracting: xTicketing_5.0_UI/.git/objects/bd/1edae3df32a530b865c4686ac55c9c0d07b3cb  
+ extracting: xTicketing_5.0_UI/.git/objects/bd/f3c0c550f56c116aca7a834c7b6d2a474d7370  
+   creating: xTicketing_5.0_UI/.git/objects/c1/
+ extracting: xTicketing_5.0_UI/.git/objects/c1/c9f729a748e68164613ea8322ab3afc8f7bdc7  
+   creating: xTicketing_5.0_UI/.git/objects/c3/
+ extracting: xTicketing_5.0_UI/.git/objects/c3/c9dc7fed693826582d73c0b715bce23573cf30  
+   creating: xTicketing_5.0_UI/.git/objects/c5/
+ extracting: xTicketing_5.0_UI/.git/objects/c5/0339a324e358d0825e20cbe20e5bbebcdc1ff7  
+ extracting: xTicketing_5.0_UI/.git/objects/c5/5766a645008534504249a556c0b79466e5e173  
+ extracting: xTicketing_5.0_UI/.git/objects/c5/b713f0544a7ba0caeeddbd0697c836b073aa9f  
+   creating: xTicketing_5.0_UI/.git/objects/c7/
+ extracting: xTicketing_5.0_UI/.git/objects/c7/3918fd196728009908093c8bb90ee6a1ba1865  
+   creating: xTicketing_5.0_UI/.git/objects/c8/
+ extracting: xTicketing_5.0_UI/.git/objects/c8/00a6e81c9ea414dfa2b69dd53658ad863fb68f  
+ extracting: xTicketing_5.0_UI/.git/objects/c8/389ce6e43c0cae35856f9adbfaa476c355ea96  
+   creating: xTicketing_5.0_UI/.git/objects/c9/
+ extracting: xTicketing_5.0_UI/.git/objects/c9/500e22963a812b0f6bdf999c959fd73d963434  
+   creating: xTicketing_5.0_UI/.git/objects/ca/
+ extracting: xTicketing_5.0_UI/.git/objects/ca/76a7b02c51bcbdb2f29cf63f431e6a281099df  
+ extracting: xTicketing_5.0_UI/.git/objects/ca/f57d97480573d8b71c07e9603c0d6a37dd10d8  
+   creating: xTicketing_5.0_UI/.git/objects/cc/
+ extracting: xTicketing_5.0_UI/.git/objects/cc/73fb829984ac3de9874cd74c8926d37f97e159  
+ extracting: xTicketing_5.0_UI/.git/objects/cc/a807563e63c3974435cef7aaffec78306e0fdd  
+ extracting: xTicketing_5.0_UI/.git/objects/cc/e884526e913f43fdc1e7559f91674fa020604f  
+ extracting: xTicketing_5.0_UI/.git/objects/cc/f7d2ec86ef7c803a7520990943e8ec84b0857e  
+   creating: xTicketing_5.0_UI/.git/objects/cd/
+ extracting: xTicketing_5.0_UI/.git/objects/cd/4325cc70db01fcc778cd5a556b5d02ddceac8b  
+   creating: xTicketing_5.0_UI/.git/objects/ce/
+ extracting: xTicketing_5.0_UI/.git/objects/ce/1cb9136a6c3ea570f4dfc5388e6af3b0290cf3  
+ extracting: xTicketing_5.0_UI/.git/objects/ce/1d1961dc5083b6629158b322177b395a0b83cb  
+   creating: xTicketing_5.0_UI/.git/objects/d1/
+ extracting: xTicketing_5.0_UI/.git/objects/d1/99a35c249237b92fbc29a049c64a8d35d36553  
+ extracting: xTicketing_5.0_UI/.git/objects/d1/b415e9605de7023fb966e914f8392df1c72b4e  
+ extracting: xTicketing_5.0_UI/.git/objects/d1/c462355acac8cf35ca6ead3a3c7e47b4212fca  
+ extracting: xTicketing_5.0_UI/.git/objects/d1/c49aa6c2392fc0db0a4307d6ab2c21bd3b4bcc  
+ extracting: xTicketing_5.0_UI/.git/objects/d1/ec1a6bda9c86fe570846684f5748908b319732  
+ extracting: xTicketing_5.0_UI/.git/objects/d1/fefa9251348941d21df8ea8a0f8596f88e684e  
+   creating: xTicketing_5.0_UI/.git/objects/d2/
+ extracting: xTicketing_5.0_UI/.git/objects/d2/a6bbfcdcdb2bb938d3f62c1d88b9a1c07a2c1d  
+ extracting: xTicketing_5.0_UI/.git/objects/d2/b03ee2150482e0259b18f651f5c032fc4d53d2  
+ extracting: xTicketing_5.0_UI/.git/objects/d2/b6c8f9df23e774d01aac41b2c0cfea6a1585c0  
+   creating: xTicketing_5.0_UI/.git/objects/d3/
+ extracting: xTicketing_5.0_UI/.git/objects/d3/59f56d6bfa90c9cfc12ff0fe69267f20627413  
+ extracting: xTicketing_5.0_UI/.git/objects/d3/8dd74550d0ce029c64b667f57fad959438832c  
+   creating: xTicketing_5.0_UI/.git/objects/d4/
+ extracting: xTicketing_5.0_UI/.git/objects/d4/c99350232758d2718279e2f2b53f6cff122a85  
+   creating: xTicketing_5.0_UI/.git/objects/d5/
+ extracting: xTicketing_5.0_UI/.git/objects/d5/b7c0bc2ebdc2cd2eb1804f69eb793161eaff39  
+   creating: xTicketing_5.0_UI/.git/objects/d6/
+ extracting: xTicketing_5.0_UI/.git/objects/d6/4122defc5d82f56f79e748ac6a147311f5f248  
+ extracting: xTicketing_5.0_UI/.git/objects/d6/ab45c76afb57e05e24f00995429b3dceb7b50c  
+   creating: xTicketing_5.0_UI/.git/objects/d7/
+ extracting: xTicketing_5.0_UI/.git/objects/d7/bf77e18c65909fef4e224b4bbff5d5588bbd63  
+ extracting: xTicketing_5.0_UI/.git/objects/d7/f1058289d77aa57b83630f6dbdeb7d2c609a2c  
+   creating: xTicketing_5.0_UI/.git/objects/d8/
+ extracting: xTicketing_5.0_UI/.git/objects/d8/3a7e90cdb6244bea2bf84d456856fa23a28b3f  
+ extracting: xTicketing_5.0_UI/.git/objects/d8/3d435f5722740e55ab62beb45f6c698e1c9fd6  
+ extracting: xTicketing_5.0_UI/.git/objects/d8/7dbce15a9aaa628e7d5fc382ae183b62097ec1  
+ extracting: xTicketing_5.0_UI/.git/objects/d8/c55697b8dad39bc060593d2706560a79bdc3a5  
+ extracting: xTicketing_5.0_UI/.git/objects/d8/cf72213577c3fb0682642cb900d3f5924c92de  
+   creating: xTicketing_5.0_UI/.git/objects/dc/
+ extracting: xTicketing_5.0_UI/.git/objects/dc/269afa7599bfe0ea7cf057f7e12fe144351096  
+   creating: xTicketing_5.0_UI/.git/objects/de/
+ extracting: xTicketing_5.0_UI/.git/objects/de/39b9cb9281584ac5633f002b02bd2851086ca8  
+ extracting: xTicketing_5.0_UI/.git/objects/de/73b0cd8a57e21adb0dcfe3aa4f1532ba99cea4  
+ extracting: xTicketing_5.0_UI/.git/objects/de/8cb8cc6c33949ab98440bdec490273aa022d31  
+   creating: xTicketing_5.0_UI/.git/objects/df/
+ extracting: xTicketing_5.0_UI/.git/objects/df/1f85db2ec4577d7de9dde7d2f694ba02d2ed63  
+ extracting: xTicketing_5.0_UI/.git/objects/df/333c2ce5a4fc7ebff9c588d4937e1bfa9fe042  
+ extracting: xTicketing_5.0_UI/.git/objects/df/f18cdd9a402df395118b1f798d0b26b3abd702  
+   creating: xTicketing_5.0_UI/.git/objects/e1/
+ extracting: xTicketing_5.0_UI/.git/objects/e1/70c523fe3d88a16f1598c8e2171f7f002557e7  
+   creating: xTicketing_5.0_UI/.git/objects/e3/
+ extracting: xTicketing_5.0_UI/.git/objects/e3/80d1bc88fb792e36f50ec73fd8aea575738429  
+   creating: xTicketing_5.0_UI/.git/objects/e5/
+ extracting: xTicketing_5.0_UI/.git/objects/e5/0ad4eafdf508e8eaaec5ff9d03088b92be7ee0  
+ extracting: xTicketing_5.0_UI/.git/objects/e5/808b9dc520e1b3735128407b6a6228ad98af2e  
+   creating: xTicketing_5.0_UI/.git/objects/e7/
+ extracting: xTicketing_5.0_UI/.git/objects/e7/6f1b4975dfbc87a96fd9f3f216808cba3c2e0e  
+   creating: xTicketing_5.0_UI/.git/objects/e9/
+ extracting: xTicketing_5.0_UI/.git/objects/e9/620aa467389bde6caaeffcc03f587b31ab27d0  
+ extracting: xTicketing_5.0_UI/.git/objects/e9/9d682b6b4e19e67c84e2e8e41439de0e2a412e  
+   creating: xTicketing_5.0_UI/.git/objects/ea/
+ extracting: xTicketing_5.0_UI/.git/objects/ea/651ba85d422af88b96af69602286845f719ce5  
+   creating: xTicketing_5.0_UI/.git/objects/ec/
+ extracting: xTicketing_5.0_UI/.git/objects/ec/29076ba17e68ff284e8b0b0d39ec636290547c  
+   creating: xTicketing_5.0_UI/.git/objects/ef/
+ extracting: xTicketing_5.0_UI/.git/objects/ef/01d4f5c6f922c138038ff28cd7ffba975c562d  
+ extracting: xTicketing_5.0_UI/.git/objects/ef/1617d8e39c4c899ac41c44bb3f6f77dcc3cfac  
+ extracting: xTicketing_5.0_UI/.git/objects/ef/175f222480f95b6f7bd27b8bebef2647068a52  
+   creating: xTicketing_5.0_UI/.git/objects/f0/
+ extracting: xTicketing_5.0_UI/.git/objects/f0/a840ddac9b06053df269519277bc9df600c96b  
+ extracting: xTicketing_5.0_UI/.git/objects/f0/d4476a646e3cafc7f439a9da218681753a297a  
+   creating: xTicketing_5.0_UI/.git/objects/f2/
+ extracting: xTicketing_5.0_UI/.git/objects/f2/f63a87db9d1e53341b411e7e2080de798ba05d  
+   creating: xTicketing_5.0_UI/.git/objects/f4/
+ extracting: xTicketing_5.0_UI/.git/objects/f4/fd504691e37c41de29a9ecf27ea81b915302f2  
+   creating: xTicketing_5.0_UI/.git/objects/f5/
+ extracting: xTicketing_5.0_UI/.git/objects/f5/0b068eb9a344af6726c038860057714833449c  
+ extracting: xTicketing_5.0_UI/.git/objects/f5/c8a7c8ec3eec58af4c21aaa020415cbc313293  
+   creating: xTicketing_5.0_UI/.git/objects/f6/
+ extracting: xTicketing_5.0_UI/.git/objects/f6/4c24c7e7ec76b5220163b71e0e6c3b675be2a0  
+   creating: xTicketing_5.0_UI/.git/objects/f7/
+ extracting: xTicketing_5.0_UI/.git/objects/f7/7dc898841e11286c2698ab5c8183a6943f7b73  
+   creating: xTicketing_5.0_UI/.git/objects/f9/
+ extracting: xTicketing_5.0_UI/.git/objects/f9/4504c821be099e53098bb257192f3e4e42db32  
+   creating: xTicketing_5.0_UI/.git/objects/fc/
+ extracting: xTicketing_5.0_UI/.git/objects/fc/26aada3af35f9d3868ad1a427ddcf6e652df5e  
+ extracting: xTicketing_5.0_UI/.git/objects/fc/af2483c69f2329600b5180e8106af072a4e042  
+   creating: xTicketing_5.0_UI/.git/objects/fe/
+ extracting: xTicketing_5.0_UI/.git/objects/fe/735b0f810398efa658ff9588b55e3a00643706  
+   creating: xTicketing_5.0_UI/.git/objects/info/
+   creating: xTicketing_5.0_UI/.git/objects/pack/
+  inflating: xTicketing_5.0_UI/.git/objects/pack/pack-22feef2423f1abb7f5e908a5970ccb0eee150331.idx  
+  inflating: xTicketing_5.0_UI/.git/objects/pack/pack-22feef2423f1abb7f5e908a5970ccb0eee150331.pack  
+  inflating: xTicketing_5.0_UI/.git/objects/pack/pack-22feef2423f1abb7f5e908a5970ccb0eee150331.rev  
+  inflating: xTicketing_5.0_UI/.git/packed-refs  
+   creating: xTicketing_5.0_UI/.git/refs/
+   creating: xTicketing_5.0_UI/.git/refs/heads/
+ extracting: xTicketing_5.0_UI/.git/refs/heads/dev  
+ extracting: xTicketing_5.0_UI/.git/refs/heads/rakhi_dev  
+ extracting: xTicketing_5.0_UI/.git/refs/heads/xTicketing_5.0  
+   creating: xTicketing_5.0_UI/.git/refs/remotes/
+   creating: xTicketing_5.0_UI/.git/refs/remotes/origin/
+ extracting: xTicketing_5.0_UI/.git/refs/remotes/origin/dev  
+ extracting: xTicketing_5.0_UI/.git/refs/remotes/origin/HEAD  
+ extracting: xTicketing_5.0_UI/.git/refs/remotes/origin/xTicketing_5.0  
+   creating: xTicketing_5.0_UI/.git/refs/tags/
+  inflating: xTicketing_5.0_UI/.gitignore  
+  inflating: xTicketing_5.0_UI/Dockerfile  
+  inflating: xTicketing_5.0_UI/nginx.conf  
+  inflating: xTicketing_5.0_UI/package-lock.json  
+  inflating: xTicketing_5.0_UI/package.json  
+   creating: xTicketing_5.0_UI/public/
+   creating: xTicketing_5.0_UI/public/assets/
+   creating: xTicketing_5.0_UI/public/assets/css/
+  inflating: xTicketing_5.0_UI/public/assets/css/app.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/css/bootstrap.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/css/icons.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/css/suneditor.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/css/suneditor.min.css.bak  
+   creating: xTicketing_5.0_UI/public/assets/fonts/
+  inflating: xTicketing_5.0_UI/public/assets/fonts/boxicons.eot  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/boxicons.html  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/boxicons.ttf  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/boxicons.woff  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/boxiconsd41d.svg  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/dripicons-v2.eot  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/dripicons-v2.svg  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/dripicons-v2.ttf  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/dripicons-v2.woff  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/dripicons-v2d41d.eot  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-brands-400.eot  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-brands-400.html  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-brands-400.svg  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-brands-400.ttf  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-brands-400.woff  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-brands-400d41d.eot  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-regular-400.eot  
+ extracting: xTicketing_5.0_UI/public/assets/fonts/fa-regular-400.html  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-regular-400.svg  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-regular-400.ttf  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-regular-400.woff  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-regular-400d41d.eot  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-solid-900.eot  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-solid-900.html  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-solid-900.svg  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-solid-900.ttf  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-solid-900.woff  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/fa-solid-900d41d.eot  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/materialdesignicons-webfontd41d.eot  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/materialdesignicons-webfonte910.eot  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/materialdesignicons-webfonte910.html  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/materialdesignicons-webfonte910.ttf  
+  inflating: xTicketing_5.0_UI/public/assets/fonts/materialdesignicons-webfonte910.woff  
+   creating: xTicketing_5.0_UI/public/assets/js/
+  inflating: xTicketing_5.0_UI/public/assets/js/app.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/common.js  
+   creating: xTicketing_5.0_UI/public/assets/js/pages/
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/alerts.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/apexcharts.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/auth-2-carousel.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/bootstrap-toastr.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/calendar.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/calendars-full.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/calendars.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/chartjs.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/coming-soon.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/crypto-dashboard.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/crypto-exchange.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/crypto-kyc-app.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/crypto-orders.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/crypto-wallet.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/dashboard-blog.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/dashboard.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/datatables.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/echarts.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/ecommerce-cart.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/ecommerce-select2.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/email-editor.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/file-manager.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/flot.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/fontawesome.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/form-advanced.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/form-editor.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/form-mask.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/form-repeater.int.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/form-validation.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/form-wizard.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/form-xeditable.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/gmaps.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/ico-landing.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/jquery-knob.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/leaflet-map.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/leaflet-us-states.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/lightbox.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/materialdesign.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/modal.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/product-filter-range.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/profile.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/project-overview.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/range-sliders.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/rating-init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/saas-dashboard.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/schedules.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/session-timeout.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/sparklines.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/sweet-alerts.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/table-editable.int.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/table-responsive.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/task-create.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/task-form.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/task-kanban.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/tasklist.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/timeline.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/toastr.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/tui-charts.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/two-step-verification.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/validation.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/pages/vector-maps.init.js  
+  inflating: xTicketing_5.0_UI/public/assets/js/suneditor.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/
+   creating: xTicketing_5.0_UI/public/assets/libs/@chenfengyuan/
+   creating: xTicketing_5.0_UI/public/assets/libs/@chenfengyuan/datepicker/
+  inflating: xTicketing_5.0_UI/public/assets/libs/@chenfengyuan/datepicker/datepicker.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/@chenfengyuan/datepicker/datepicker.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/@curiosityx/
+   creating: xTicketing_5.0_UI/public/assets/libs/@curiosityx/bootstrap-session-timeout/
+  inflating: xTicketing_5.0_UI/public/assets/libs/@curiosityx/bootstrap-session-timeout/index.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/admin-resources/
+   creating: xTicketing_5.0_UI/public/assets/libs/admin-resources/jquery.vectormap/
+  inflating: xTicketing_5.0_UI/public/assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/admin-resources/jquery.vectormap/maps/
+  inflating: xTicketing_5.0_UI/public/assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-au-mill-en.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-ca-lcc-en.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-in-mill-en.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-uk-mill-en.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-us-il-chicago-mill-en.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-us-merc-en.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-world-mill-en.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/admin-resources/rwd-table/
+  inflating: xTicketing_5.0_UI/public/assets/libs/admin-resources/rwd-table/rwd-table.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/admin-resources/rwd-table/rwd-table.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/apexcharts/
+  inflating: xTicketing_5.0_UI/public/assets/libs/apexcharts/apexcharts.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/bootstrap/
+   creating: xTicketing_5.0_UI/public/assets/libs/bootstrap/js/
+  inflating: xTicketing_5.0_UI/public/assets/libs/bootstrap/js/bootstrap.bundle.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/bootstrap-datepicker/
+   creating: xTicketing_5.0_UI/public/assets/libs/bootstrap-datepicker/css/
+  inflating: xTicketing_5.0_UI/public/assets/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css  
+   creating: xTicketing_5.0_UI/public/assets/libs/bootstrap-datepicker/js/
+  inflating: xTicketing_5.0_UI/public/assets/libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/bootstrap-editable/
+   creating: xTicketing_5.0_UI/public/assets/libs/bootstrap-editable/css/
+  inflating: xTicketing_5.0_UI/public/assets/libs/bootstrap-editable/css/bootstrap-editable.css  
+   creating: xTicketing_5.0_UI/public/assets/libs/bootstrap-editable/img/
+  inflating: xTicketing_5.0_UI/public/assets/libs/bootstrap-editable/img/clear.png  
+  inflating: xTicketing_5.0_UI/public/assets/libs/bootstrap-editable/img/loading.gif  
+   creating: xTicketing_5.0_UI/public/assets/libs/bootstrap-editable/js/
+  inflating: xTicketing_5.0_UI/public/assets/libs/bootstrap-editable/js/index.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/bootstrap-maxlength/
+  inflating: xTicketing_5.0_UI/public/assets/libs/bootstrap-maxlength/bootstrap-maxlength.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/bootstrap-rating/
+  inflating: xTicketing_5.0_UI/public/assets/libs/bootstrap-rating/bootstrap-rating.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/bootstrap-rating/bootstrap-rating.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/bootstrap-timepicker/
+   creating: xTicketing_5.0_UI/public/assets/libs/bootstrap-timepicker/css/
+  inflating: xTicketing_5.0_UI/public/assets/libs/bootstrap-timepicker/css/bootstrap-timepicker.min.css  
+   creating: xTicketing_5.0_UI/public/assets/libs/bootstrap-timepicker/js/
+  inflating: xTicketing_5.0_UI/public/assets/libs/bootstrap-timepicker/js/bootstrap-timepicker.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/bootstrap-touchspin/
+  inflating: xTicketing_5.0_UI/public/assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/chance/
+  inflating: xTicketing_5.0_UI/public/assets/libs/chance/chance.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/chart.js/
+  inflating: xTicketing_5.0_UI/public/assets/libs/chart.js/Chart.bundle.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/datatables.net/
+   creating: xTicketing_5.0_UI/public/assets/libs/datatables.net/js/
+  inflating: xTicketing_5.0_UI/public/assets/libs/datatables.net/js/jquery.dataTables.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/datatables.net-bs4/
+   creating: xTicketing_5.0_UI/public/assets/libs/datatables.net-bs4/css/
+  inflating: xTicketing_5.0_UI/public/assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css  
+   creating: xTicketing_5.0_UI/public/assets/libs/datatables.net-bs4/js/
+  inflating: xTicketing_5.0_UI/public/assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/datatables.net-buttons/
+   creating: xTicketing_5.0_UI/public/assets/libs/datatables.net-buttons/js/
+  inflating: xTicketing_5.0_UI/public/assets/libs/datatables.net-buttons/js/buttons.colVis.min.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/datatables.net-buttons/js/buttons.html5.min.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/datatables.net-buttons/js/buttons.print.min.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/datatables.net-buttons/js/dataTables.buttons.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/datatables.net-buttons-bs4/
+   creating: xTicketing_5.0_UI/public/assets/libs/datatables.net-buttons-bs4/css/
+  inflating: xTicketing_5.0_UI/public/assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css  
+   creating: xTicketing_5.0_UI/public/assets/libs/datatables.net-buttons-bs4/js/
+  inflating: xTicketing_5.0_UI/public/assets/libs/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/datatables.net-responsive/
+   creating: xTicketing_5.0_UI/public/assets/libs/datatables.net-responsive/js/
+  inflating: xTicketing_5.0_UI/public/assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/datatables.net-responsive-bs4/
+   creating: xTicketing_5.0_UI/public/assets/libs/datatables.net-responsive-bs4/css/
+  inflating: xTicketing_5.0_UI/public/assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css  
+   creating: xTicketing_5.0_UI/public/assets/libs/datatables.net-responsive-bs4/js/
+  inflating: xTicketing_5.0_UI/public/assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/dragula/
+  inflating: xTicketing_5.0_UI/public/assets/libs/dragula/dragula.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/dragula/dragula.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/dropzone/
+   creating: xTicketing_5.0_UI/public/assets/libs/dropzone/min/
+  inflating: xTicketing_5.0_UI/public/assets/libs/dropzone/min/dropzone.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/dropzone/min/dropzone.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/echarts/
+  inflating: xTicketing_5.0_UI/public/assets/libs/echarts/echarts.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/flot-charts/
+  inflating: xTicketing_5.0_UI/public/assets/libs/flot-charts/jquery.flot.crosshair.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/flot-charts/jquery.flot.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/flot-charts/jquery.flot.pie.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/flot-charts/jquery.flot.resize.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/flot-charts/jquery.flot.selection.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/flot-charts/jquery.flot.stack.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/flot-charts/jquery.flot.time.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/flot.curvedLines/
+  inflating: xTicketing_5.0_UI/public/assets/libs/flot.curvedLines/curvedLines.html  
+   creating: xTicketing_5.0_UI/public/assets/libs/fullcalendar/
+   creating: xTicketing_5.0_UI/public/assets/libs/fullcalendar/bootstrap/
+  inflating: xTicketing_5.0_UI/public/assets/libs/fullcalendar/bootstrap/main.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/fullcalendar/bootstrap/main.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/fullcalendar/core/
+  inflating: xTicketing_5.0_UI/public/assets/libs/fullcalendar/core/main.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/fullcalendar/core/main.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/fullcalendar/daygrid/
+  inflating: xTicketing_5.0_UI/public/assets/libs/fullcalendar/daygrid/main.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/fullcalendar/daygrid/main.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/fullcalendar/interaction/
+  inflating: xTicketing_5.0_UI/public/assets/libs/fullcalendar/interaction/main.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/fullcalendar/timegrid/
+  inflating: xTicketing_5.0_UI/public/assets/libs/fullcalendar/timegrid/main.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/fullcalendar/timegrid/main.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/gmaps/
+  inflating: xTicketing_5.0_UI/public/assets/libs/gmaps/gmaps.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/inputmask/
+   creating: xTicketing_5.0_UI/public/assets/libs/inputmask/min/
+  inflating: xTicketing_5.0_UI/public/assets/libs/inputmask/min/jquery.inputmask.bundle.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/ion-rangeslider/
+   creating: xTicketing_5.0_UI/public/assets/libs/ion-rangeslider/css/
+  inflating: xTicketing_5.0_UI/public/assets/libs/ion-rangeslider/css/ion.rangeSlider.min.css  
+   creating: xTicketing_5.0_UI/public/assets/libs/ion-rangeslider/js/
+  inflating: xTicketing_5.0_UI/public/assets/libs/ion-rangeslider/js/ion.rangeSlider.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/jquery/
+  inflating: xTicketing_5.0_UI/public/assets/libs/jquery/jquery.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/jquery-countdown/
+  inflating: xTicketing_5.0_UI/public/assets/libs/jquery-countdown/jquery.countdown.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/jquery-knob/
+  inflating: xTicketing_5.0_UI/public/assets/libs/jquery-knob/jquery.knob.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/jquery-sparkline/
+  inflating: xTicketing_5.0_UI/public/assets/libs/jquery-sparkline/jquery.sparkline.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/jquery-steps/
+   creating: xTicketing_5.0_UI/public/assets/libs/jquery-steps/build/
+  inflating: xTicketing_5.0_UI/public/assets/libs/jquery-steps/build/jquery.steps.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/jquery-ui-dist/
+  inflating: xTicketing_5.0_UI/public/assets/libs/jquery-ui-dist/jquery-ui.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/jquery-validation/
+  inflating: xTicketing_5.0_UI/public/assets/libs/jquery-validation/jquery.validate.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/jquery.easing/
+  inflating: xTicketing_5.0_UI/public/assets/libs/jquery.easing/jquery.easing.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/jquery.flot.tooltip/
+   creating: xTicketing_5.0_UI/public/assets/libs/jquery.flot.tooltip/js/
+  inflating: xTicketing_5.0_UI/public/assets/libs/jquery.flot.tooltip/js/jquery.flot.tooltip.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/jquery.repeater/
+  inflating: xTicketing_5.0_UI/public/assets/libs/jquery.repeater/jquery.repeater.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/jszip/
+  inflating: xTicketing_5.0_UI/public/assets/libs/jszip/jszip.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/leaflet/
+   creating: xTicketing_5.0_UI/public/assets/libs/leaflet/images/
+ extracting: xTicketing_5.0_UI/public/assets/libs/leaflet/images/layers-2x.png  
+ extracting: xTicketing_5.0_UI/public/assets/libs/leaflet/images/layers.png  
+ extracting: xTicketing_5.0_UI/public/assets/libs/leaflet/images/marker-icon.png  
+  inflating: xTicketing_5.0_UI/public/assets/libs/leaflet/leaflet.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/leaflet/leaflet.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/magnific-popup/
+  inflating: xTicketing_5.0_UI/public/assets/libs/magnific-popup/jquery.magnific-popup.min.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/magnific-popup/magnific-popup.css  
+   creating: xTicketing_5.0_UI/public/assets/libs/masonry-layout/
+  inflating: xTicketing_5.0_UI/public/assets/libs/masonry-layout/masonry.pkgd.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/metismenu/
+  inflating: xTicketing_5.0_UI/public/assets/libs/metismenu/metisMenu.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/moment/
+   creating: xTicketing_5.0_UI/public/assets/libs/moment/min/
+  inflating: xTicketing_5.0_UI/public/assets/libs/moment/min/moment.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/node-waves/
+  inflating: xTicketing_5.0_UI/public/assets/libs/node-waves/waves.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/owl.carousel/
+   creating: xTicketing_5.0_UI/public/assets/libs/owl.carousel/assets/
+  inflating: xTicketing_5.0_UI/public/assets/libs/owl.carousel/assets/owl.carousel.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/owl.carousel/assets/owl.theme.default.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/owl.carousel/assets/owl.video.play.png  
+  inflating: xTicketing_5.0_UI/public/assets/libs/owl.carousel/owl.carousel.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/parsleyjs/
+  inflating: xTicketing_5.0_UI/public/assets/libs/parsleyjs/parsley.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/pdfmake/
+   creating: xTicketing_5.0_UI/public/assets/libs/pdfmake/build/
+  inflating: xTicketing_5.0_UI/public/assets/libs/pdfmake/build/pdfmake.min.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/pdfmake/build/vfs_fonts.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/select2/
+   creating: xTicketing_5.0_UI/public/assets/libs/select2/css/
+  inflating: xTicketing_5.0_UI/public/assets/libs/select2/css/select2.min.css  
+   creating: xTicketing_5.0_UI/public/assets/libs/select2/js/
+  inflating: xTicketing_5.0_UI/public/assets/libs/select2/js/select2.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/simplebar/
+  inflating: xTicketing_5.0_UI/public/assets/libs/simplebar/simplebar.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/spectrum-colorpicker2/
+  inflating: xTicketing_5.0_UI/public/assets/libs/spectrum-colorpicker2/spectrum.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/spectrum-colorpicker2/spectrum.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/summernote/
+  inflating: xTicketing_5.0_UI/public/assets/libs/summernote/summernote-bs4.min.html  
+   creating: xTicketing_5.0_UI/public/assets/libs/sweetalert2/
+  inflating: xTicketing_5.0_UI/public/assets/libs/sweetalert2/sweetalert2.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/sweetalert2/sweetalert2.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/table-edits/
+   creating: xTicketing_5.0_UI/public/assets/libs/table-edits/build/
+  inflating: xTicketing_5.0_UI/public/assets/libs/table-edits/build/table-edits.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/tinymce/
+  inflating: xTicketing_5.0_UI/public/assets/libs/tinymce/tinymce.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/toastr/
+   creating: xTicketing_5.0_UI/public/assets/libs/toastr/build/
+  inflating: xTicketing_5.0_UI/public/assets/libs/toastr/build/toastr.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/toastr/build/toastr.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/tui-calendar/
+  inflating: xTicketing_5.0_UI/public/assets/libs/tui-calendar/tui-calendar.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/tui-calendar/tui-calendar.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/tui-chart/
+   creating: xTicketing_5.0_UI/public/assets/libs/tui-chart/maps/
+  inflating: xTicketing_5.0_UI/public/assets/libs/tui-chart/maps/usa.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/tui-chart/tui-chart-all.min.js  
+  inflating: xTicketing_5.0_UI/public/assets/libs/tui-chart/tui-chart.min.css  
+   creating: xTicketing_5.0_UI/public/assets/libs/tui-date-picker/
+  inflating: xTicketing_5.0_UI/public/assets/libs/tui-date-picker/tui-date-picker.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/tui-date-picker/tui-date-picker.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/tui-dom/
+  inflating: xTicketing_5.0_UI/public/assets/libs/tui-dom/tui-dom.min.js  
+   creating: xTicketing_5.0_UI/public/assets/libs/tui-time-picker/
+  inflating: xTicketing_5.0_UI/public/assets/libs/tui-time-picker/tui-time-picker.min.css  
+  inflating: xTicketing_5.0_UI/public/assets/libs/tui-time-picker/tui-time-picker.min.js  
+  inflating: xTicketing_5.0_UI/public/favicon.ico  
+  inflating: xTicketing_5.0_UI/public/fd.png  
+  inflating: xTicketing_5.0_UI/public/index.html  
+  inflating: xTicketing_5.0_UI/public/jira.png  
+  inflating: xTicketing_5.0_UI/public/loginImg.png  
+  inflating: xTicketing_5.0_UI/public/manifest.json  
+  inflating: xTicketing_5.0_UI/public/rd.png  
+  inflating: xTicketing_5.0_UI/public/robots.txt  
+ extracting: xTicketing_5.0_UI/public/scsm.png  
+ extracting: xTicketing_5.0_UI/public/snow.png  
+  inflating: xTicketing_5.0_UI/public/Techelium_logo.png  
+  inflating: xTicketing_5.0_UI/public/zd.png  
+  inflating: xTicketing_5.0_UI/README.md  
+   creating: xTicketing_5.0_UI/src/
+   creating: xTicketing_5.0_UI/src/APIAction/
+  inflating: xTicketing_5.0_UI/src/APIAction/Action.js  
+  inflating: xTicketing_5.0_UI/src/App.css  
+  inflating: xTicketing_5.0_UI/src/App.js  
+  inflating: xTicketing_5.0_UI/src/App.test.js  
+   creating: xTicketing_5.0_UI/src/Common/
+  inflating: xTicketing_5.0_UI/src/Common/Dashboard.jsx  
+  inflating: xTicketing_5.0_UI/src/Common/LatestMigration.jsx  
+  inflating: xTicketing_5.0_UI/src/Common/Sidebar.jsx  
+  inflating: xTicketing_5.0_UI/src/Common/TotalMigration.jsx  
+   creating: xTicketing_5.0_UI/src/Component/
+   creating: xTicketing_5.0_UI/src/Component/Auth/
+  inflating: xTicketing_5.0_UI/src/Component/Auth/ForgotPassword.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Auth/Login.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Auth/SignUp.jsx  
+   creating: xTicketing_5.0_UI/src/Component/Licenseing/
+  inflating: xTicketing_5.0_UI/src/Component/Licenseing/ActivationLicence.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Licenseing/Header.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Licenseing/LicenseProfile.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Licenseing/MyLicense.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Licenseing/NewLicense.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Licenseing/TouchLicense.jsx  
+   creating: xTicketing_5.0_UI/src/Component/Migration/
+  inflating: xTicketing_5.0_UI/src/Component/Migration/AddMigration.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Migration/changes.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Migration/DemoMapping.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Migration/Develop.css  
+  inflating: xTicketing_5.0_UI/src/Component/Migration/FinalMapping.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Migration/IsArrayMapping.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Migration/MigrationChannel.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Migration/MigrationMapping.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Migration/ObjMapping.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Migration/old.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Migration/OldMapping.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Migration/Roughmapping.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Migration/SourceMigration.jsx  
+  inflating: xTicketing_5.0_UI/src/Component/Migration/StartMigration.jsx  
+   creating: xTicketing_5.0_UI/src/Component/NewBDS/
+  inflating: xTicketing_5.0_UI/src/Component/NewBDS/MigrationBds.jsx  
+   creating: xTicketing_5.0_UI/src/Component/OnGoingBDS/
+  inflating: xTicketing_5.0_UI/src/Component/OnGoingBDS/BDSOngoing.jsx  
+   creating: xTicketing_5.0_UI/src/Component/onGoingMigration/
+  inflating: xTicketing_5.0_UI/src/Component/onGoingMigration/MigrationOnGoing.jsx  
+   creating: xTicketing_5.0_UI/src/Component/Reports/
+  inflating: xTicketing_5.0_UI/src/Component/Reports/MigrationReport.jsx  
+  inflating: xTicketing_5.0_UI/src/Constant.js  
+  inflating: xTicketing_5.0_UI/src/Data.json  
+  inflating: xTicketing_5.0_UI/src/index.css  
+  inflating: xTicketing_5.0_UI/src/index.js  
+  inflating: xTicketing_5.0_UI/src/logo.svg  
+   creating: xTicketing_5.0_UI/src/Pages/
+   creating: xTicketing_5.0_UI/src/Pages/Auth/
+  inflating: xTicketing_5.0_UI/src/Pages/Auth/ForgotPassword.jsx  
+  inflating: xTicketing_5.0_UI/src/Pages/Auth/Login.jsx  
+  inflating: xTicketing_5.0_UI/src/Pages/Auth/Logout.jsx  
+  inflating: xTicketing_5.0_UI/src/Pages/Auth/SignUp.jsx  
+   creating: xTicketing_5.0_UI/src/Pages/Common/
+  inflating: xTicketing_5.0_UI/src/Pages/Common/Dashboard.jsx  
+  inflating: xTicketing_5.0_UI/src/Pages/Common/LatestMigration.jsx  
+  inflating: xTicketing_5.0_UI/src/Pages/Common/TotalMigration.jsx  
+   creating: xTicketing_5.0_UI/src/Pages/Licensencing/
+  inflating: xTicketing_5.0_UI/src/Pages/Licensencing/ActivationLicence.jsx  
+  inflating: xTicketing_5.0_UI/src/Pages/Licensencing/LicenseProfile.jsx  
+  inflating: xTicketing_5.0_UI/src/Pages/Licensencing/MyLicense.jsx  
+  inflating: xTicketing_5.0_UI/src/Pages/Licensencing/NewLicense.jsx  
+  inflating: xTicketing_5.0_UI/src/Pages/Licensencing/TouchLicense.jsx  
+   creating: xTicketing_5.0_UI/src/Pages/Migration/
+  inflating: xTicketing_5.0_UI/src/Pages/Migration/AddMigration.jsx  
+  inflating: xTicketing_5.0_UI/src/Pages/Migration/MappingMigration.jsx  
+  inflating: xTicketing_5.0_UI/src/Pages/Migration/MigrationChannel.jsx  
+  inflating: xTicketing_5.0_UI/src/Pages/Migration/ObjMapping.jsx  
+  inflating: xTicketing_5.0_UI/src/Pages/Migration/SourceMigration.jsx  
+  inflating: xTicketing_5.0_UI/src/Pages/Migration/StartMigration.jsx  
+   creating: xTicketing_5.0_UI/src/Pages/NewBDS/
+  inflating: xTicketing_5.0_UI/src/Pages/NewBDS/AddBDS.jsx  
+   creating: xTicketing_5.0_UI/src/Pages/OnGoingBDS/
+  inflating: xTicketing_5.0_UI/src/Pages/OnGoingBDS/BDSOngoing.jsx  
+   creating: xTicketing_5.0_UI/src/Pages/OnGoingMigration/
+  inflating: xTicketing_5.0_UI/src/Pages/OnGoingMigration/MigrationOnGoing.jsx  
+   creating: xTicketing_5.0_UI/src/Pages/Reports/
+  inflating: xTicketing_5.0_UI/src/Pages/Reports/AddReport.jsx  
+  inflating: xTicketing_5.0_UI/src/Pages/Reports/MigrationReport.jsx  
+  inflating: xTicketing_5.0_UI/src/reportWebVitals.js  
+  inflating: xTicketing_5.0_UI/src/Router.jsx  
+  inflating: xTicketing_5.0_UI/src/setupTests.js  
+   creating: xTicketing_5.0_UI/src/state/
+   creating: xTicketing_5.0_UI/src/state/Action-Creator/
+  inflating: xTicketing_5.0_UI/src/state/Action-Creator/ActionCreator.js  
+ extracting: xTicketing_5.0_UI/src/state/Action-Creator/index.js  
+   creating: xTicketing_5.0_UI/src/state/ActionTypes/
+ extracting: xTicketing_5.0_UI/src/state/ActionTypes/index.js  
+  inflating: xTicketing_5.0_UI/src/state/ActionTypes/SocketAction.js  
+  inflating: xTicketing_5.0_UI/src/state/ConfigurationStore.js  
+   creating: xTicketing_5.0_UI/src/state/PersistConfig/
+  inflating: xTicketing_5.0_UI/src/state/PersistConfig/persistConfig.js  
+   creating: xTicketing_5.0_UI/src/state/Reducers/
+  inflating: xTicketing_5.0_UI/src/state/Reducers/index.js  
+  inflating: xTicketing_5.0_UI/src/state/Reducers/socketConnection.js  
+  inflating: xTicketing_5.0_UI/src/util.js  
+[?2004h]0;shashikant@PWLAP2174: ~/Downloads[01;32mshashikant@PWLAP2174[00m:[01;34m~/Downloads[00m$ cd cs[K[KxTicketing_5.0_UI/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Downloads/xTicketing_5.0_UI[01;32mshashikant@PWLAP2174[00m:[01;34m~/Downloads/xTicketing_5.0_UI[00m$ ls
+[?2004lDockerfile  nginx.conf  package.json  package-lock.json  [0m[01;34mpublic[0m  README.md  [01;34msrc[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Downloads/xTicketing_5.0_UI[01;32mshashikant@PWLAP2174[00m:[01;34m~/Downloads/xTicketing_5.0_UI[00m$ code. [K[K .
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Downloads/xTicketing_5.0_UI[01;32mshashikant@PWLAP2174[00m:[01;34m~/Downloads/xTicketing_5.0_UI[00m$ [K]0;shashikant@PWLAP2174: ~/Downloads/xTicketing_5.0_UI[01;32mshashikant@PWLAP2174[00m:[01;34m~/Downloads/xTicketing_5.0_UI[00m$ [K]0;shashikant@PWLAP2174: ~/Downloads/xTicketing_5.0_UI[01;32mshashikant@PWLAP2174[00m:[01;34m~/Downloads/xTicketing_5.0_UI[00m$ [K]0;shashikant@PWLAP2174: ~/Downloads/xTicketing_5.0_UI[01;32mshashikant@PWLAP2174[00m:[01;34m~/Downloads/xTicketing_5.0_UI[00m$ [K]0;shashikant@PWLAP2174: ~/Downloads/xTicketing_5.0_UI[01;32mshashikant@PWLAP2174[00m:[01;34m~/Downloads/xTicketing_5.0_UI[00m$ [K]0;shashikant@PWLAP2174: ~/Downloads/xTicketing_5.0_UI[01;32mshashikant@PWLAP2174[00m:[01;34m~/Downloads/xTicketing_5.0_UI[00m$ cd ..
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Downloads[01;32mshashikant@PWLAP2174[00m:[01;34m~/Downloads[00m$ cd[K[K[H[2J]0;shashikant@PWLAP2174: ~/Downloads[01;32mshashikant@PWLAP2174[00m:[01;34m~/Downloads[00m$ cd[K[Kd[Kcd ../Desktop/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ lcd[K[K[Kcd l[K[Kls
+[?2004l[0m[01;34mdemo_app[0m  [01;34mDSA[0m  [01;34mmongo-back[0m  [01;34mMongoVolumes[0m  [01;34mmy_prjcts[0m  [01;34mposp[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ cd[K[Kcd my_prjcts/[Kposp/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop/posp[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/posp[00m$ ls
+[?2004l[0m[01;34mpbp_admin[0m  [01;34mposp_api_node[0m  [01;34mposp_api_node-old[0m  [01;34mposp_redux[0m  [01;34mposp_webapp[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/posp[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/posp[00m$ cd[K[Kcode posp_webapp/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop/posp[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/posp[00m$ ls
+[?2004l[0m[01;34mpbp_admin[0m  [01;34mposp_api_node[0m  [01;34mposp_api_node-old[0m  [01;34mposp_redux[0m  [01;34mposp_webapp[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/posp[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/posp[00m$ cd[K[Kls
+[?2004l[0m[01;34mpbp_admin[0m  [01;34mposp_api_node[0m  [01;34mposp_api_node-old[0m  [01;34mposp_redux[0m  [01;34mposp_webapp[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/posp[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/posp[00m$ cd[K[Kcd[Kcd[Kls
+[?2004l[0m[01;34mpbp_admin[0m  [01;34mposp_api_node[0m  [01;34mposp_api_node-old[0m  [01;34mposp_redux[0m  [01;34mposp_webapp[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/posp[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/posp[00m$ cd ..
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ c[Kd[Kls
+[?2004l[0m[01;34mdemo_app[0m  [01;34mDSA[0m  [01;34mmongo-back[0m  [01;34mMongoVolumes[0m  [01;34mmy_prjcts[0m  [01;34mposp[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ c d[K[Kd DSA/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ ls
+[?2004larray_join.js    function_composition.js  index.js             one_fn_call.js  Queue.js          stack.js         transpose.js
+array.js         generator_functions.js   kth_smallest_ele.js  paranthesis.js  recursion.js      stacks.js        typescript
+array_merge.js   groupby.js               myscripts.js         proto.js        reverse_array.js  string_split.js
+array_search.js  index.html               object.js            queue.js        split.js          this_keyword.js
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ cd[K[Kcode .
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ [K]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ cd[K[Kls
+[?2004larray_join.js    function_composition.js  index.js             one_fn_call.js  Queue.js          stack.js         transpose.js
+array.js         generator_functions.js   kth_smallest_ele.js  paranthesis.js  recursion.js      stacks.js        typescript
+array_merge.js   groupby.js               myscripts.js         proto.js        reverse_array.js  string_split.js
+array_search.js  index.html               object.js            queue.js        split.js          this_keyword.js
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop/DSA[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/DSA[00m$ cd[K[Kcd ..
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ cd[Kls
+[?2004lcCommand 'cls' not found, but there are 18 similar ones.
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ cd[K[Kls
+[?2004l[0m[01;34mdemo_app[0m  [01;34mDSA[0m  [01;34mmongo-back[0m  [01;34mMongoVolumes[0m  [01;34mmy_prjcts[0m  [01;34mposp[0m
+[?2004h]0;shashikant@PWLAP2174: ~/Desktop[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop[00m$ c[Kd[Kcd my_prjcts/ [K[K[Kposp/
+[?2004l[?2004h]0;shashikant@PWLAP2174: ~/Desktop/posp[01;32mshashikant@PWLAP2174[00m:[01;34m~/Desktop/posp[00m$ ls
+[?2004l[0m[01;34mpbp_admin[0m  [01;34mposp_api_node[0m  [01;34mposp_api_node-old[0m 

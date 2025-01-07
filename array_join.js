@@ -18,7 +18,6 @@ function peak(arr) {
 console.log(peak(arr1));
 
 function binarySearch(arr,target ) {
-
   let left = 0 
   let right = arr.length-1 
   while(left<=right) {
@@ -37,8 +36,6 @@ function binarySearch(arr,target ) {
 
 
 console.log( binarySearch(arr1, 3));
-
-
    // console.log(...arr1);
    //  function arrayJoin(array){           
    //     return function (seperator){
@@ -54,7 +51,6 @@ console.log( binarySearch(arr1, 3));
    //           }
    //         return finalArray
    //      }              
-               
    //      }
 
     

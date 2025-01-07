@@ -27,8 +27,7 @@ let obj = {
                 }    
             }
              
-             obj2.fun3()
-                              
+             obj2.fun3()              
         }
 }
 
