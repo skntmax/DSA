@@ -26,3 +26,11 @@ let obj = {
            console.log(obj);
            console.log(copy);
             
+
+
+
+
+
+
+
+           

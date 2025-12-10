@@ -6,7 +6,6 @@ const factorial = (number)=>{
       else {
          return number*factorial(number-1)
       }
-     
 }
 
 console.log(factorial(5))

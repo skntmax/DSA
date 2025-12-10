@@ -19,7 +19,6 @@ function sortArray(arr){
              }
         }
      } 
-
      return arr
 }
 
