@@ -38,5 +38,26 @@ function bfs(graph, start) {
   }
 }
 
-bfs(graph, "A");
+bfs(graph, "B");
+
+
+
+// mine  at one attempt 
+
+// function BFS (graph , vertex) {
+//      let visited =  new Set(vertex)
+//      let q = [vertex]
+//      while(q.length>0) {
+//           let pop = q.shift() // similar to pop 
+//           console.log(pop)
+//          for(let innerVer of graph[pop]) {
+//               if(!visited.has(innerVer)) {
+//                    visited.add(innerVer)
+//                    q.push(innerVer)
+//               }
+//          }
+//      }
+// }
+
+// BFS(graph,  "B") 
 
