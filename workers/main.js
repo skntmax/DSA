@@ -1,7 +1,6 @@
 const {Worker}  = require('worker_threads');
 console.log('Main thread process:', process.pid)
 
-
 const worker = new Worker('./worker.js', {
   workerData: { number: 40 }
 })
