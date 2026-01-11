@@ -1,6 +1,6 @@
 
 
-  this.name ="archana"
+d  this.name ="archana"
 
 let obj ={
     name:"sknt",
