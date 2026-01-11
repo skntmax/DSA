@@ -1,5 +1,6 @@
 var str = "my name is shashi kant"
  
+// using closure 
 function split(str){
    let sp=0 
    let arr =[]
@@ -18,20 +19,20 @@ function split(str){
   }
 }
 
-function split2(str, ln = 0, res = []) {
+
+// via recursion 
+function split2(str, char , ln = 0, res = []) {
   if (ln >= str.length) {
     res.push(str)
     return res
   }
 
-  if (str[ln] === " ") {
+  if (str[ln] === char) {
     res.push(str.substr(0, ln))
-    return split2(str.substr(ln + 1), 0, res)
+    return split2(str.substr(ln + 1), char ,  0, res)
   }
-
-  return split2(str, ln + 1, res)
+  return split2(str, char ,  ln + 1, res)
 }
 
 
-// console.log(split(str)(' '))
-console.log(split2(str ,0,[]));
+console.log(split2(str ,"a" ,  0,[]));
