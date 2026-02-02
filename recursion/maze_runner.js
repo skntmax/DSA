@@ -96,7 +96,7 @@ function findPossiblePathsInArray(p="" , r, c , res=[] ) {
 
     if(c>1) {
        res.push(findPossiblePaths(p+"R" , r , c-1, res  ))  
-    }    
+    }     
 }
 
 
