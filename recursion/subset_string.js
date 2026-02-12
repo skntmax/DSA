@@ -18,16 +18,34 @@ let str = "abc";
 
 // console.log(result)
 
-function subset(p , up ){
-  if(up==""){
-    console.log(p);
-    return;
-  }
 
-  let ch =  up[0]
-  subset(p+ch , up.slice(1) )
-  subset(p , up.slice(1) )
+// function  subset2(p="" , up="abc" ) { 
+//     if(up=="") {
+//       console.log(p);
+//       return  p 
+//     }
 
-} 
+//      let c = up.charAt(0)
+//      subset2(p+c, up.substring(0+1) )
+//      subset2(p, up.substring(0+1) )
+   
+// }
 
-subset("" , str)
+// console.log(subset2("", str));
+
+
+
+function  subset2(p="" , up="abc" ) { 
+    if(up=="") {
+      //  leftAns.push(p)
+      // console.log(p);
+      return  p
+    }
+     let c = up.charAt(0)
+     let leftAns = subset2(p+c, up.substring(0+1) )
+     let rightAns = subset2(p, up.substring(0+1) )
+     return [ leftAns , rightAns]
+   
+}
+
+console.log(subset2("", str));
