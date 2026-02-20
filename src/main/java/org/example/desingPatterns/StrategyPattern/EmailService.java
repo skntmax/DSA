@@ -1,4 +1,4 @@
-package org.example.desingPatterns;
+package org.example.desingPatterns.StrategyPattern;
 
 public class EmailService implements NotificationServiceInterface {
 

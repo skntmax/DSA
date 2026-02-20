@@ -1,9 +1,8 @@
-package org.example.desingPatterns;
+package org.example.desingPatterns.StrategyPattern;
 
 public class Main {
 
     NotificationServiceInterface ns ;
-
     public Main(NotificationServiceInterface ns) {
         this.ns = ns;
     }
@@ -11,7 +10,6 @@ public class Main {
     public static void main(String[] args) {
         EmailService es = new EmailService();
         OtpService otpS  = new OtpService();
-
 
         Main sendOtp =  new Main(otpS);
         sendOtp.sendOtp(786073508);

@@ -1,4 +1,4 @@
-package org.example.desingPatterns;
+package org.example.desingPatterns.StrategyPattern;
 
 public interface NotificationServiceInterface {
     public abstract void  sendNotification(String email);
