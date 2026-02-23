@@ -337,3 +337,130 @@ class CustomThreadPool {
         }
     }
 }
+
+
+## paralelism vs consurrency
+
+
+
+Even without thread.join(), threads can run:
+
+Parallelly → if you have multiple CPU cores
+
+Concurrently → if you have a single core
+
+join() does NOT control parallelism.
+
+
+
+What join() Actually Does
+
+thread.join() only means:
+
+"Wait for this thread to finish before continuing." 
+
+
+🔥 What join() Actually Does
+
+thread.join() only means:
+
+"Wait for this thread to finish before continuing."
+
+It does NOT:
+
+Start threads
+
+Make them parallel
+
+Control CPU scheduling
+
+It only affects execution order of the main thread.
+
+🧠 Example Without join() 
+
+
+class MyThread extends Thread {
+    public void run() {
+        System.out.println(Thread.currentThread().getName());
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        MyThread t1 = new MyThread();
+        MyThread t2 = new MyThread();
+
+        t1.start();
+        t2.start();
+
+        System.out.println("Main thread finished");
+    }
+}
+
+
+Possible Output: 
+Thread-0
+Main thread finished
+Thread-1
+
+OR 
+
+Main thread finished
+Thread-1
+Thread-0
+
+
+
+Because:
+
+Threads are scheduled by OS
+
+Execution order is unpredictable
+
+They run concurrently/parallel depending on cores 
+
+
+
+🧠 With join() 
+
+t1.start();
+t1.join();
+t2.start();
+
+
+Now:
+
+t2 waits until t1 finishes
+
+Execution becomes more sequential
+
+
+
+
+🎯 Important Concept
+Concept	Controlled By
+Concurrency	OS Scheduler
+Parallelism	Number of CPU cores
+Execution order	join()
+Thread creation	start()
+
+
+🚀 Final Interview Answer
+
+If asked:
+
+Without using join(), do threads run parallelly or concurrently?
+
+Answer:
+
+Threads run concurrently by design. If multiple CPU cores are available, they can run in parallel. join() only controls waiting behavior, not parallel execution.
+
+
+
+If you want, I can also explain:
+
+Difference between start() and run()
+
+How JVM maps threads to OS threads
+
+Or show a CPU-core visualization 🔥
