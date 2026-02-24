@@ -26,7 +26,6 @@ public class CustomThread {
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-
         });
         t1.start();
         t2.start();
