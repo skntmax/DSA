@@ -24,6 +24,6 @@ parentPort.postMessage({
   result,
   taskTime: `${taskEndTime - taskStartTime} ms`,
   totalProcessTime: `${processEndTime - processStartTime} ms`,
-   startedAt: new Date(processStartTime).toLocaleString(), // MS TO DATE 
-   finishedAt: new Date(processEndTime).toLocaleString() // MS TO DATE
+  startedAt: new Date(processStartTime).toLocaleString(), // MS TO DATE 
+  finishedAt: new Date(processEndTime).toLocaleString() // MS TO DATE
 })

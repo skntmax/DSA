@@ -14,13 +14,13 @@
 // fork()	special for Node scripts
 
 
-const { fork } = require('child_process')
+const { fork , spawn ,  exec ,  execFile  } = require('child_process')
 
 const child = fork('./child.js')
 
 console.log('Parent PID:', process.pid)
 
-child.send(40)
+child.send(100)
 
 child.on('message', (data) => {
   console.log('\nChild Process Completed ✅')
