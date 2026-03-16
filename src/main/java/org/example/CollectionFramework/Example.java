@@ -41,9 +41,7 @@ public class Example {
         list2.add("A");
         list2.add("B");
         list2.add("A");  // allowed
-
         System.out.println(list2.get(1));
-
 
     }
 }

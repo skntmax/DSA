@@ -45,3 +45,32 @@ size()
 isEmpty()
 contains()
 clear()
+
+
+## 12. Most Used Collections in Real Backend 
+: ### (In Spring Boot / Backend systems:)
+| Collection        | Use              |
+| ----------------- | ---------------- |
+| ArrayList         | storing results  |
+| HashMap           | caching / lookup |
+| HashSet           | unique values    |
+| PriorityQueue     | task scheduling  |
+| ConcurrentHashMap | multithreading   |
+
+
+
+## Interview Important Differences
+| Feature       | ArrayList     | LinkedList    |
+| ------------- | ------------- | ------------- |
+| Structure     | Dynamic Array | Doubly Linked |
+| Access        | Fast          | Slow          |
+| Insert/Delete | Slow          | Fast          |
+
+
+| Feature   | HashSet   | TreeSet       |
+| --------- | --------- | ------------- |
+| Order     | Unordered | Sorted        |
+| Structure | HashTable | RedBlack Tree |
+| Speed     | Faster    | Slower        |
+
+That is the complete beginner → intermediate understanding of Java Collections.
