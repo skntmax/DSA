@@ -32,7 +32,5 @@ public class LL {
         List<Integer> list = new LinkedList<>();
         list.add(10);
         list.add(20);
-
     }
-
 }

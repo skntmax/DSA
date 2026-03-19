@@ -15,9 +15,8 @@ public class CustomQueue {
         q.offer(2);
         q.offer(3);
         q.offer(211);
+
         System.out.println(q.poll()); //  remove from original queue
         System.out.println(q); // [2, 3, 211]
-
-
     }
 }
