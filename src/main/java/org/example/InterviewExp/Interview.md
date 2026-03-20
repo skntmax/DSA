@@ -1,17 +1,11 @@
 ## Can we override static methods? Why/why not?
 
-
-
-
 ### 1. Static methods belong to the **class**, not the object
 
 * Static methods are resolved using the **reference type (class)**, not the actual object.
 * Overriding requires **dynamic binding (runtime decision)**, but static methods use **static binding (compile-time decision)**.
 
 👉 So, there is no runtime polymorphism for static methods.
-
-
-
 
 ### 2. Method overriding needs runtime polymorphism
 
@@ -20,13 +14,10 @@ Overriding works like this:
 Parent obj = new Child();
 obj.method(); // runtime decides
 
-
-
 But static methods:
 
 Parent obj = new Child();
 obj.staticMethod(); // compile-time decides (Parent)
-
 
 ## 🔹 What actually happens? (Method Hiding)
 
@@ -52,7 +43,6 @@ obj.show(); // Output?
 ## 🔥 Key Differences
 
 
-
 | Feature      | Static Method  | Instance Method |
 | ------------ | -------------- | --------------- |
 | Binding      | Compile-time   | Runtime         |
@@ -60,10 +50,7 @@ obj.show(); // Output?
 | Polymorphism | ❌ No          | ✅ Yes          |
 | Resolution   | Class-based    | Object-based    |
 
-
-
 ## What happens when you run a Java program? (JVM flow)
-
 
 .java file → Compiler → .class (bytecode) → JVM → Output
 
@@ -152,9 +139,7 @@ This is where actual execution happens.
 
 <pre class="overflow-visible! px-0!" data-start="1828" data-end="1847"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute end-1.5 top-1 z-2 md:end-2 md:top-1"></div><div class="pe-11 pt-3"><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span>Hello World</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
 
-
 🔥 Heap vs Stack (Quick Overview)
-
 
 
 | Feature    | Stack Memory                   | Heap Memory                  |
@@ -166,8 +151,6 @@ This is where actual execution happens.
 | Size       | Smaller                        | Larger                       |
 | Thread     | Thread-specific                | Shared across threads        |
 | GC         | Not required                   | Managed by Garbage Collector |
-
-
 
 # Visual Understanding
 
@@ -187,11 +170,9 @@ This is where actual execution happens.
 
 ![https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AiFsZC_GQ229Sz8jPveAAUg.png](https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AiFsZC_GQ229Sz8jPveAAUg.png)
 
-
 ## example
 
 `
-
 
 class Demo {
 int x = 10;
@@ -203,16 +184,13 @@ Demo d = new Demo();
 }
 }
 
-
 ### 👉 Memory Breakdown:
 
 * `d` → stored in **Stack**
 * `new Demo()` object → stored in **Heap**
 * `x` → inside object (Heap)
 
-
 ## What is **Garbage Collection**?
-
 
 # Why Garbage Collection is Needed
 
@@ -221,16 +199,11 @@ Demo d = new Demo();
 * Improves application stability
 * Frees Heap memory for new objects
 
-
-
 # 🔹 How GC Works (Concept)
 
 ### ✔️ Key Idea: Reachability
 
 An object becomes eligible for GC when it is **no longer reachable** from any active reference.
-
-
-
 
 # 🔹 How GC Works (Concept)
 
@@ -264,7 +237,6 @@ An object becomes eligible for GC when it is **no longer reachable** from any ac
 
 <pre class="overflow-visible! px-0!" data-start="1276" data-end="1335"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼ8">new</span><span> </span><span class="ͼe">Test</span><span>(); </span><span class="ͼ6">// no reference → eligible</span></div></div></div></div></div></div></div></div></div></div></div></div></pre>
 
-
 # 🔹 How JVM Performs GC
 
 * Runs in the background (daemon thread)
@@ -284,7 +256,6 @@ An object becomes eligible for GC when it is **no longer reachable** from any ac
   * It is **just a request**, not guaranteed
   * JVM decides when to actually run GC
 
-
 # 🔥 Visual Understanding
 
 ## Garbage Collection Process
@@ -295,8 +266,6 @@ An object becomes eligible for GC when it is **no longer reachable** from any ac
 
 ![https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AMtJQShUuu-MBEY7CFCT5MA.png](https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AMtJQShUuu-MBEY7CFCT5MA.png)
 
-
-
 # 🔥 Important Points for Interviews
 
 ✔️ GC works only on **Heap memory**
@@ -305,7 +274,6 @@ An object becomes eligible for GC when it is **no longer reachable** from any ac
 ✔️ Makes Java **memory-safe language
 
 A **memory leak in Java** happens when **objects that are no longer needed are still referenced**, so the **Garbage Collector (GC) cannot remove them**.
-
 
 🔹 Simple Definition
 
@@ -318,14 +286,12 @@ A **memory leak in Java** happens when **objects that are no longer needed are s
 * Can lead to **OutOfMemoryError**
 * Application may crash
 
-
 # 🔹 How Memory Leak Happens (Core Idea)
 
 👉 GC only removes **unreachable objects**
 👉 If a reference still exists (even if not needed) → object stays in memory
 
-
-## Example 
+## Example
 
 import java.util.*;
 
@@ -333,20 +299,17 @@ public class LeakExample {
 static List<String> list = new ArrayList<>();
 
 public static void main(String[] args) {
-    while (true) {
-        list.add("Data " + new Date());
-    }
+while (true) {
+list.add("Data " + new Date());
 }
 }
-
-
+}
 
 ### ❌ Problem:
 
 * List keeps growing
 * Objects are still referenced → GC cannot clean
 * Memory keeps increasing → crash
-
 
 ## Memory Leak vs Normal GC
 
@@ -356,11 +319,7 @@ public static void main(String[] args) {
 
 ![https://miro.medium.com/v2/resize%3Afit%3A1200/1%2Amt3-woLnTOy73WsiS54xQA.png](https://miro.medium.com/v2/resize%3Afit%3A1200/1%2Amt3-woLnTOy73WsiS54xQA.png)
 
-
-
 # 🔹 How to Prevent Memory Leaks
-
-
 
 # 🔹 How to Prevent Memory Leaks
 
@@ -380,7 +339,6 @@ public static void main(String[] args) {
 
 ✔️ Use proper cache size limits
 
-
 🔥 Key Interview Points
 
 * Java has GC, **but memory leaks are still possible**
@@ -388,5 +346,440 @@ public static void main(String[] args) {
 * Happens only in **Heap memory**
 * Leads to **OutOfMemoryError**
 
-
 Explain **ClassLoader hierarchy**
+
+
+
+
+## Difference: ArrayList vs LinkedList
+
+The difference between **ArrayList vs LinkedList** is a classic Java interview topic—mainly about **data structure + performance trade-offs**.
+
+
+
+# 🔥 Core Difference
+
+👉 **ArrayList uses a dynamic array**
+👉 **LinkedList uses a doubly linked list**
+
+
+# 🔹 ArrayList (Dynamic Array)
+
+![https://ik.imagekit.io/upgrad1/abroad-images/imageCompo/images/__visualselection_2025_06_11T024545_446MVMPQ.jpeg?pr-true=](https://ik.imagekit.io/upgrad1/abroad-images/imageCompo/images/__visualselection_2025_06_11T024545_446MVMPQ.jpeg?pr-true=)
+
+![https://miro.medium.com/v2/resize%3Afit%3A1200/1%2AO_8Fh87YHCiT6WHBWOkOXg.png](https://miro.medium.com/v2/resize%3Afit%3A1200/1%2AO_8Fh87YHCiT6WHBWOkOXg.png)
+
+![https://miro.medium.com/1%2A98eJEZTQYVznRIOW2ajE4A.png](https://miro.medium.com/1%2A98eJEZTQYVznRIOW2ajE4A.png)
+
+
+
+### ✔️ Features:
+
+* Stores elements in **contiguous memory**
+* Fast **random access** using index
+* Resizes automatically
+
+### ✔️ Example:
+
+<pre class="overflow-visible! px-0!" data-start="473" data-end="559"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">List</span><span><</span><span class="ͼe">Integer</span><span>> </span><span class="ͼe">list</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼ8">new</span><span> </span><span class="ͼe">ArrayList</span><span><>();</span><br/><span class="ͼe">list</span><span class="ͼ8">.</span><span class="ͼe">add</span><span>(</span><span class="ͼb">10</span><span>);</span><br/><span class="ͼe">list</span><span class="ͼ8">.</span><span class="ͼe">get</span><span>(</span><span class="ͼb">0</span><span>); </span><span class="ͼ6">// fast</span></div></div></div></div></div></div></div></div></div></div></div></div></pre>
+
+
+# LinkedList (Doubly Linked List)
+
+![https://miro.medium.com/v2/da%3Atrue/resize%3Afit%3A1200/1%2AlCPgbrm9f7MQ75hvGV5p8Q.gif](https://miro.medium.com/v2/da%3Atrue/resize%3Afit%3A1200/1%2AlCPgbrm9f7MQ75hvGV5p8Q.gif)
+
+![https://miro.medium.com/v2/resize%3Afit%3A1400/1%2A1gEMjHnYbfHSfjHp5jthhQ.png](https://miro.medium.com/v2/resize%3Afit%3A1400/1%2A1gEMjHnYbfHSfjHp5jthhQ.png)
+
+![https://codingnomads.com/images/17508d9d-3e8a-4e83-dde7-5d20ead28500/public](https://codingnomads.com/images/17508d9d-3e8a-4e83-dde7-5d20ead28500/public)
+
+
+
+### ✔️ Features:
+
+* Each element is a **node (data + pointers)**
+* Not stored contiguously
+* Efficient insert/delete
+
+### ✔️ Example:
+
+<pre class="overflow-visible! px-0!" data-start="779" data-end="845"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">List</span><span><</span><span class="ͼe">Integer</span><span>> </span><span class="ͼe">list</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼ8">new</span><span> </span><span class="ͼe">LinkedList</span><span><>();</span><br/><span class="ͼe">list</span><span class="ͼ8">.</span><span class="ͼe">add</span><span>(</span><span class="ͼb">10</span><span>);</span></div></div></div></div></div></div></div></div></div></div></div></div></pre>
+
+
+
+🔥 Detailed Comparison
+
+
+
+| Feature            | ArrayList              | LinkedList            |
+| ------------------ | ---------------------- | --------------------- |
+| Internal Structure | Dynamic Array          | Doubly Linked List    |
+| Access (get)       | ✅ Fast (O(1))         | ❌ Slow (O(n))        |
+| Insertion          | ❌ Slow (shift needed) | ✅ Fast               |
+| Deletion           | ❌ Slow                | ✅ Fast               |
+| Memory             | Less overhead          | More (extra pointers) |
+| Cache Friendly     | Yes                    | No                    |
+| Traversal          | Faster                 | Slower                |
+
+
+🔹 Time Complexity
+
+
+
+| Operation     | ArrayList | LinkedList |
+| ------------- | --------- | ---------- |
+| Access        | O(1)      | O(n)       |
+| Insert End    | O(1)\*    | O(1)       |
+| Insert Middle | O(n)      | O(1)\*     |
+| Delete        | O(n)      | O(1)\*     |
+
+
+
+
+# 🔥 Core Difference
+
+👉 **HashMap → NOT thread-safe**
+👉 **ConcurrentHashMap → Thread-safe (designed for multithreading)**
+
+---
+
+# 🔹 HashMap
+
+![https://pandac.in/content-img/hashmap.png](https://pandac.in/content-img/hashmap.png)
+
+![https://www.algolist.net/img/hash-table-chaining.png](https://www.algolist.net/img/hash-table-chaining.png)
+
+![https://miro.medium.com/v2/resize%3Afit%3A1010/0%2AHH6UbQXLHkl8lySH.png](https://miro.medium.com/v2/resize%3Afit%3A1010/0%2AHH6UbQXLHkl8lySH.png)
+
+**4**
+
+### ✔️ Features:
+
+* Not synchronized
+* Allows **1 null key + multiple null values**
+* Faster in **single-threaded** environments
+* Can cause **data inconsistency** in multithreading
+
+### ✔️ Example:
+
+<pre class="overflow-visible! px-0!" data-start="551" data-end="623"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">Map</span><span><</span><span class="ͼe">Integer</span><span>, </span><span class="ͼe">String</span><span>> </span><span class="ͼe">map</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼ8">new</span><span> </span><span class="ͼe">HashMap</span><span><>();</span><br/><span class="ͼe">map</span><span class="ͼ8">.</span><span class="ͼe">put</span><span>(</span><span class="ͼb">1</span><span>, </span><span class="ͼc">"A"</span><span>);</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+---
+
+# 🔹 ConcurrentHashMap
+
+![https://miro.medium.com/1%2AFIu_mVGOGHt18TAbnpL2lg.jpeg](https://miro.medium.com/1%2AFIu_mVGOGHt18TAbnpL2lg.jpeg)
+
+![https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AZo6Op0p831tmXMuTPIPuvA.jpeg](https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AZo6Op0p831tmXMuTPIPuvA.jpeg)
+
+![https://miro.medium.com/1%2AghBq9UglFBnWl_b4mcEyoA.png](https://miro.medium.com/1%2AghBq9UglFBnWl_b4mcEyoA.png)
+
+**4**
+
+### ✔️ Features:
+
+* Thread-safe (no need for external synchronization)
+* Does **not allow null key or null value**
+* Uses **fine-grained locking / CAS**
+* Better performance than `Hashtable` in concurrent scenarios
+
+### ✔️ Example:
+
+<pre class="overflow-visible! px-0!" data-start="935" data-end="1017"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">Map</span><span><</span><span class="ͼe">Integer</span><span>, </span><span class="ͼe">String</span><span>> </span><span class="ͼe">map</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼ8">new</span><span> </span><span class="ͼe">ConcurrentHashMap</span><span><>();</span><br/><span class="ͼe">map</span><span class="ͼ8">.</span><span class="ͼe">put</span><span>(</span><span class="ͼb">1</span><span>, </span><span class="ͼc">"A"</span><span>);</span></div></div></div></div></div></div></div></div></div></div></div></div></pre>
+
+
+
+# 🔥 When to Use What?
+
+### ✔️ Use ArrayList when:
+
+* Frequent **read operations**
+* Need **fast access by index**
+* Less insert/delete in middle
+
+---
+
+### ✔️ Use LinkedList when:
+
+* Frequent **insert/delete operations**
+* No need for random access
+* Working with queues/deques
+
+## 🔥 Detailed Comparison
+
+
+
+| Feature            | HashMap                | ConcurrentHashMap            |
+| ------------------ | ---------------------- | ---------------------------- |
+| Thread Safety      | ❌ No                  | ✅ Yes                       |
+| Synchronization    | None                   | Internal (bucket-level)      |
+| Performance        | Faster (single thread) | Optimized for multithreading |
+| Null Keys          | ✅ 1 allowed           | ❌ Not allowed               |
+| Null Values        | ✅ Allowed             | ❌ Not allowed               |
+| Locking            | No locking             | Fine-grained locking         |
+| Fail-Fast Iterator | Yes                    | Weakly consistent            |
+
+
+# 🔹 Key Internal Concept
+
+### ✔️ HashMap:
+
+* Entire structure unsafe for concurrent access
+* Multiple threads → race conditions
+
+---
+
+### ✔️ ConcurrentHashMap:
+
+* Java 8+: uses **CAS (Compare-And-Swap) + synchronized blocks**
+* Locks only **specific buckets**, not whole map
+
+👉 This improves scalability
+
+
+
+# 🔹 Key Internal Concept
+
+### ✔️ HashMap:
+
+* Entire structure unsafe for concurrent access
+* Multiple threads → race conditions
+
+---
+
+### ✔️ ConcurrentHashMap:
+
+* Java 8+: uses **CAS (Compare-And-Swap) + synchronized blocks**
+* Locks only **specific buckets**, not whole map
+
+👉 This improves scalability
+
+---
+
+# 🔥 Example Problem (Important)
+
+<pre class="overflow-visible! px-0!" data-start="1826" data-end="1910"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">Map</span><span><</span><span class="ͼe">Integer</span><span>, </span><span class="ͼe">String</span><span>> </span><span class="ͼe">map</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼ8">new</span><span> </span><span class="ͼe">HashMap</span><span><>();</span><br/><br/><span class="ͼ6">// Multiple threads writing</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+❌ May cause:
+
+* Infinite loop during resize
+* Data corruption
+
+---
+
+<pre class="overflow-visible! px-0!" data-start="1983" data-end="2048"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">Map</span><span><</span><span class="ͼe">Integer</span><span>, </span><span class="ͼe">String</span><span>> </span><span class="ͼe">map</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼ8">new</span><span> </span><span class="ͼe">ConcurrentHashMap</span><span><>();</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+✅ Safe:
+
+* Multiple threads can read/write simultaneously
+
+---
+
+# 💡 When to Use What?
+
+### ✔️ Use HashMap:
+
+* Single-threaded apps
+* No concurrency needed
+* Maximum performance
+
+---
+
+### ✔️ Use ConcurrentHashMap:
+
+* Multi-threaded apps
+* High concurrency
+* Thread-safe without blocking entire map
+
+
+
+A **hash collision** happens when **two different keys produce the same hash value** and try to go into the **same bucket** in a hash-based structure like `HashMap`.
+
+---
+
+# 🔹 Simple Definition
+
+👉 **Hash collision = multiple keys mapped to the same index (bucket).**
+
+---
+
+# 🔥 What Actually Happens in Java (HashMap)
+
+## Step-by-step:
+
+1. Key → `hashCode()` generated
+2. Hash → converted to bucket index
+3. If bucket is empty → insert directly
+4. ❗ If bucket already has data → **collision occurs**
+
+---
+
+# 🔹 How Java Handles Collision
+
+## 1. Before Java 8 → Linked List (Chaining)
+
+![https://www.algolist.net/img/hash-table-chaining.png](https://www.algolist.net/img/hash-table-chaining.png)
+
+![https://i.sstatic.net/TXJYs.png](https://images.openai.com/static-rsc-1/Hcq3JC-TCGFHGG13AhFw5KpPI5jX91Pu8yFcBoE7MsZI4QGxTGGZ5G-6rldvlGsMJXmqgRtZCF5f8T4jxWKKt7a9k-dXbeevVTTjXkk1GaVYy7xR_8R5COVuAFHHbDW2Mi2kRV8qTX_K416YbSy-MA)
+
+![https://labuladong.online/images/algo/ds-basic/hash-collision-en.jpeg](https://labuladong.online/images/algo/ds-basic/hash-collision-en.jpeg)
+
+**4**
+
+* Elements stored as a **linked list** in the same bucket
+* New node added to the list
+* Search becomes **O(n)** in worst case
+
+---
+
+## 2. Java 8+ → Tree (Optimization)
+
+![https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AVv-mhn03QMIzVxEZkGpsew.png](https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AVv-mhn03QMIzVxEZkGpsew.png)
+
+![https://miro.medium.com/1%2AjPM0jwnyL_przj93M_u0bQ.png](https://miro.medium.com/1%2AjPM0jwnyL_przj93M_u0bQ.png)
+
+![https://i.sstatic.net/clp27.jpg](https://images.openai.com/static-rsc-1/8IEdz4t-FbYFT3zBquQtOWjrlyau-ob61v_MiGB6vHZwL3eaXEu0pPMA08hNfek38bs-chtSy4pNX-aA323lgdfSeAEaTEs1T-4NYu5gK2eZKmixYYyVIm2sfrp76jtPClYkN7Tqt_dxuFarrE2e2A)
+
+**4**
+
+* If bucket size > **8**, it converts to a **Red-Black Tree**
+* Improves performance
+
+👉 Search becomes **O(log n)** instead of O(n)
+
+---
+
+# 🔹 Example
+
+<pre class="overflow-visible! px-0!" data-start="1009" data-end="1129"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">Map</span><span><</span><span class="ͼe">Integer</span><span>, </span><span class="ͼe">String</span><span>> </span><span class="ͼe">map</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼ8">new</span><span> </span><span class="ͼe">HashMap</span><span><>();</span><br/><br/><span class="ͼe">map</span><span class="ͼ8">.</span><span class="ͼe">put</span><span>(</span><span class="ͼb">1</span><span>, </span><span class="ͼc">"A"</span><span>);</span><br/><span class="ͼe">map</span><span class="ͼ8">.</span><span class="ͼe">put</span><span>(</span><span class="ͼb">17</span><span>, </span><span class="ͼc">"B"</span><span>); </span><span class="ͼ6">// suppose same bucket index</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+👉 If both hash to same index:
+
+* Stored in same bucket
+* Handled via list/tree
+
+---
+
+# 🔥 Key Concepts
+
+### ✔️ equals() matters
+
+Even if hash is same:
+
+<pre class="overflow-visible! px-0!" data-start="1283" data-end="1317"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼ8">if</span><span> (</span><span class="ͼe">key1</span><span class="ͼ8">.</span><span class="ͼe">equals</span><span>(</span><span class="ͼe">key2</span><span>))</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+* If true → value is **replaced**
+* If false → stored separately (collision case)
+
+
+# 🔥 Performance Impact
+
+
+
+| Scenario              | Time Complexity |
+| --------------------- | --------------- |
+| No collision          | O(1)            |
+| With collision (List) | O(n)            |
+| With tree (Java 8+)   | O(log n)        |
+
+
+
+
+## 
+
+## Java 8+ Features (Very Important for 4 yrs)
+
+**Lambda Expressions** in Java (introduced in **Java 8**) are a way to write **anonymous functions**—i.e., functions without a name—mainly used to make code **shorter, cleaner, and more functional**.
+
+---
+
+# 🔹 Simple Definition
+
+👉 **A lambda expression is a concise way to represent a function (method) that can be passed as an argument.**
+
+---
+
+# 🔥 Basic Syntax
+
+<pre class="overflow-visible! px-0!" data-start="366" data-end="404"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span>(</span><span class="ͼe">parameters</span><span>) -> </span><span class="ͼe">expression</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+OR
+
+<pre class="overflow-visible! px-0!" data-start="410" data-end="468"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span>(</span><span class="ͼe">parameters</span><span>) -> {</span><br/><span>    </span><span class="ͼ6">// multiple statements</span><br/><span>}</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+---
+
+# 🔹 Example (Without Lambda)
+
+<pre class="overflow-visible! px-0!" data-start="506" data-end="659"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼ8">interface</span><span> </span><span class="ͼe">Add</span><span> {</span><br/><span>    </span><span class="ͼe">int</span><span> </span><span class="ͼe">sum</span><span>(</span><span class="ͼe">int</span><span> </span><span class="ͼe">a</span><span>, </span><span class="ͼe">int</span><span> </span><span class="ͼe">b</span><span>);</span><br/><span>}</span><br/><br/><span class="ͼe">Add</span><span> </span><span class="ͼe">obj</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼ8">new</span><span> </span><span class="ͼe">Add</span><span>() {</span><br/><span>    </span><span class="ͼ8">public</span><span> </span><span class="ͼe">int</span><span> </span><span class="ͼe">sum</span><span>(</span><span class="ͼe">int</span><span> </span><span class="ͼe">a</span><span>, </span><span class="ͼe">int</span><span> </span><span class="ͼe">b</span><span>) {</span><br/><span>        </span><span class="ͼ8">return</span><span> </span><span class="ͼe">a</span><span> </span><span class="ͼ8">+</span><span> </span><span class="ͼe">b</span><span>;</span><br/><span>    }</span><br/><span>};</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+---
+
+# 🔹 Same Using Lambda
+
+<pre class="overflow-visible! px-0!" data-start="690" data-end="736"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">Add</span><span> </span><span class="ͼe">obj</span><span> </span><span class="ͼ8">=</span><span> (</span><span class="ͼe">a</span><span>, </span><span class="ͼe">b</span><span>) -> </span><span class="ͼe">a</span><span> </span><span class="ͼ8">+</span><span> </span><span class="ͼe">b</span><span>;</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+👉 Much shorter and cleaner
+
+---
+
+# 🔥 Where Lambdas Are Used
+
+## ✔️ Functional Interfaces
+
+A lambda works only with **Functional Interfaces**
+(interfaces with exactly **one abstract method**)
+
+Examples:
+
+* `Runnable`
+* `Callable`
+* `Comparator`
+* `Consumer`, `Supplier`, `Predicate`
+
+---
+
+## ✔️ Example with Runnable
+
+<pre class="overflow-visible! px-0!" data-start="1057" data-end="1152"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">Runnable</span><span> </span><span class="ͼe">r</span><span> </span><span class="ͼ8">=</span><span> () -> </span><span class="ͼe">System</span><span class="ͼ8">.</span><span class="ͼe">out</span><span class="ͼ8">.</span><span class="ͼe">println</span><span>(</span><span class="ͼc">"Running..."</span><span>);</span><br/><span class="ͼ8">new</span><span> </span><span class="ͼe">Thread</span><span>(</span><span class="ͼe">r</span><span>)</span><span class="ͼ8">.</span><span class="ͼe">start</span><span>();</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+---
+
+## ✔️ Example with Collections
+
+<pre class="overflow-visible! px-0!" data-start="1191" data-end="1298"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">List</span><span><</span><span class="ͼe">Integer</span><span>> </span><span class="ͼe">list</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼe">Arrays</span><span class="ͼ8">.</span><span class="ͼe">asList</span><span>(</span><span class="ͼb">1</span><span>, </span><span class="ͼb">2</span><span>, </span><span class="ͼb">3</span><span>);</span><br/><br/><span class="ͼe">list</span><span class="ͼ8">.</span><span class="ͼe">forEach</span><span>(</span><span class="ͼe">n</span><span> -> </span><span class="ͼe">System</span><span class="ͼ8">.</span><span class="ͼe">out</span><span class="ͼ8">.</span><span class="ͼe">println</span><span>(</span><span class="ͼe">n</span><span>));</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+---
+
+# 🔥 Key Features
+
+* Removes **boilerplate code**
+* Enables **functional programming**
+* Improves readability
+* Works with **Streams API**
+* Supports passing behavior as data
+
+---
+
+# 🔹 Types of Lambda Expressions
+
+1. **No parameter**
+
+<pre class="overflow-visible! px-0!" data-start="1540" data-end="1593"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span>() -> </span><span class="ͼe">System</span><span class="ͼ8">.</span><span class="ͼe">out</span><span class="ͼ8">.</span><span class="ͼe">println</span><span>(</span><span class="ͼc">"Hello"</span><span>)</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+2. **Single parameter**
+
+<pre class="overflow-visible! px-0!" data-start="1619" data-end="1649"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">x</span><span> -> </span><span class="ͼe">x</span><span> </span><span class="ͼ8">*</span><span> </span><span class="ͼe">x</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+3. **Multiple parameters**
+
+<pre class="overflow-visible! px-0!" data-start="1678" data-end="1713"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span>(</span><span class="ͼe">a</span><span>, </span><span class="ͼe">b</span><span>) -> </span><span class="ͼe">a</span><span> </span><span class="ͼ8">+</span><span> </span><span class="ͼe">b</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+4. **Block body**
+
+<pre class="overflow-visible! px-0!" data-start="1733" data-end="1803"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span>(</span><span class="ͼe">a</span><span>, </span><span class="ͼe">b</span><span>) -> {</span><br/><span>    </span><span class="ͼe">int</span><span> </span><span class="ͼe">sum</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼe">a</span><span> </span><span class="ͼ8">+</span><span> </span><span class="ͼe">b</span><span>;</span><br/><span>    </span><span class="ͼ8">return</span><span> </span><span class="ͼe">sum</span><span>;</span><br/><span>}</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+---
+
+# 🔥 Real-Life Analogy
+
+👉 Instead of writing a **full function**, you just write the **logic inline** where needed.

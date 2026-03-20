@@ -17,16 +17,12 @@ When the method call is resolved **at compile time**, it is called compile-time 
 
 Same method name but **different parameters** (type, number, or order).
 
-
-
 ### ✔️ Key Points:
 
 * Happens at **compile time**
 * Method Overloading
 * Faster execution
 * No inheritance require
-
-
 
 ## 2. Runtime Polymorphism (Dynamic Binding)
 
@@ -43,7 +39,6 @@ When the method call is resolved **at runtime**, it is called runtime polymorphi
 
 A subclass provides a **specific implementation** of a method already defined in the parent class.
 
-
 ### ✔️ Key Points:
 
 * Happens at **runtime**
@@ -51,9 +46,6 @@ A subclass provides a **specific implementation** of a method already defined in
 * Requires inheritance
 * Uses dynamic method dispatch
 * Slightly slower than compile-time
-*
-
-*
 
 ---
 
