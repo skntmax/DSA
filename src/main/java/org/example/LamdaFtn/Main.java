@@ -10,7 +10,6 @@ package org.example.LamdaFtn;
 //        Callable
 //        Predicate, Consumer, Supplier
 
-
 //  ways 1 - by  lamba ftns
 //  way 2 -  by  annonymous classes
 //  way 3 -  by implementing functional interfaces

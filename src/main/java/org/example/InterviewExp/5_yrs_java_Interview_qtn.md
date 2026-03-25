@@ -348,20 +348,14 @@ list.add("Data " + new Date());
 
 Explain **ClassLoader hierarchy**
 
-
-
-
 ## Difference: ArrayList vs LinkedList
 
 The difference between **ArrayList vs LinkedList** is a classic Java interview topic—mainly about **data structure + performance trade-offs**.
-
-
 
 # 🔥 Core Difference
 
 👉 **ArrayList uses a dynamic array**
 👉 **LinkedList uses a doubly linked list**
-
 
 # 🔹 ArrayList (Dynamic Array)
 
@@ -370,8 +364,6 @@ The difference between **ArrayList vs LinkedList** is a classic Java interview t
 ![https://miro.medium.com/v2/resize%3Afit%3A1200/1%2AO_8Fh87YHCiT6WHBWOkOXg.png](https://miro.medium.com/v2/resize%3Afit%3A1200/1%2AO_8Fh87YHCiT6WHBWOkOXg.png)
 
 ![https://miro.medium.com/1%2A98eJEZTQYVznRIOW2ajE4A.png](https://miro.medium.com/1%2A98eJEZTQYVznRIOW2ajE4A.png)
-
-
 
 ### ✔️ Features:
 
@@ -383,7 +375,6 @@ The difference between **ArrayList vs LinkedList** is a classic Java interview t
 
 <pre class="overflow-visible! px-0!" data-start="473" data-end="559"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">List</span><span><</span><span class="ͼe">Integer</span><span>> </span><span class="ͼe">list</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼ8">new</span><span> </span><span class="ͼe">ArrayList</span><span><>();</span><br/><span class="ͼe">list</span><span class="ͼ8">.</span><span class="ͼe">add</span><span>(</span><span class="ͼb">10</span><span>);</span><br/><span class="ͼe">list</span><span class="ͼ8">.</span><span class="ͼe">get</span><span>(</span><span class="ͼb">0</span><span>); </span><span class="ͼ6">// fast</span></div></div></div></div></div></div></div></div></div></div></div></div></pre>
 
-
 # LinkedList (Doubly Linked List)
 
 ![https://miro.medium.com/v2/da%3Atrue/resize%3Afit%3A1200/1%2AlCPgbrm9f7MQ75hvGV5p8Q.gif](https://miro.medium.com/v2/da%3Atrue/resize%3Afit%3A1200/1%2AlCPgbrm9f7MQ75hvGV5p8Q.gif)
@@ -391,8 +382,6 @@ The difference between **ArrayList vs LinkedList** is a classic Java interview t
 ![https://miro.medium.com/v2/resize%3Afit%3A1400/1%2A1gEMjHnYbfHSfjHp5jthhQ.png](https://miro.medium.com/v2/resize%3Afit%3A1400/1%2A1gEMjHnYbfHSfjHp5jthhQ.png)
 
 ![https://codingnomads.com/images/17508d9d-3e8a-4e83-dde7-5d20ead28500/public](https://codingnomads.com/images/17508d9d-3e8a-4e83-dde7-5d20ead28500/public)
-
-
 
 ### ✔️ Features:
 
@@ -404,10 +393,7 @@ The difference between **ArrayList vs LinkedList** is a classic Java interview t
 
 <pre class="overflow-visible! px-0!" data-start="779" data-end="845"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">List</span><span><</span><span class="ͼe">Integer</span><span>> </span><span class="ͼe">list</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼ8">new</span><span> </span><span class="ͼe">LinkedList</span><span><>();</span><br/><span class="ͼe">list</span><span class="ͼ8">.</span><span class="ͼe">add</span><span>(</span><span class="ͼb">10</span><span>);</span></div></div></div></div></div></div></div></div></div></div></div></div></pre>
 
-
-
 🔥 Detailed Comparison
-
 
 
 | Feature            | ArrayList              | LinkedList            |
@@ -420,9 +406,7 @@ The difference between **ArrayList vs LinkedList** is a classic Java interview t
 | Cache Friendly     | Yes                    | No                    |
 | Traversal          | Faster                 | Slower                |
 
-
 🔹 Time Complexity
-
 
 
 | Operation     | ArrayList | LinkedList |
@@ -431,9 +415,6 @@ The difference between **ArrayList vs LinkedList** is a classic Java interview t
 | Insert End    | O(1)\*    | O(1)       |
 | Insert Middle | O(n)      | O(1)\*     |
 | Delete        | O(n)      | O(1)\*     |
-
-
-
 
 # 🔥 Core Difference
 
@@ -486,8 +467,6 @@ The difference between **ArrayList vs LinkedList** is a classic Java interview t
 
 <pre class="overflow-visible! px-0!" data-start="935" data-end="1017"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">Map</span><span><</span><span class="ͼe">Integer</span><span>, </span><span class="ͼe">String</span><span>> </span><span class="ͼe">map</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼ8">new</span><span> </span><span class="ͼe">ConcurrentHashMap</span><span><>();</span><br/><span class="ͼe">map</span><span class="ͼ8">.</span><span class="ͼe">put</span><span>(</span><span class="ͼb">1</span><span>, </span><span class="ͼc">"A"</span><span>);</span></div></div></div></div></div></div></div></div></div></div></div></div></pre>
 
-
-
 # 🔥 When to Use What?
 
 ### ✔️ Use ArrayList when:
@@ -507,7 +486,6 @@ The difference between **ArrayList vs LinkedList** is a classic Java interview t
 ## 🔥 Detailed Comparison
 
 
-
 | Feature            | HashMap                | ConcurrentHashMap            |
 | ------------------ | ---------------------- | ---------------------------- |
 | Thread Safety      | ❌ No                  | ✅ Yes                       |
@@ -517,7 +495,6 @@ The difference between **ArrayList vs LinkedList** is a classic Java interview t
 | Null Values        | ✅ Allowed             | ❌ Not allowed               |
 | Locking            | No locking             | Fine-grained locking         |
 | Fail-Fast Iterator | Yes                    | Weakly consistent            |
-
 
 # 🔹 Key Internal Concept
 
@@ -534,8 +511,6 @@ The difference between **ArrayList vs LinkedList** is a classic Java interview t
 * Locks only **specific buckets**, not whole map
 
 👉 This improves scalability
-
-
 
 # 🔹 Key Internal Concept
 
@@ -589,8 +564,6 @@ The difference between **ArrayList vs LinkedList** is a classic Java interview t
 * Multi-threaded apps
 * High concurrency
 * Thread-safe without blocking entire map
-
-
 
 A **hash collision** happens when **two different keys produce the same hash value** and try to go into the **same bucket** in a hash-based structure like `HashMap`.
 
@@ -670,9 +643,7 @@ Even if hash is same:
 * If true → value is **replaced**
 * If false → stored separately (collision case)
 
-
 # 🔥 Performance Impact
-
 
 
 | Scenario              | Time Complexity |
@@ -680,9 +651,6 @@ Even if hash is same:
 | No collision          | O(1)            |
 | With collision (List) | O(n)            |
 | With tree (Java 8+)   | O(log n)        |
-
-
-
 
 ## 
 
@@ -783,3 +751,288 @@ Examples:
 # 🔥 Real-Life Analogy
 
 👉 Instead of writing a **full function**, you just write the **logic inline** where needed.
+
+qtn :  supplier , function, predicate , PECS, Completable future and future, fork join pool vs parallel stream
+
+
+
+
+# 🔥 What is an Interceptor?
+
+👉 A **Spring Interceptor** is used to:
+
+* Log requests
+* Authenticate users
+* Modify request/response
+* Handle cross-cutting concerns
+
+---
+
+# 🔹 1. Create Interceptor Class
+
+<pre class="overflow-visible! px-0!" data-start="399" data-end="1377"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼ8">import</span><span> </span><span class="ͼe">jakarta</span><span class="ͼ8">.</span><span class="ͼe">servlet</span><span class="ͼ8">.</span><span class="ͼe">http</span><span class="ͼ8">.</span><span class="ͼe">HttpServletRequest</span><span>;</span><br/><span class="ͼ8">import</span><span> </span><span class="ͼe">jakarta</span><span class="ͼ8">.</span><span class="ͼe">servlet</span><span class="ͼ8">.</span><span class="ͼe">http</span><span class="ͼ8">.</span><span class="ͼe">HttpServletResponse</span><span>;</span><br/><span class="ͼ8">import</span><span> </span><span class="ͼe">org</span><span class="ͼ8">.</span><span class="ͼe">springframework</span><span class="ͼ8">.</span><span class="ͼe">web</span><span class="ͼ8">.</span><span class="ͼe">servlet</span><span class="ͼ8">.</span><span class="ͼe">HandlerInterceptor</span><span>;</span><br/><br/><span class="ͼ8">public</span><span> </span><span class="ͼ8">class</span><span> </span><span class="ͼe">MyInterceptor</span><span> </span><span class="ͼ8">implements</span><span> </span><span class="ͼe">HandlerInterceptor</span><span> {</span><br/><br/><span>    @</span><span class="ͼe">Override</span><br/><span>    </span><span class="ͼ8">public</span><span> </span><span class="ͼe">boolean</span><span> </span><span class="ͼe">preHandle</span><span>(</span><span class="ͼe">HttpServletRequest</span><span> </span><span class="ͼe">request</span><span>, </span><span class="ͼe">HttpServletResponse</span><span> </span><span class="ͼe">response</span><span>, </span><span class="ͼe">Object</span><span> </span><span class="ͼe">handler</span><span>) {</span><br/><span>        </span><span class="ͼe">System</span><span class="ͼ8">.</span><span class="ͼe">out</span><span class="ͼ8">.</span><span class="ͼe">println</span><span>(</span><span class="ͼc">"Before Controller: "</span><span> </span><span class="ͼ8">+</span><span> </span><span class="ͼe">request</span><span class="ͼ8">.</span><span class="ͼe">getRequestURI</span><span>());</span><br/><span>        </span><span class="ͼ8">return</span><span> </span><span class="ͼb">true</span><span>; </span><span class="ͼ6">// return false to block request</span><br/><span>    }</span><br/><br/><span>    @</span><span class="ͼe">Override</span><br/><span>    </span><span class="ͼ8">public</span><span> </span><span class="ͼ8">void</span><span> </span><span class="ͼe">postHandle</span><span>(</span><span class="ͼe">HttpServletRequest</span><span> </span><span class="ͼe">request</span><span>, </span><span class="ͼe">HttpServletResponse</span><span> </span><span class="ͼe">response</span><span>, </span><br/><span>                           </span><span class="ͼe">Object</span><span> </span><span class="ͼe">handler</span><span>, </span><span class="ͼe">org</span><span class="ͼ8">.</span><span class="ͼe">springframework</span><span class="ͼ8">.</span><span class="ͼe">web</span><span class="ͼ8">.</span><span class="ͼe">servlet</span><span class="ͼ8">.</span><span class="ͼe">ModelAndView</span><span> </span><span class="ͼe">modelAndView</span><span>) {</span><br/><span>        </span><span class="ͼe">System</span><span class="ͼ8">.</span><span class="ͼe">out</span><span class="ͼ8">.</span><span class="ͼe">println</span><span>(</span><span class="ͼc">"After Controller"</span><span>);</span><br/><span>    }</span><br/><br/><span>    @</span><span class="ͼe">Override</span><br/><span>    </span><span class="ͼ8">public</span><span> </span><span class="ͼ8">void</span><span> </span><span class="ͼe">afterCompletion</span><span>(</span><span class="ͼe">HttpServletRequest</span><span> </span><span class="ͼe">request</span><span>, </span><span class="ͼe">HttpServletResponse</span><span> </span><span class="ͼe">response</span><span>, </span><br/><span>                               </span><span class="ͼe">Object</span><span> </span><span class="ͼe">handler</span><span>, </span><span class="ͼe">Exception</span><span> </span><span class="ͼe">ex</span><span>) {</span><br/><span>        </span><span class="ͼe">System</span><span class="ͼ8">.</span><span class="ͼe">out</span><span class="ͼ8">.</span><span class="ͼe">println</span><span>(</span><span class="ͼc">"After Completion"</span><span>);</span><br/><span>    }</span><br/><span>}</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+---
+
+# 🔹 2. Register Interceptor (Global)
+
+👉 Create a config class:
+
+<pre class="overflow-visible! px-0!" data-start="1450" data-end="1961"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼ8">import</span><span> </span><span class="ͼe">org</span><span class="ͼ8">.</span><span class="ͼe">springframework</span><span class="ͼ8">.</span><span class="ͼe">context</span><span class="ͼ8">.</span><span class="ͼe">annotation</span><span class="ͼ8">.</span><span class="ͼe">Configuration</span><span>;</span><br/><span class="ͼ8">import</span><span> </span><span class="ͼe">org</span><span class="ͼ8">.</span><span class="ͼe">springframework</span><span class="ͼ8">.</span><span class="ͼe">web</span><span class="ͼ8">.</span><span class="ͼe">servlet</span><span class="ͼ8">.</span><span class="ͼe">config</span><span class="ͼ8">.</span><span class="ͼe">annotation</span><span class="ͼ8">.</span><span class="ͼe">InterceptorRegistry</span><span>;</span><br/><span class="ͼ8">import</span><span> </span><span class="ͼe">org</span><span class="ͼ8">.</span><span class="ͼe">springframework</span><span class="ͼ8">.</span><span class="ͼe">web</span><span class="ͼ8">.</span><span class="ͼe">servlet</span><span class="ͼ8">.</span><span class="ͼe">config</span><span class="ͼ8">.</span><span class="ͼe">annotation</span><span class="ͼ8">.</span><span class="ͼe">WebMvcConfigurer</span><span>;</span><br/><br/><span>@</span><span class="ͼe">Configuration</span><br/><span class="ͼ8">public</span><span> </span><span class="ͼ8">class</span><span> </span><span class="ͼe">WebConfig</span><span> </span><span class="ͼ8">implements</span><span> </span><span class="ͼe">WebMvcConfigurer</span><span> {</span><br/><br/><span>    @</span><span class="ͼe">Override</span><br/><span>    </span><span class="ͼ8">public</span><span> </span><span class="ͼ8">void</span><span> </span><span class="ͼe">addInterceptors</span><span>(</span><span class="ͼe">InterceptorRegistry</span><span> </span><span class="ͼe">registry</span><span>) {</span><br/><span>        </span><span class="ͼe">registry</span><span class="ͼ8">.</span><span class="ͼe">addInterceptor</span><span>(</span><span class="ͼ8">new</span><span> </span><span class="ͼe">MyInterceptor</span><span>())</span><br/><span>                </span><span class="ͼ8">.</span><span class="ͼe">addPathPatterns</span><span>(</span><span class="ͼc">"/**"</span><span>); </span><span class="ͼ6">// apply to all endpoints</span><br/><span>    }</span><br/><span>}</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+---
+
+# 🔥 How It Works (Flow)
+
+![https://miro.medium.com/1%2Af2pmYvhgRC6vdVQGkeCz8g.png](https://miro.medium.com/1%2Af2pmYvhgRC6vdVQGkeCz8g.png)
+
+![https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/images/mvc.png](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/images/mvc.png)
+
+![https://miro.medium.com/1%2ApzO7WFRRL9Cnjce8JLChvg.png](https://miro.medium.com/1%2ApzO7WFRRL9Cnjce8JLChvg.png)
+
+**4**
+
+<pre class="overflow-visible! px-0!" data-start="2036" data-end="2217"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute end-1.5 top-1 z-2 md:end-2 md:top-1"></div><div class="pe-11 pt-3"><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span>Client Request</span><br/><span>      ↓</span><br/><span>Interceptor (preHandle)</span><br/><span>      ↓</span><br/><span>Controller</span><br/><span>      ↓</span><br/><span>Interceptor (postHandle)</span><br/><span>      ↓</span><br/><span>Response Sent</span><br/><span>      ↓</span><br/><span>Interceptor (afterCompletion)</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+---
+
+# 🔹 Key Methods Explained
+
+
+| Method              | When It Runs      | Purpose                 |
+| ------------------- | ----------------- | ----------------------- |
+| `preHandle()`       | Before controller | Authentication, logging |
+| `postHandle()`      | After controller  | Modify response         |
+| `afterCompletion()` | After response    | Cleanup, logging        |
+
+---
+
+# 🔥 Important Notes
+
+✔️ `preHandle()` must return `true` to continue request
+✔️ Works only for **Spring MVC (not WebFlux)**
+✔️ Runs for **every request globally**
+✔️ Can exclude paths if needed
+
+---
+
+# 🔹 Exclude Specific URLs
+
+<pre class="overflow-visible! px-0!" data-start="2744" data-end="2895"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">registry</span><span class="ͼ8">.</span><span class="ͼe">addInterceptor</span><span>(</span><span class="ͼ8">new</span><span> </span><span class="ͼe">MyInterceptor</span><span>())</span><br/><span>        </span><span class="ͼ8">.</span><span class="ͼe">addPathPatterns</span><span>(</span><span class="ͼc">"/**"</span><span>)</span><br/><span>        </span><span class="ͼ8">.</span><span class="ͼe">excludePathPatterns</span><span>(</span><span class="ͼc">"/login"</span><span>, </span><span class="ͼc">"/register"</span><span>);</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+---
+
+# 💡 Interceptor vs Filter (Interview)
+
+
+| Feature | Interceptor      | Filter          |
+| ------- | ---------------- | --------------- |
+| Level   | Spring MVC       | Servlet         |
+| Access  | Controller-aware | Not aware       |
+| Use     | Business logic   | Low-level tasks |
+
+
+
+
+# 🔥 What is an Interceptor?
+
+👉 A **Spring Interceptor** is used to:
+
+* Log requests
+* Authenticate users
+* Modify request/response
+* Handle cross-cutting concerns
+
+---
+
+# 🔹 1. Create Interceptor Class
+
+<pre class="overflow-visible! px-0!" data-start="399" data-end="1377"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼ8">import</span><span> </span><span class="ͼe">jakarta</span><span class="ͼ8">.</span><span class="ͼe">servlet</span><span class="ͼ8">.</span><span class="ͼe">http</span><span class="ͼ8">.</span><span class="ͼe">HttpServletRequest</span><span>;</span><br/><span class="ͼ8">import</span><span> </span><span class="ͼe">jakarta</span><span class="ͼ8">.</span><span class="ͼe">servlet</span><span class="ͼ8">.</span><span class="ͼe">http</span><span class="ͼ8">.</span><span class="ͼe">HttpServletResponse</span><span>;</span><br/><span class="ͼ8">import</span><span> </span><span class="ͼe">org</span><span class="ͼ8">.</span><span class="ͼe">springframework</span><span class="ͼ8">.</span><span class="ͼe">web</span><span class="ͼ8">.</span><span class="ͼe">servlet</span><span class="ͼ8">.</span><span class="ͼe">HandlerInterceptor</span><span>;</span><br/><br/><span class="ͼ8">public</span><span> </span><span class="ͼ8">class</span><span> </span><span class="ͼe">MyInterceptor</span><span> </span><span class="ͼ8">implements</span><span> </span><span class="ͼe">HandlerInterceptor</span><span> {</span><br/><br/><span>    @</span><span class="ͼe">Override</span><br/><span>    </span><span class="ͼ8">public</span><span> </span><span class="ͼe">boolean</span><span> </span><span class="ͼe">preHandle</span><span>(</span><span class="ͼe">HttpServletRequest</span><span> </span><span class="ͼe">request</span><span>, </span><span class="ͼe">HttpServletResponse</span><span> </span><span class="ͼe">response</span><span>, </span><span class="ͼe">Object</span><span> </span><span class="ͼe">handler</span><span>) {</span><br/><span>        </span><span class="ͼe">System</span><span class="ͼ8">.</span><span class="ͼe">out</span><span class="ͼ8">.</span><span class="ͼe">println</span><span>(</span><span class="ͼc">"Before Controller: "</span><span> </span><span class="ͼ8">+</span><span> </span><span class="ͼe">request</span><span class="ͼ8">.</span><span class="ͼe">getRequestURI</span><span>());</span><br/><span>        </span><span class="ͼ8">return</span><span> </span><span class="ͼb">true</span><span>; </span><span class="ͼ6">// return false to block request</span><br/><span>    }</span><br/><br/><span>    @</span><span class="ͼe">Override</span><br/><span>    </span><span class="ͼ8">public</span><span> </span><span class="ͼ8">void</span><span> </span><span class="ͼe">postHandle</span><span>(</span><span class="ͼe">HttpServletRequest</span><span> </span><span class="ͼe">request</span><span>, </span><span class="ͼe">HttpServletResponse</span><span> </span><span class="ͼe">response</span><span>, </span><br/><span>                           </span><span class="ͼe">Object</span><span> </span><span class="ͼe">handler</span><span>, </span><span class="ͼe">org</span><span class="ͼ8">.</span><span class="ͼe">springframework</span><span class="ͼ8">.</span><span class="ͼe">web</span><span class="ͼ8">.</span><span class="ͼe">servlet</span><span class="ͼ8">.</span><span class="ͼe">ModelAndView</span><span> </span><span class="ͼe">modelAndView</span><span>) {</span><br/><span>        </span><span class="ͼe">System</span><span class="ͼ8">.</span><span class="ͼe">out</span><span class="ͼ8">.</span><span class="ͼe">println</span><span>(</span><span class="ͼc">"After Controller"</span><span>);</span><br/><span>    }</span><br/><br/><span>    @</span><span class="ͼe">Override</span><br/><span>    </span><span class="ͼ8">public</span><span> </span><span class="ͼ8">void</span><span> </span><span class="ͼe">afterCompletion</span><span>(</span><span class="ͼe">HttpServletRequest</span><span> </span><span class="ͼe">request</span><span>, </span><span class="ͼe">HttpServletResponse</span><span> </span><span class="ͼe">response</span><span>, </span><br/><span>                               </span><span class="ͼe">Object</span><span> </span><span class="ͼe">handler</span><span>, </span><span class="ͼe">Exception</span><span> </span><span class="ͼe">ex</span><span>) {</span><br/><span>        </span><span class="ͼe">System</span><span class="ͼ8">.</span><span class="ͼe">out</span><span class="ͼ8">.</span><span class="ͼe">println</span><span>(</span><span class="ͼc">"After Completion"</span><span>);</span><br/><span>    }</span><br/><span>}</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+---
+
+# 🔹 2. Register Interceptor (Global)
+
+👉 Create a config class:
+
+<pre class="overflow-visible! px-0!" data-start="1450" data-end="1961"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼ8">import</span><span> </span><span class="ͼe">org</span><span class="ͼ8">.</span><span class="ͼe">springframework</span><span class="ͼ8">.</span><span class="ͼe">context</span><span class="ͼ8">.</span><span class="ͼe">annotation</span><span class="ͼ8">.</span><span class="ͼe">Configuration</span><span>;</span><br/><span class="ͼ8">import</span><span> </span><span class="ͼe">org</span><span class="ͼ8">.</span><span class="ͼe">springframework</span><span class="ͼ8">.</span><span class="ͼe">web</span><span class="ͼ8">.</span><span class="ͼe">servlet</span><span class="ͼ8">.</span><span class="ͼe">config</span><span class="ͼ8">.</span><span class="ͼe">annotation</span><span class="ͼ8">.</span><span class="ͼe">InterceptorRegistry</span><span>;</span><br/><span class="ͼ8">import</span><span> </span><span class="ͼe">org</span><span class="ͼ8">.</span><span class="ͼe">springframework</span><span class="ͼ8">.</span><span class="ͼe">web</span><span class="ͼ8">.</span><span class="ͼe">servlet</span><span class="ͼ8">.</span><span class="ͼe">config</span><span class="ͼ8">.</span><span class="ͼe">annotation</span><span class="ͼ8">.</span><span class="ͼe">WebMvcConfigurer</span><span>;</span><br/><br/><span>@</span><span class="ͼe">Configuration</span><br/><span class="ͼ8">public</span><span> </span><span class="ͼ8">class</span><span> </span><span class="ͼe">WebConfig</span><span> </span><span class="ͼ8">implements</span><span> </span><span class="ͼe">WebMvcConfigurer</span><span> {</span><br/><br/><span>    @</span><span class="ͼe">Override</span><br/><span>    </span><span class="ͼ8">public</span><span> </span><span class="ͼ8">void</span><span> </span><span class="ͼe">addInterceptors</span><span>(</span><span class="ͼe">InterceptorRegistry</span><span> </span><span class="ͼe">registry</span><span>) {</span><br/><span>        </span><span class="ͼe">registry</span><span class="ͼ8">.</span><span class="ͼe">addInterceptor</span><span>(</span><span class="ͼ8">new</span><span> </span><span class="ͼe">MyInterceptor</span><span>())</span><br/><span>                </span><span class="ͼ8">.</span><span class="ͼe">addPathPatterns</span><span>(</span><span class="ͼc">"/**"</span><span>); </span><span class="ͼ6">// apply to all endpoints</span><br/><span>    }</span><br/><span>}</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+---
+
+# 🔥 How It Works (Flow)
+
+![https://miro.medium.com/1%2Af2pmYvhgRC6vdVQGkeCz8g.png](https://miro.medium.com/1%2Af2pmYvhgRC6vdVQGkeCz8g.png)
+
+![https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/images/mvc.png](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/images/mvc.png)
+
+![https://miro.medium.com/1%2ApzO7WFRRL9Cnjce8JLChvg.png](https://miro.medium.com/1%2ApzO7WFRRL9Cnjce8JLChvg.png)
+
+**4**
+
+<pre class="overflow-visible! px-0!" data-start="2036" data-end="2217"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute end-1.5 top-1 z-2 md:end-2 md:top-1"></div><div class="pe-11 pt-3"><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span>Client Request</span><br/><span>      ↓</span><br/><span>Interceptor (preHandle)</span><br/><span>      ↓</span><br/><span>Controller</span><br/><span>      ↓</span><br/><span>Interceptor (postHandle)</span><br/><span>      ↓</span><br/><span>Response Sent</span><br/><span>      ↓</span><br/><span>Interceptor (afterCompletion)</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+---
+
+# 🔹 Key Methods Explained
+
+
+| Method              | When It Runs      | Purpose                 |
+| ------------------- | ----------------- | ----------------------- |
+| `preHandle()`       | Before controller | Authentication, logging |
+| `postHandle()`      | After controller  | Modify response         |
+| `afterCompletion()` | After response    | Cleanup, logging        |
+
+---
+
+# 🔥 Important Notes
+
+✔️ `preHandle()` must return `true` to continue request
+✔️ Works only for **Spring MVC (not WebFlux)**
+✔️ Runs for **every request globally**
+✔️ Can exclude paths if needed
+
+---
+
+# 🔹 Exclude Specific URLs
+
+<pre class="overflow-visible! px-0!" data-start="2744" data-end="2895"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">registry</span><span class="ͼ8">.</span><span class="ͼe">addInterceptor</span><span>(</span><span class="ͼ8">new</span><span> </span><span class="ͼe">MyInterceptor</span><span>())</span><br/><span>        </span><span class="ͼ8">.</span><span class="ͼe">addPathPatterns</span><span>(</span><span class="ͼc">"/**"</span><span>)</span><br/><span>        </span><span class="ͼ8">.</span><span class="ͼe">excludePathPatterns</span><span>(</span><span class="ͼc">"/login"</span><span>, </span><span class="ͼc">"/register"</span><span>);</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+---
+
+# 💡 Interceptor vs Filter (Interview)
+
+
+| Feature | Interceptor      | Filter                            |
+| ------- | ---------------- | --------------------------------- |
+| Level   | Spring MVC       | Servlet                           |
+| Access  | Controller-aware | Not aware                         |
+| Use     | Business logic   | Low-level tasks<br /><br /><br /> |
+
+
+
+
+
+What is `String`?
+
+### ✔️ Description:
+
+👉 `String` is a **class in Java used to store text (sequence of characters)**
+
+---
+
+### ⚙️ Key Property:
+
+👉 **Immutable (cannot be changed once created)**
+
+---
+
+### ✔️ Example:
+
+<pre class="overflow-visible! px-0!" data-start="324" data-end="381"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">String</span><span> </span><span class="ͼe">s</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼc">"Hello"</span><span>;</span><br/><span class="ͼe">s</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼe">s</span><span> </span><span class="ͼ8">+</span><span> </span><span class="ͼc">" World"</span><span>;</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+👉 What actually happens:
+
+<pre class="overflow-visible! px-0!" data-start="409" data-end="526"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute end-1.5 top-1 z-2 md:end-2 md:top-1"></div><div class="pe-11 pt-3"><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span>1. "Hello" → object created</span><br/><span>2. "Hello World" → new object created</span><br/><span>3. Old object remains in memory</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+❗ This creates **multiple objects → memory overhead**
+
+---
+
+# 🔥 String Memory (String Pool)
+
+![https://journaldev.nyc3.cdn.digitaloceanspaces.com/2012/11/String-Pool-Java1-450x249.png](https://journaldev.nyc3.cdn.digitaloceanspaces.com/2012/11/String-Pool-Java1-450x249.png)
+
+![https://miro.medium.com/0%2AW_v_rE7CzHeF4rt7](https://miro.medium.com/0%2AW_v_rE7CzHeF4rt7)
+
+![https://miro.medium.com/1%2AueeD5dqG9SSogM60TFPAOg.jpeg](https://miro.medium.com/1%2AueeD5dqG9SSogM60TFPAOg.jpeg)
+
+👉 Java uses **String Constant Pool** to optimize memory
+
+---
+
+# 🔥 2. What is `StringBuilder`?
+
+### ✔️ Description:
+
+👉 `StringBuilder` is a **mutable class used to modify strings without creating new objects**
+
+---
+
+### ⚙️ Key Property:
+
+👉 **Mutable (can be changed)**
+
+---
+
+### ✔️ Example:
+
+<pre class="overflow-visible! px-0!" data-start="956" data-end="1044"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼe">StringBuilder</span><span> </span><span class="ͼe">sb</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼ8">new</span><span> </span><span class="ͼe">StringBuilder</span><span>(</span><span class="ͼc">"Hello"</span><span>);</span><br/><span class="ͼe">sb</span><span class="ͼ8">.</span><span class="ͼe">append</span><span>(</span><span class="ͼc">" World"</span><span>);</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+👉 Same object is modified → no extra objects
+
+---
+
+# 🔥 StringBuilder Working
+
+![https://ik.imagekit.io/upgrad1/abroad-images/imageCompo/images/__visual_selection_2025_06_09T162309_458NT7D0P.png?pr-true=](https://ik.imagekit.io/upgrad1/abroad-images/imageCompo/images/__visual_selection_2025_06_09T162309_458NT7D0P.png?pr-true=)
+
+![https://miro.medium.com/v2/resize%3Afit%3A1400/1%2ASA-zWYQaxEvzhIRPDsg3IQ.jpeg](https://miro.medium.com/v2/resize%3Afit%3A1400/1%2ASA-zWYQaxEvzhIRPDsg3IQ.jpeg)
+
+![https://ik.imagekit.io/upgrad1/abroad-images/imageCompo/images/r5SK8YAP.png?pr-true=](https://ik.imagekit.io/upgrad1/abroad-images/imageCompo/images/r5SK8YAP.png?pr-true=)
+
+**4**
+
+---
+
+# 🔥 Key Differences
+
+
+| Feature       | String             | StringBuilder          |
+| ------------- | ------------------ | ---------------------- |
+| Mutability    | ❌ Immutable       | ✅ Mutable             |
+| Performance   | Slow (new objects) | Fast (same object)     |
+| Memory        | More usage         | Less usage             |
+| Thread Safety | Safe (immutable)   | Not thread-safe        |
+| Use Case      | Fixed text         | Frequent modifications |
+
+---
+
+# 🔥 Example Comparison
+
+<pre class="overflow-visible! px-0!" data-start="1540" data-end="1613"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼ6">// String</span><br/><span class="ͼe">String</span><span> </span><span class="ͼe">s</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼc">"A"</span><span>;</span><br/><span class="ͼe">s</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼe">s</span><span> </span><span class="ͼ8">+</span><span> </span><span class="ͼc">"B"</span><span>;</span><br/><span class="ͼe">s</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼe">s</span><span> </span><span class="ͼ8">+</span><span> </span><span class="ͼc">"C"</span><span>;</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+👉 Creates 3 objects ❌
+
+---
+
+<pre class="overflow-visible! px-0!" data-start="1644" data-end="1753"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span class="ͼ6">// StringBuilder</span><br/><span class="ͼe">StringBuilder</span><span> </span><span class="ͼe">sb</span><span> </span><span class="ͼ8">=</span><span> </span><span class="ͼ8">new</span><span> </span><span class="ͼe">StringBuilder</span><span>(</span><span class="ͼc">"A"</span><span>);</span><br/><span class="ͼe">sb</span><span class="ͼ8">.</span><span class="ͼe">append</span><span>(</span><span class="ͼc">"B"</span><span>)</span><span class="ͼ8">.</span><span class="ͼe">append</span><span>(</span><span class="ͼc">"C"</span><span>);</span></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+👉 Uses 1 object ✅
+
+---
+
+# 💡 When to Use What?
+
+### ✔️ Use String:
+
+* When value **does not change**
+* Constants, configs
+
+---
+
+### ✔️ Use StringBuilder:
+
+* Frequent **modifications**
+* Loops, concatenation-heavy logic
+
+---
+
+# 🔥 Bonus (Interview Trap)
+
+👉 `StringBuffer` vs `StringBuilder`
+
+
+| Feature       | StringBuilder | StringBuffer          |
+| ------------- | ------------- | --------------------- |
+| Thread Safety | ❌ No         | ✅ Yes (synchronized) |
+| Performance   | Faster        | Slower                |
