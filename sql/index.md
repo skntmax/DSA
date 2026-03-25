@@ -332,7 +332,6 @@ ORDER BY department, salary DESC;
 ```
 
 ---
-
 This file now includes:
 ✅ All PostgreSQL topics (basic → advanced)  
 ✅ Examples for EVERY section  
