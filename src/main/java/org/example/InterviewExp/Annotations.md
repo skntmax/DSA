@@ -74,7 +74,7 @@ Converts JSON → Java object
    🔥 7. @PathVariable / @RequestParam
    ✔️ Description:
 
-Extract data from URL
+Extract data from URL[springboot_basic_to_advance_interview_questions.md](springboot_basic_to_advance_interview_questions.md)
 
 ⚙️ Working:
 @PathVariable → from URL path

@@ -986,7 +986,6 @@ What is `String`?
 
 # 🔥 Key Differences
 
-
 | Feature       | String             | StringBuilder          |
 | ------------- | ------------------ | ---------------------- |
 | Mutability    | ❌ Immutable       | ✅ Mutable             |
@@ -1036,3 +1035,131 @@ What is `String`?
 | ------------- | ------------- | --------------------- |
 | Thread Safety | ❌ No         | ✅ Yes (synchronized) |
 | Performance   | Faster        | Slower                |
+
+
+## Final keyword in java 
+
+# 🔒 final Keyword in Java
+
+The `final` keyword in Java is used to **restrict modification**.
+
+It can be applied to:
+- Variables
+- Methods
+- Classes
+
+---
+
+## 🔹 1. final Variable
+
+### ✅ Meaning:
+Value cannot be changed once assigned
+
+### 📌 Example:
+```java
+final int x = 10;
+x = 20; // ❌ Error
+
+💡 Notes:
+Must be initialized once
+Can be initialized later (only once)
+
+final int x;
+x = 10; // ✅ allowed
+
+``` 
+
+##  2. final Method
+✅ Meaning:
+
+Method cannot be overridden in child class
+
+📌 Example:
+
+
+``` 
+class Parent {
+    final void show() {
+        System.out.println("Hello");
+    }
+}
+
+class Child extends Parent {
+    void show() { // ❌ Error
+    }
+}
+```
+
+
+## final Class 
+✅ Meaning:
+
+Class cannot be inherited
+
+📌 Example:
+
+``` 
+final class A {
+}
+
+// ❌ Error
+class B extends A {
+}
+```
+
+
+## . final with Objects 
+
+final List<String> list = new ArrayList<>();
+list.add("Hello"); // ✅ allowed
+list = new ArrayList<>(); // ❌ not allowed
+
+💡 Meaning:
+Reference cannot change
+Object can still be modified
+
+# 🔹 5. final vs finally vs finalize
+| Keyword  | Meaning                              |
+| -------- | ------------------------------------ |
+| final    | Restriction keyword                  |
+| finally  | Block in try-catch (always executes) |
+| finalize | Method called by GC (deprecated)     |
+
+
+##  6. Real-world Usage 
+Constants (final static)
+Immutable classes
+Prevent method overriding
+Security-sensitive logic
+
+
+## 7. Interview Summary 
+final variable → value cannot change
+final method → cannot override
+final class → cannot inherit
+final object → reference fixed, object mutable
+
+
+## 8. Example (Combined) 
+final class User {
+
+    final int id;
+
+    User(int id) {
+        this.id = id;
+    }
+
+    final void display() {
+        System.out.println(id);
+    }
+}
+
+
+
+## ✅ Conclusion
+
+final helps in:
+
+Writing secure
+Immutable
+predictable code 
