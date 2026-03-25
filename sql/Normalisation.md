@@ -145,3 +145,18 @@ StudentID → DeptName (indirect)
 ---
 
 ## Converted
+
+Students : 
+| StudentID | DeptID |
+| --------- | ------ |
+| 1         | D1     |
+| 2         | D2     |
+
+
+department : 
+| DeptID | DeptName | HOD        |
+| ------ | -------- | ---------- |
+| D1     | Computer | Dr. Sharma |
+| D2     | Mech     | Dr. Verma  |
+
+
