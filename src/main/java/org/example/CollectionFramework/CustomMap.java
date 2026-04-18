@@ -75,7 +75,6 @@ public class CustomMap {
         System.out.println("\nIterator Example");
 
         Iterator<String> it = l.iterator();
-
         while (it.hasNext()) {
             System.out.println(it.next());
         }

@@ -36,9 +36,6 @@ public class Students {
 
         System.out.println(list.stream().filter(e->  e.classNumber.equals(12)));
         list.add(s1);
-
-
-
     }
 
 }

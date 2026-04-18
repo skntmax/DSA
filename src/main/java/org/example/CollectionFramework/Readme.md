@@ -35,6 +35,20 @@ Manual resizing logic
 
 Map  (NOT part of Collection interface)
 
+                   Map
+        ┌──────────┼──────────┐
+        │          │          │
+     HashMap   LinkedHashMap  Hashtable
+        │
+    TreeMap
+
+🔥 Key Points (Interview Gold)
+✅ Root Interfaces
+Iterable → top level
+Collection → main interface
+
+
+
 3️⃣ Collection Interface
 import java.util.*;
 

@@ -49,6 +49,7 @@ class ThreadExample extends  Thread{
          t2.start(); // s
          t2.join(); // make sure after thread completion , main class  executes
 
+
          System.out.println("main class ");
      }
 }

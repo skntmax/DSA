@@ -22,7 +22,6 @@ public class CustomLinkedList {
 
         list.addFirst(5);
         list.addLast(40);
-
         System.out.println(list);
     }
 }

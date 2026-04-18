@@ -754,9 +754,6 @@ Examples:
 
 qtn :  supplier , function, predicate , PECS, Completable future and future, fork join pool vs parallel stream
 
-
-
-
 # 🔥 What is an Interceptor?
 
 👉 A **Spring Interceptor** is used to:
@@ -830,9 +827,6 @@ qtn :  supplier , function, predicate , PECS, Completable future and future, for
 | Level   | Spring MVC       | Servlet         |
 | Access  | Controller-aware | Not aware       |
 | Use     | Business logic   | Low-level tasks |
-
-
-
 
 # 🔥 What is an Interceptor?
 
@@ -908,10 +902,6 @@ qtn :  supplier , function, predicate , PECS, Completable future and future, for
 | Access  | Controller-aware | Not aware                         |
 | Use     | Business logic   | Low-level tasks<br /><br /><br /> |
 
-
-
-
-
 What is `String`?
 
 ### ✔️ Description:
@@ -986,6 +976,7 @@ What is `String`?
 
 # 🔥 Key Differences
 
+
 | Feature       | String             | StringBuilder          |
 | ------------- | ------------------ | ---------------------- |
 | Mutability    | ❌ Immutable       | ✅ Mutable             |
@@ -1036,14 +1027,14 @@ What is `String`?
 | Thread Safety | ❌ No         | ✅ Yes (synchronized) |
 | Performance   | Faster        | Slower                |
 
-
-## Final keyword in java 
+## Final keyword in java
 
 # 🔒 final Keyword in Java
 
 The `final` keyword in Java is used to **restrict modification**.
 
 It can be applied to:
+
 - Variables
 - Methods
 - Classes
@@ -1053,9 +1044,11 @@ It can be applied to:
 ## 🔹 1. final Variable
 
 ### ✅ Meaning:
+
 Value cannot be changed once assigned
 
 ### 📌 Example:
+
 ```java
 final int x = 10;
 x = 20; // ❌ Error
@@ -1067,17 +1060,17 @@ Can be initialized later (only once)
 final int x;
 x = 10; // ✅ allowed
 
-``` 
+```
 
-##  2. final Method
+## 2. final Method
+
 ✅ Meaning:
 
 Method cannot be overridden in child class
 
 📌 Example:
 
-
-``` 
+```
 class Parent {
     final void show() {
         System.out.println("Hello");
@@ -1090,15 +1083,15 @@ class Child extends Parent {
 }
 ```
 
+## final Class
 
-## final Class 
 ✅ Meaning:
 
 Class cannot be inherited
 
 📌 Example:
 
-``` 
+```
 final class A {
 }
 
@@ -1107,8 +1100,7 @@ class B extends A {
 }
 ```
 
-
-## . final with Objects 
+## . final with Objects
 
 final List<String> list = new ArrayList<>();
 list.add("Hello"); // ✅ allowed
@@ -1119,42 +1111,42 @@ Reference cannot change
 Object can still be modified
 
 # 🔹 5. final vs finally vs finalize
+
+
 | Keyword  | Meaning                              |
 | -------- | ------------------------------------ |
 | final    | Restriction keyword                  |
 | finally  | Block in try-catch (always executes) |
 | finalize | Method called by GC (deprecated)     |
 
+## 6. Real-world Usage
 
-##  6. Real-world Usage 
 Constants (final static)
 Immutable classes
 Prevent method overriding
 Security-sensitive logic
 
+## 7. Interview Summary
 
-## 7. Interview Summary 
 final variable → value cannot change
 final method → cannot override
 final class → cannot inherit
 final object → reference fixed, object mutable
 
+## 8. Example (Combined)
 
-## 8. Example (Combined) 
 final class User {
 
-    final int id;
+final int id;
 
-    User(int id) {
-        this.id = id;
-    }
-
-    final void display() {
-        System.out.println(id);
-    }
+User(int id) {
+this.id = id;
 }
 
-
+final void display() {
+System.out.println(id);
+}
+}
 
 ## ✅ Conclusion
 
@@ -1162,4 +1154,171 @@ final helps in:
 
 Writing secure
 Immutable
-predictable code 
+predictable code
+
+# static block
+
+✅ 🔥 Basic Definition
+
+👉 A static block:
+
+* Runs **only once**
+* Executes **when class is loaded (before main method)**
+* Used for **complex static initialization
+
+Example
+
+public class Demo {
+
+static {
+System.out.println("Static block executed");
+}
+
+public static void main(String[] args) {
+System.out.println("Main method executed");
+}
+}
+
+output :
+
+Static block executed
+Main method executed
+
+
+# when to use interfaces and abstract classes
+
+---
+
+# 🔥 Core Difference (Quick View)
+
+
+
+
+| Feature     | Interface                           | Abstract Class                      |
+| ----------- | ----------------------------------- | ----------------------------------- |
+| Purpose     | Contract (what to do)               | Partial implementation (how + what) |
+| Methods     | Only abstract (plus default/static) | Abstract + concrete                 |
+| Variables   | `public static final`only           | Any type                            |
+| Inheritance | Multiple                            | Single                              |
+| Constructor | ❌ No                               | ✔ Yes                              |
+
+
+
+
+# When to Use **Interface**
+
+java 👍
+
+```example
+interface Payment {
+    void pay();
+
+```
+
+
+```
+
+
+
+class UPI implements Payment {
+    public void pay() {
+        System.out.println("Paid via UPI");
+    }
+}
+```
+
+
+## ✅ Use Interface When:
+
+✔ Multiple classes share behavior
+✔ You need **multiple inheritance**
+✔ You want loose coupling
+✔ You design APIs / contracts
+
+
+
+## 🔥 Real-world Examples
+
+* `Runnable`
+* `Comparable`
+* Spring Services / Repositories
+
+
+# ✅ When to Use **Abstract Class**
+
+
+👉 Use abstract class when you want:
+
+> **Common base logic + shared state**
+
+
+## 💡 Real-world Thinking:
+
+> “What is this object?”
+
+
+```java
+
+abstract class Vehicle {
+
+    String brand;
+
+    public Vehicle(String brand) {
+        this.brand = brand;
+    }
+
+    abstract void start();
+
+    void fuel() {
+        System.out.println("Fueling...");
+    }
+}
+```
+
+```java
+class Car extends Vehicle {
+
+    public Car(String brand) {
+        super(brand);
+    }
+
+    void start() {
+        System.out.println("Car starting");
+    }
+}
+```
+✅ Use Abstract Class When:
+
+✔ You want **code reuse**
+✔ You have **shared fields (state)**
+✔ You want default behavior
+✔ Strong relationship (“is-a”)
+
+
+
+# 🔥 Key Decision Rule (Interview GOLD)
+
+👉 Ask yourself:
+
+### ✔ If focus is behavior → **Interface**
+
+### ✔ If focus is base class → **Abstract class**
+
+
+🚀 Real-world Comparison
+
+
+
+| Scenario                            | Use                  |
+| ----------------------------------- | -------------------- |
+| Payment methods (UPI, Card, PayPal) | Interface            |
+| Vehicle (Car, Bike)                 | Abstract Class       |
+| Logging strategy                    | Interface            |
+| Base service class                  | Abstract Class<br /> |
+
+
+
+
+# ⚡ Advanced (Java 8+)
+
+👉 Interfaces can now have:

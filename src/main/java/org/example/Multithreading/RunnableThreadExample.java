@@ -2,7 +2,6 @@ package org.example.Multithreading;
 
 public class RunnableThreadExample implements  Runnable {
 
-
     public RunnableThreadExample() {
     }
 
