@@ -6,7 +6,7 @@ public class Threadss {
     public static void main(String[] args) {
 
         // way 1 - by lambda ftns
-        Runnable Thread1 =  ()->{
+        Runnable Thread1 = () -> {
             System.out.println("new thread by runnable interface ");
         };
         Thread1.run();

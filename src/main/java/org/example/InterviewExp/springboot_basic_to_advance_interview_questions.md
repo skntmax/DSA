@@ -1,4 +1,4 @@
-Most important questions  about springboot development. 
+Most important questions  about springboot development.
 
 # Spring Boot Interview Questions – Basic to Advanced (With Answers)
 
@@ -115,7 +115,7 @@ Dependency Injection means **injecting dependencies from outside** rather than c
 
 **Answer:**
 
-1. Bean instantiation
+1. Bean lifecycle
 2. Dependency injection
 3. Initialization
 4. Destruction
@@ -433,3 +433,230 @@ Always use:
 👉 Use **Constructor Injection** in 99% cases
 👉 Avoid Field Injection
 👉 Use Setter only for optional dependencies
+
+# Most asked Springboot interview questions
+
+
+🔥 1. Core Spring Boot Questions
+
+
+### ❓ What is Spring Boot?
+
+👉 Framework to build **production-ready apps quickly** with:
+
+* Auto-configuration
+* Embedded server
+* Minimal setup
+
+---
+
+### ❓ Difference: Spring vs Spring Boot
+
+
+| Spring        | Spring Boot      |
+| ------------- | ---------------- |
+| Manual config | Auto-config      |
+| Needs server  | Embedded server  |
+| XML-heavy     | Annotation-based |
+
+
+### ❓ What is Auto-Configuration?
+
+👉 Spring Boot automatically configures beans based on:
+
+* Classpath
+* Dependencies
+* Properties
+
+Example:
+
+* Add JPA dependency → DB config auto-created
+
+
+
+# 🔥 2. Annotations (VERY IMPORTANT)
+
+
+### ❓ @SpringBootApplication?
+
+👉 Combination of:
+
+* `@Configuration`
+* `@EnableAutoConfiguration`
+* `@ComponentScan`
+
+---
+
+### ❓ @Component vs @Service vs @Repository
+
+
+| Annotation  | Purpose                       |
+| ----------- | ----------------------------- |
+| @Component  | Generic                       |
+| @Service    | Business logic                |
+| @Repository | DB layer + exception handling |
+
+---
+
+### ❓ @Autowired vs Constructor Injection
+
+👉 Constructor injection is **best practice**
+
+
+# 🔥 3. Bean Lifecycle
+
+
+* Bean created
+* Dependencies injected
+* Init method
+* Used
+* Destroy method
+
+
+### @PostConstruct & @PreDestroy
+
+<pre class="overflow-visible! px-0!" data-start="1412" data-end="1510"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div></div></div></div></div></div></div></div></pre>
+
+```java
+@PostConstruct
+public void init() {}
+
+@PreDestroy
+public void destroy() {}
+```
+
+# 🔥 4. Spring Boot Configuration
+
+
+### ❓ application.properties vs application.yml
+
+👉 Same purpose, YAML is cleaner for hierarchy
+
+---
+
+### ❓ Profiles
+
+<pre class="overflow-visible! px-0!" data-start="1670" data-end="1720"><div class="relative w-full mt-4 mb-1"><div class=""><div class="relative"><div class="h-full min-h-0 min-w-0"><div class="h-full min-h-0 min-w-0"><div class="border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl"><div class="h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback"><div class="pointer-events-none absolute inset-x-4 top-12 bottom-4"><div class="pointer-events-none sticky z-40 shrink-0 z-1!"><div class="sticky bg-token-border-light"></div></div></div><div class="relative"><div class=""><div class="relative z-0 flex max-w-full"><div id="code-block-viewer" dir="ltr" class="q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj"><div class="cm-scroller"><div class="cm-content q9tKkq_readonly"><span>spring.profiles</span><span class="ͼe">.active</span><span class="ͼ8">=</span><span>dev</span></div></div></div></div></div></div></div></div></div></div><div class=""><div class=""></div></div></div></div></div></pre>
+
+👉 Used for:
+
+* Dev / QA / Prod configs
+*
+
+# 🔥 5. REST API Questions
+
+
+### ❓ @RestController vs @Controller
+
+
+| @RestController | @Controller  |
+| --------------- | ------------ |
+| Returns JSON    | Returns View |
+
+---
+
+### ❓ @RequestBody vs @RequestParam
+
+
+| Annotation    | Use          |
+| ------------- | ------------ |
+| @RequestBody  | JSON input   |
+| @RequestParam | Query params |
+
+
+# 🔥 6. Exception Handling
+
+
+❓ Global Exception Handling?
+
+```java
+@ControllerAdvice
+public class GlobalExceptionHandler {
+
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity<String> handle(Exception ex) {
+        return ResponseEntity.ok("Error");
+    }
+}
+```
+
+
+# 🔥 7. Spring Data JPA (VERY IMPORTANT)
+
+
+### ❓ What is JpaRepository?
+
+👉 Provides CRUD methods automatically
+
+---
+
+### ❓ Difference: save() vs saveAndFlush()
+
+
+| save() | saveAndFlush()     |
+| ------ | ------------------ |
+| Lazy   | Immediate DB write |
+
+---
+
+### ❓ What is Lazy vs Eager loading?
+
+
+| Lazy             | Eager            |
+| ---------------- | ---------------- |
+| Load when needed | Load immediately |
+
+
+
+# 🔥 8. Transaction Management
+
+
+### ❓ @Transactional?
+
+👉 Ensures:
+
+* Commit if success
+* Rollback if failure
+
+
+# 🔥 9. Spring Boot Internals (Advanced)
+
+❓ How Spring Boot starts?
+
+👉 `main()` → `SpringApplication.run()` → creates context → loads beans
+
+---
+
+### ❓ What is ApplicationContext?
+
+👉 Container that manages beans
+
+
+
+# 🔥 10. Microservices & Real-world
+
+### ❓ How do you handle configuration?
+
+👉
+
+* Profiles
+* Config Server
+
+---
+
+### ❓ How do you secure APIs?
+
+👉
+
+* Spring Security
+* JWT
+
+---
+
+### ❓ How to handle high traffic?
+
+👉
+
+* Load balancing
+* Caching
+* Async processing
