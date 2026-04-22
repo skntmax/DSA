@@ -69,7 +69,6 @@ public class LL {
         System.out.println("using foreach loop ------------------------------------------------------------------");
 
 
-
         // using for loop
         System.out.println("using for loop ------------------------------------------------------------------");
         for(int i =0 ; i<  l1.size() ; i++ ) {
