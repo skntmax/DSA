@@ -1,7 +1,6 @@
 let arr1 = [1,3,76,32,12,33,56,35]
 
-   // console.log(...arr1);
-   
+   // console.log(...arr1);   
    //  function arrayJoin(array){           
    //     return function (seperator){
    //            let finalArray = []

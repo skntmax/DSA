@@ -1,4 +1,4 @@
-let str = "abc"
+let str = "abcd"
 
 function permutations(p , up ) {
   if(up=="") {

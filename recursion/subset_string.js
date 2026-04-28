@@ -18,19 +18,19 @@ let str = "abc";
 
 // console.log(result)
 
+function subset(p , up ){
+  if(up==""){
+    console.log(p);
+    return;
+  }
 
-// function  subset2(p="" , up="abc" ) { 
-//     if(up=="") {
-//       console.log(p);
-//       return  p 
-//     }
+  let ch =  up[0]
+  subset(p+ch , up.slice(1) )
+  subset(p , up.slice(1) )
 
-//      let c = up.charAt(0)
-//      subset2(p+c, up.substring(0+1) )
-//      subset2(p, up.substring(0+1) )
-   
-// }
+} 
 
+<<<<<<< Updated upstream
 // console.log(subset2("", str));
 
 
@@ -49,3 +49,6 @@ function  subset2(p="" , up="abc" ) {
 }
 
 console.log(subset2("", str));
+=======
+subset("" , str)
+>>>>>>> Stashed changes
