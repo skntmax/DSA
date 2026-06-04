@@ -25,12 +25,4 @@ let obj = {
            //    console.log(deepCopy(obj));
            console.log(obj);
            console.log(copy);
-            
-
-
-
-
-
-
-
            

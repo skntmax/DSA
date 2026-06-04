@@ -9,5 +9,4 @@ function getUserDetails() {
   city = "gurgaon"
 
   console.log(this.name );
-    
 }

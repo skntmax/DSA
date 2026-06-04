@@ -1,7 +1,6 @@
 const myPromise  = (delay)=>{
   return new Promise((resolve, reject) => {
   const success = true;
-
   setTimeout(() => {
     if (success) {
       console.log('Promise resolved successfully! after', delay );
@@ -26,11 +25,12 @@ const myPromise  = (delay)=>{
     
 })()
 
-// parallel request
+// consurrent request
     myPromise(1000)
     myPromise(2000)
     myPromise(3000)
 
+    
 //  alternate  parallel request 
 (async function() {
 let  prms =await  Promise.all([myPromise(1000),myPromise(2000),myPromise(3000)])
